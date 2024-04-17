@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Titillium Web", sans-serif;
+        
+}
+#logo_cliente
+{
+    width: 12%;
+    height: 70%;
+    margin-left: 10%;
+}
+header
+{
+    background-color: #02004D;
+    height: 110px;
+    
+}
+.container
+{
+    display: flex;
+    align-items: center;   
+    height: 110px; 
+}
+.menu
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+}
+#icone_lupa
+{
+    width: 15%;
+    height: 15%;
+    margin-left: 3%;
+    cursor: pointer;
+}
+#icone_login
+{
+    width: 35%;
+    height: 35%;
+    margin-left: 20%;
+    cursor: pointer;
+}
+ul 
+{ 
+    list-style-type: none;
+}
+li, li a
+{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    font-size: 2vw;
+    color: #FFF;
+    font-weight: bold;
+}
+.pesquisar
+{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    height: 110px;
+}
+#inp_pesquisar
+{
+    background-color: #8293CE;
+}
+.pesquisar input[type="text"]::placeholder 
+{
+    color: #FFF;
+    
+}
