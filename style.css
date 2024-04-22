@@ -7,6 +7,7 @@
     font-family: "Titillium Web", sans-serif;
         
 }
+/* Início da estilização do header (menu) */ 
 #logo_cliente
 {
     width: 12%;
@@ -27,7 +28,6 @@ header
 }
 .menu
 {
-    display: flex;
     justify-content: center;
     margin-left: 5%;
 }
@@ -45,11 +45,7 @@ header
     margin-left: 20%;
     cursor: pointer;
 }
-ul 
-{ 
-    list-style-type: none;
-}
-li, li a
+.navegacao-li, .navegacao-li a
 {
     display: flex;
     gap: 30px;
@@ -73,4 +69,144 @@ li, li a
 {
     color: #FFF;
     
+}
+/* Fim da estilização do header (menu) */ 
+
+/* Início da estilização dos cards */ 
+.card
+{
+    width: 20%; 
+    border:1px solid #4d4d4d; 
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 25px;
+    display: inline-block; /* Exibir como bloco em linha */
+    border-radius: 15px; 
+    text-align: center;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    
+}
+.card:hover 
+{
+    background-color: #FFF;
+    transform: scale(1.1);
+}
+.card:hover img
+{
+    content: url('img/rog_asus2.jpg');
+}   
+#card-2:hover img
+{
+    content: url('img/tuf_asus2.jpg');
+}
+#card-3:hover img
+{
+    content: url('img/nitro_acer2.jpg');
+}
+#card-4:hover img
+{
+    content: url('img/triton_acer2.jpg');
+}
+#card-5:hover img
+{
+    content: url('img/hp2.jpg');
+}
+#card-6:hover img
+{
+    content: url('img/positivo2.jpg');
+}
+#card-7:hover img
+{
+    content: url('img/lenovo_asus2.jpg');
+}
+#card-8:hover img
+{
+    content: url('img/vaio2.jpg');
+}
+#card-9:hover img
+{
+
+    content: url('img/alienware2.jpg');
+}
+#card-10:hover img 
+{
+    content: url('img/MacBook_apple2.jpg');
+}
+#card-11:hover img
+{
+    content: url('img/legion_lenovo2.jpg');
+}
+#card-12:hover img
+{
+    content: url('img/predator_helios2.jpg');
+}
+.section-card
+{
+    margin-left: 8%;
+}
+.card-ul
+{
+    margin-top: 20px;
+    list-style-type: none;
+    
+}
+.card-ul li
+{
+    text-align: left;
+    color: #000;
+    font-size: 1vw;
+    font-weight: bold;
+    margin-left: 3%;
+    
+}   
+.card img
+{
+    margin-top: 5px; 
+    height: 130px; 
+    width:65%;
+}
+h4
+{
+    margin-top: 25px;
+}
+/* Fim da estilização dos cards */ 
+
+/* Início da seção opiniões dos clientes */
+
+#opiniao-cli
+{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #4A6EEF;
+    color: #FFF;
+    
+}
+.section-opiniao
+{
+    margin-left: 8%;
+}
+.div-estrela
+{
+    display:flex;
+    margin-left: 3%;
+    width: 20%;
+}
+.div-estrela img
+{
+    width: 19%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+}
+.section-opiniao .card
+{
+    margin-top: 0;
+}
+.master
+{
+    display: inline-block;
 }
