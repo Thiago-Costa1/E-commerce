@@ -7,6 +7,10 @@
     font-family: "Titillium Web";
         
 }
+body
+{
+    overflow-x: hidden;
+}
 /* Início da estilização do header (menu) */ 
 #logo_cliente
 {
@@ -170,6 +174,18 @@ h4
 {
     margin-top: 25px;
 }
+.card .fundo
+{   
+    display: none;
+    width: 50%;
+    height: 35px;
+    background-color: #df4141;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+
 /* Fim da estilização dos cards */ 
 
 /* Início da estilização da seção opiniões dos clientes */
@@ -205,18 +221,25 @@ h4
 {
     margin-top: 0;
 }
-.master
-{
-    display: inline-block;
-    margin-top: 25px;
-    width: 20%;
-}
 .master .card 
 {
     width: 74%;    
     transform: none;
     text-align: left;
     height: 190px;
+}
+.master .card:hover
+{
+    
+    box-shadow: 0 0 14px #b700ffc2
+}
+.master
+{
+    display: inline-block;
+    margin-top: 25px;
+    width: 20%;
+
+
 }
 .master .card h4
 {
@@ -237,7 +260,7 @@ h4
 }
 .pergunta
 {
-    background-color: #163bc2;
+    background-color: #4A6EEF;
     border-radius: 15px;
 }
 .resposta
@@ -246,6 +269,11 @@ h4
     background-color: #02004D;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    height: 30px;
+}
+.resposta p
+{
+    margin-left: 1%;
 }
 #pergunta2, #pergunta3, #pergunta4
 {
