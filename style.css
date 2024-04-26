@@ -52,7 +52,7 @@ header
 .navegacao-li, .navegacao-li a
 {
     display: flex;
-    gap: 30px;
+    gap: 7%;
     text-decoration: none;
     font-size: 2vw;
     color: #FFF;
@@ -62,7 +62,7 @@ header
 {
     display: flex;
     align-items: center;
-    margin-left: 5%;
+    margin-left: 12%;
     height: 110px;
 }
 #inp_pesquisar
@@ -176,7 +176,7 @@ h4
 }
 .card .fundo
 {   
-    display: none;
+    
     width: 50%;
     height: 35px;
     background-color: #df4141;
@@ -226,7 +226,7 @@ h4
     width: 74%;    
     transform: none;
     text-align: left;
-    height: 190px;
+    height: auto;
 }
 .master .card:hover
 {
@@ -283,4 +283,14 @@ h4
 
 /* Fim da estilização da seção dúvidas */
 
+/* Início da responsividade para computadores de grande monitores */
 
+@media only screen and (min-width: 1350px) and (max-width: 4000px)
+{
+    #quarto-card-p
+    {
+        font-size: 15px;
+    }
+}
+
+/* Fim da responsividade para computadores de grande monitores */
