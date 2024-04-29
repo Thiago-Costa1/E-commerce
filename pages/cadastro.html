@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+
+<body>
+    <header>
+        <img src="../img/logo-final.png" alt="logo">
+        <a href="../pages/index.html"><h4>Voltar a página inicial</h4></a>   
+    </header>
+    
+    <div id="container-maximo">
+        <a href=""></a>
+        <h1>Cadastre-se para efetuar compras</h1>
+        <form id="form-registro">
+            <div class="container-grande">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+            </div>
+            <div class="container-medio espaco">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome">
+            </div>
+            <div class="container-medio">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
+            </div>
+            <div class="container-medio espaco">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+            </div>
+            <div class="container-medio">
+                <label for="senha-confirmacao">Confirmar senha</label>
+                <input type="password" name="senha-confirmacao" id="senha-confirmacao" placeholder="Digite novamente sua senha">
+            </div>
+            <div>
+                <input type="checkbox" name="termo" id="termo">
+                <label for="termo" id="termo-label">Eu li e aceito os <a href="#">termos de uso</a></label>
+            </div>
+            <div class="container-grande">
+                <input id="btn-enviar" type="submit" value="Registrar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

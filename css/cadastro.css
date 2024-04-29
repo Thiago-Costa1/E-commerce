@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web";
+    color: #323232;
+    border: none;
+}
+header img
+{
+    width: 20%;
+    height: 100px;
+    margin-top: 0.7%;
+}
+header
+{
+    background-color: #3e1e96;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+header a
+{
+    text-decoration: none;
+}
+header h4
+{
+    color: #e9e3e3;
+}
+body
+{
+    background-color: #e4e0e0;
+}
+form
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+input, label  
+{
+    display: block;
+    outline: none;
+    width: 100%;
+}
+#container-maximo
+{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    border: 1px solid #0c0c0c;
+    padding: 25px;
+    margin-top: 4%;
+}
+#container-maximo h1
+{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+}
+
+.container-grande
+{
+    flex: 1 1 100%; /*elemento pode crescer ou encolher dependendo da necessidade */
+    position: relative;
+}
+.container-medio
+{
+    flex: 1 1 45%;
+    position: relative;
+}
+.espaco
+{
+    margin-right: 2.5%;
+}
+label
+{
+    font-weight: bold;
+    font-size: .8rem;
+}
+input
+{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+input:focus
+{
+    border-color: #1900ff;
+}
+input[type="submit"] 
+{
+    background-color: #2500fa;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+#btn-enviar:hover
+{
+    background-color: #7c24cf;
+}
+#termo
+{
+    margin-right: 5px;
+}
+#termo, #termo-label
+{
+    display: inline-block;
+    width: auto;
+}

@@ -3,23 +3,23 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <script src="java.js" defer></script>
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/index.js" defer></script>
         <title>TechFlex Notebook</title>
     </head>
     <body>
         <!-- Início do header (menu) --> 
-        <header>
+        <header id="header">
             <div class="container">
-                <img src="img/logo-final.png" alt="logo" id="logo_cliente">
+                <img src="../img/logo-final.png" alt="logo" id="logo_cliente">
                 <div class="menu">
                     <nav class="navegacao">
                         <ul>
                             <li class="navegacao-li">
                                 <a href="#">CATEGORIAS</a>
-                                <a href="#">GAMER</a>
-                                <a href="#">ESTUDANTE</a>
-                                <a href="#">TRABALHO</a>
+                                <a href="#section-gamer">GAMER</a>
+                                <a href="#card-5">ESTUDANTE</a>
+                                <a href="#card-9">TRABALHO</a>
                             </li>
                         </ul>
                     </nav>
@@ -27,17 +27,17 @@
                 <div class="pesquisar">
                     <label for="inp_pesquisar"></label>
                     <input type="text" placeholder="Digite o modelo..." id="inp_pesquisar">
-                    <img src="img/icon-lupa.png" alt="lupa" id="icone_lupa">
-                    <img src="img/icon-login.png" alt="login" id="icone_login">
+                    <img src="../img/icon-lupa.png" alt="lupa" id="icone_lupa">
+                    <a href="../pages/cadastro.html"><img src="../img/icon-login.png" alt="login" id="icone_login"></a>
                 </div>
             </div>
         </header>
         <!-- Fim do header (menu) -->
 
         <!-- Início dos cards -->
-        <section class="section-card">
+        <section class="section-card" id="section-gamer">
             <div class="card">
-                <img src="img/rog_asus.jpg" alt="notebook">
+                <img src="../img/rog_asus.png" alt="notebook">
                 <h3>ROG Strix G16</h3>
                 <ul class="card-ul">
                     <li>RTX4060</li>
@@ -46,22 +46,28 @@
                 </ul>
                 <h4>APENAS: R$ 10.799,10</h4> 
                 <div class="fundo">
-                    <h4>À VISTA: </h4>  
+                    <p>À Vista: R$ 9.719,19 </p>  
+                    <h5>10% DE DESCONTO</h5>
                 </div>
-                <button>Comprar</button>
+                <button id="botao-card">Comprar</button>
             </div>
             <div class="card" id="card-2">
-                <img src="img/tuf_asus.jpg" alt="notebook">
+                <img src="../img/tuf_asus.png" alt="notebook">
                 <h3>ASUS TUF F15</h3>
                 <ul class="card-ul">
                     <li>RTX3050 4GB</li>
                     <li>Intel Core I7 12700H </li>
                     <li>Memória RAM 16 GB</li>
                 </ul>
-                <h4>APENAS: R$ 6.749,99</h4>   
+                <h4>APENAS: R$ 6.749,99</h4>  
+                <div class="fundo">
+                    <p>À Vista: R$ 6.075,00 </p>  
+                    <h5>10% DE DESCONTO</h5>
+                </div>
+                <button id="botao-card">Comprar</button> 
             </div>
             <div class="card" id="card-3">
-                <img src="img/nitro_acer.jpg" alt="notebook">
+                <img src="../img/nitro_acer.png" alt="notebook">
                 <h3>Nitro 5</h3>
                 <ul class="card-ul">
                     <li>RTX 3050 4GB</li>
@@ -69,9 +75,14 @@
                     <li>Memória RAM 16 GB</li>
                 </ul>
                 <h4>APENAS: R$ 5.444,43</h4>   
+                <div class="fundo">
+                    <p>À Vista: R$ 4.899,99 </p>  
+                    <h5>10% DE DESCONTO</h5>
+                </div>
+                <button id="botao-card">Comprar</button>
             </div>
             <div class="card" id="card-4">
-                <img src="img/triton_acer.jpg" alt="notebook">
+                <img src="../img/triton_acer.png" alt="notebook">
                 <h3>Predator Triton</h3>
                 <ul class="card-ul">
                     <li>RTX 3060 6GB</li>
@@ -79,89 +90,156 @@
                     <li>Memória RAM 16 GB</li>
                 </ul>
                 <h4>APENAS: R$ 7.299,00</h2>   
+                    <div class="fundo">
+                        <p>À Vista: R$ 6.569,10 </p>  
+                        <h5>10% DE DESCONTO</h5>
+                    </div>
+                <button id="botao-card">Comprar</button>
             </div>
             <div class="card" id="card-5">
-                <img src="img/hp.jpg" alt="notebook">
+                <img src="../img/hp.png" alt="notebook">
                 <h3>HP</h3>
                 <ul class="card-ul">
                     <li>Intel UHD Graphics</li>
                     <li>Intel I5-1235U </li>
                     <li>Memória RAM 8GB</li>
                 </ul>
-                <h4>APENAS: R$ 2.859,00</h4>   
+                <h4>APENAS: R$ 2.859,00</h4>
+                <div class="fundo">
+                    <p>À Vista: R$ 2.573,10 </p>  
+                    <h5>10% DE DESCONTO</h5>
+                </div>
+                <button id="botao-card">Comprar</button>   
             </div>
             <div class="card" id="card-6">
-                <img src="img/positivo.jpg" alt="notebook">
+                <img src="../img/positivo.png" alt="notebook">
                 <h3>Positivo Vision i15</h3>
                 <ul class="card-ul">
                     <li>Placa Integrada</li>
                     <li>Core i3-1115G4E </li>
                     <li>Memória RAM 8GB</li>
                 </ul>
-                <h4>APENAS: R$ 2.089,05</h4>   
+                <h4>APENAS: R$ 2.089,05</h4>
+                <div class="fundo">
+                    <p>À Vista: R$ 1.880,14 </p>  
+                    <h5>10% DE DESCONTO</h5>
+                </div>
+                <button id="botao-card">Comprar</button>   
             </div>
             <div class="card" id="card-7">
-                <img src="img/lenovo_asus.jpg" alt="notebook">
+                <img src="../img/lenovo_asus.png" alt="notebook">
                 <h3>Lenovo Ideapad i5</h3>
                 <ul class="card-ul">
                     <li>Placa Integrada</li>
                     <li>Core i5-1235U</li>
                     <li>Memória RAM 8GB</li>
                 </ul>
-                <h4>APENAS: R$ 2.549,90</h4>   
+                <h4>APENAS: R$ 2.549,90</h4>
+                <div class="fundo">
+                    <p>À Vista: R$ 2.294,91 </p>  
+                    <h5>10% DE DESCONTO</h5>
+                </div>
+                <button id="botao-card">Comprar</button>   
             </div>
             <div class="card" id="card-8">
-                <img src="img/vaio_.jpg" alt="notebook">
+                <img src="../img/vaio.png" alt="notebook">
                 <h3>VAIO FE15</h3>
                 <ul class="card-ul">
                     <li>Placa Integrada</li>
                     <li>Core I3 1115G4 </li>
                     <li>Memória RAM 8GB</li>
                 </ul>
-                <h4>APENAS: R$ 2.336,93</h2>   
+                <h4>APENAS: R$ 2.336,93</h2>
+                    <div class="fundo">
+                        <p>À Vista: R$  2.103,24 </p>  
+                        <h5>10% DE DESCONTO</h5>
+                    </div>
+                <button id="botao-card">Comprar</button>   
             </div>
             <div class="card" id="card-9">
-                <img src="img/alienware.jpg" alt="notebook">
+                <img src="../img/alienware.png" alt="notebook">
                 <h3>Alienware m16</h3>
                 <ul class="card-ul">
                     <li>RTX 4070</li>
                     <li>Intel Core i9 13ª ger. </li>
                     <li>Memória RAM 32GB</li>
                 </ul>
-                <h4>APENAS: R$ 16.949,00</h4>   
+                <h4>APENAS: R$ 16.949,00</h4>  
+                <div class="fundo">
+                    <p>À Vista: R$ 15.254,10 </p>  
+                    <h5>10% DE DESCONTO</h5>
+                </div>
+                <button id="botao-card">Comprar</button> 
             </div>
             <div class="card" id="card-10">
-                <img src="img/MackBook_apple.jpg" alt="notebook">
+                <img src="../img/MackBook_apple.png" alt="notebook">
                 <h3>MacBook Pro</h3>
                 <ul class="card-ul">
                     <li>Placa Integrada</li>
                     <li>M2</li>
                     <li>Memória RAM 8GB</li>
                 </ul>
-                <h4>APENAS: R$ 15.299,00</h4>   
+                <h4>APENAS: R$ 15.299,00</h4>
+                <div class="fundo">
+                    <p>À Vista: R$ 13.769,10 </p>  
+                    <h5>10% DE DESCONTO</h5>
+                </div>
+                <button id="botao-card">Comprar</button>   
             </div>
             <div class="card" id="card-11">
-                <img src="img/legion_lenovo.jpg" alt="notebook">
+                <img src="../img/legion_lenovo.png" alt="notebook">
                 <h3>Legion 5</h3>
                 <ul class="card-ul">
                     <li>RTX 3050 4GB</li>
                     <li>Ryzen 7 5800H</li>
                     <li>Memória RAM 16 GB</li>
                 </ul>
-                <h4>APENAS: R$ 8.941,16</h4>   
+                <h4>APENAS: R$ 8.941,16</h4>
+                <div class="fundo">
+                    <p>À Vista: R$ 8.047,04 </p>  
+                    <h5>10% DE DESCONTO</h5>
+                </div>
+                <button id="botao-card">Comprar</button>   
             </div>
             <div class="card" id="card-12">
-                <img src="img/predator_helios.jpg" alt="notebook">
+                <img src="../img/predator_helios.png" alt="notebook">
                 <h3>Predator Helios Neo</h3>
                 <ul class="card-ul">
                     <li>RTX 4060 8GB</li>
                     <li>Intel Core i7 13700HX</li>
                     <li>Memória RAM 16GB</li>
                 </ul>
-                <h4>APENAS: R$ 7.299,00</h2>   
+                <h4>APENAS: R$ 7.299,00</h2>
+                    <div class="fundo">
+                        <p>À Vista: R$ 6.569,10 </p>  
+                        <h5>10% DE DESCONTO</h5>
+                    </div>
+                <button id="botao-card">Comprar</button>   
             </div>
         </section>
         <!-- Fim dos cards -->
+
+        <!-- Início da api com 2 cards -->
+
+        <div class="container-api">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3249110215475!2d-46.73239992899485!3d-23.520813613287146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c1d371ec31%3A0x671c9325c275132e!2sETEC%20Prof%C2%B0%20Basilides%20de%20Godoy!5e0!3m2!1spt-BR!2sbr!4v1714232751482!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="api-cards" id="api-card-um">
+                    <img src="../img/icon-telephone.png" alt="telefone" class="api-img-um">
+                    <img src="../img/icon_telephone_red.png" alt="telefone" class="api-img-um-red">
+                    <h3>Telefone</h3>
+                </div>  
+                <div class="api-cards">
+                    <img src="../img/icon-assistent.png" alt="suporte" class="api-img-um" id="api-img-assistente">
+                    <img src="../img/icon-atendente-red.png" alt="suporte" class="api-img-um-red" id="api-img-assistente-red">
+                    <h3 id="api-h3">Suporte</h3>
+                </div>
+        </div>
+        
+
+
+
+
+        <!-- Fim da api com 2 cards -->
 
         <!-- Início da seção opiniões dos clientes -->
         
@@ -169,11 +247,11 @@
         <section class="section-opiniao">
             <div class="master">
                 <div class="div-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
                 </div>
                 <div class="card">
                     <p>O produto foi entregue bem embalado e no prazo esperado, voltarei sempre que precisar. </p>         
@@ -183,11 +261,11 @@
             </div>
             <div class="master">
                 <div class="div-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
                 </div>
                 <div class="card">
                     <p>Gostei muito das cores e da organização dos elementos no site, é bem agradável.</p>    
@@ -197,11 +275,11 @@
             </div>
             <div class="master">
                 <div class="div-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
                 </div>
                 <div class="card">
                     <p>Aqui encontrei o melhor preço e economizei bastante, estou feliz e recomendo a todos.</p>    
@@ -211,11 +289,11 @@
             </div>
             <div class="master">
                 <div class="div-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
-                    <img src="img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
+                    <img src="../img/icone-estrela.png" alt="icone-estrela">
                 </div>
                 <div class="card">
                     <p id="quarto-card-p">Entrei em contato com o suporte e ainda no mesmo dia resolveram meu problema, agredeço. </p>    
