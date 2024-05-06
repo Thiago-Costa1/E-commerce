@@ -79,6 +79,104 @@ header
 }
 /* Fim da estilização do header (menu) */ 
 
+/* Início da estilização do carrossel */ 
+
+
+section.slider
+{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 !important; /* Remove o preenchimento da seção (importante para sobrescrever outras regras) */
+    overflow: hidden;
+    z-index: 1;
+}
+
+.slider-content input, .img-mobile
+{
+    display: none;
+}
+
+.slide-box
+{
+    width: 25%; /* Largura de cada caixa de slide */
+    height: 31.1em;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+
+.slide-box img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.slider-content
+{
+    width: 400%; /* Largura total do conteúdo do carrossel (4 slides) */
+    height: auto;
+    display: flex;
+}
+
+.nav-manual, .nav-auto
+{
+    position: absolute;
+    width: 100%;
+    margin-top: 29.5em;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo para os botões de navegação manual e os indicadores automáticos do carrossel */
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid rgb(30, 253, 0); /* Borda dos botões e indicadores */
+    padding: 10px; /* Preenchimento dos botões e indicadores */
+    border-radius: 50%; /* Borda arredondada dos botões e indicadores */
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Estilo para os botões de navegação manual e indicadores automáticos, exceto o último */
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){ 
+    margin-right: 10px; /* Margem à direita para espaçamento uniforme (exceto o último) */
+}                
+
+/* Estilo para o botão manual ao passar o mouse sobre ele */
+.nav-manual .manual-btn:hover{
+    background-color: rgb(30, 253, 0); /* Mudar a cor de fundo ao passar o mouse */
+}
+
+/* Estilo para os indicadores automáticos quando um slide específico está marcado */
+#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3 {     /* quando estiver marcado */   
+    background-color: rgb(30, 253, 0); /* Mudar a cor de fundo quando o slide correspondente está marcado */
+}     
+    
+/* Estilo para a posição dos slides no carrossel quando marcados */
+#radio1:checked ~ .primeiro{
+    margin-left: 0%; /* Mover para a primeira posição quando o slide 1 está marcado */
+}
+
+/* Mover para a segunda posição quando o slide 2 está marcado */
+#radio2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .primeiro{
+    margin-left: -50%;  /* Mover para a terceira posição quando o slide 3 está marcado */
+}
+
+
+
+
+
+
+
+
+
+
+/* Fim da estilização do carrossel */ 
+
 /* Início da estilização dos cards */ 
 .card
 {
@@ -201,6 +299,7 @@ header
 {
     margin-top: 20px;
     display: inline-block;
+    cursor: pointer;
 }
 #botao-card:hover
 {
@@ -398,8 +497,93 @@ header
     margin-top: 20px;
 }
 
-
 /* Fim da estilização da seção dúvidas */
+
+/* Ínicio da estilização do rodapé */
+
+.rodape
+{
+    width: 100%;
+    height: 190px;
+    background-color: #02004D;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navegaveis ul, li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.rodape p
+{
+    margin-top: 7%;
+    color: #fff;
+    font-size: 0.8vw;
+}
+
+#logo_rodape
+{
+    width: 15%;
+    height: 60%;
+    margin-left: 5%;
+}
+
+.inputs
+{
+    display: flex;
+    
+}
+
+.inputs input
+{
+    height: 25px;
+    width: 155px;
+    border: none;
+}
+
+.container_inputs h5
+{
+    color: #FFF;
+}
+
+#input_email
+{
+    width: 60%;
+}
+
+#input_botao
+{
+    width: 153px;
+    background-color: #8326EF;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.social
+{
+    display: flex;
+    margin-top: 20px;
+    color: #FFF;
+    align-items: center;
+}
+
+.social img
+{
+    
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 3%;
+    
+}
+
+/* Fim da estilização do rodapé */
+
 
 /* Início da responsividade para computadores de grande monitores */
 

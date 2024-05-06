@@ -5,9 +5,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Titillium Web";
-    color: #323232;
     border: none;
 }
+
+/* Início do header (menu) */
+
 header img
 {
     width: 20%;
@@ -16,7 +18,7 @@ header img
 }
 header
 {
-    background-color: #3e1e96;
+    background-color: #02004D;
     width: 100%;
     height: 150px;
     text-align: center;
@@ -39,7 +41,7 @@ form
     flex-wrap: wrap;
     justify-content: space-between;
 }
-input, label  
+input, label
 {
     display: block;
     outline: none;
@@ -65,7 +67,7 @@ input, label
 
 .container-grande
 {
-    flex: 1 1 100%; /*elemento pode crescer ou encolher dependendo da necessidade */
+    flex: 1 1 100%; /* esse elemento pode crescer ou encolher dependendo da necessidade */
     position: relative;
 }
 .container-medio
@@ -85,7 +87,6 @@ label
 input
 {
     border-bottom: 2px solid #323232;
-    padding: 10px;
     font-size: .9rem;
     margin-bottom: 40px;
 }
@@ -115,3 +116,100 @@ input[type="submit"]
     display: inline-block;
     width: auto;
 }
+
+/* Fim do header (menu) */
+
+/* Início da estilização do rodapé */
+
+.rodape
+{
+    width: 100%;
+    height: 190px;
+    background-color: #02004D;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navegaveis ul, li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.rodape p
+{
+    margin-top: 7%;
+    color: #fff;
+    font-size: 0.8vw;
+}
+
+#logo_rodape
+{
+    padding-top: 17px;
+    width: 15%;
+    height: 60%;
+    margin-left: 5%;
+}
+
+.container_inputs h5
+{
+    color: #FFF;
+}
+
+.social
+{
+    display: flex;
+    margin-top: 20px;
+    color: #FFF;
+    align-items: center;
+}
+
+.social h4
+{
+    color: #FFF;
+}
+
+.social img
+{
+    
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 3%;
+    
+}
+
+.inputs {
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+    
+}
+
+.inputs input {
+    height: 25px;
+    border: none;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+.inputs label
+{
+    width: auto;
+}
+
+
+#input_email {
+    width: 60%;
+}
+
+#input_botao {
+    width: 135px;
+    background-color: #8326EF;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Fim da estilização do rodapé */
