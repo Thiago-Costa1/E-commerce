@@ -22,8 +22,9 @@ body
 }
 header
 {
-    background-color: #02004D;
-    height: 110px;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(54, 115, 228), blue);
+    height: 110px; 
+    
     
 }
 .container
@@ -148,8 +149,9 @@ section.slider
 }
 
 /* Estilo para os indicadores automáticos quando um slide específico está marcado */
-#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3 {     /* quando estiver marcado */   
-    background-color: rgb(30, 253, 0); /* Mudar a cor de fundo quando o slide correspondente está marcado */
+#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3
+ {     /* quando estiver marcado */   
+    background-color: rgb(30, 253, 0); 
 }     
     
 /* Estilo para a posição dos slides no carrossel quando marcados */
@@ -505,7 +507,7 @@ section.slider
 {
     width: 100%;
     height: 190px;
-    background-color: #02004D;
+    background: linear-gradient(to right, rgb(0, 4, 255), rgb(54, 115, 228), blue);
     margin-top: 40px;
     display: flex;
     align-items: center;
@@ -579,6 +581,7 @@ section.slider
     height: 40px;
     cursor: pointer;
     margin-left: 3%;
+    color: #fff;
     
 }
 
@@ -593,6 +596,16 @@ section.slider
     {
         font-size: 15px;
     }
+    .slide-box
+    {
+        height: 47em;
+    }
+    .nav-manual, .nav-auto
+    {
+        margin-top: 44.5em;
+    }
+
+
 }
 
 /* Fim da responsividade para computadores de grande monitores */
