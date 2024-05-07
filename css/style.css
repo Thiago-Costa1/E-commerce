@@ -184,7 +184,7 @@ section.slider
 {
     width: 20%; 
     border:1px solid #4d4d4d; 
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 10px;
     margin-left: 25px;
     display: inline-block; /* Exibir como bloco em linha */
@@ -399,6 +399,26 @@ section.slider
     margin-top: -12px;
 }
 
+.localizacao
+{
+    width: 50%;
+}
+
+.localizacao h1
+{
+    text-align: center;
+
+}
+
+.localizacao p 
+{
+    margin-left: 8%;
+}
+
+.localizacao p span
+{
+    font-weight: bold;
+}
 /* Fim da estilização dos cards da api*/
 
 
