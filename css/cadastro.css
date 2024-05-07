@@ -14,7 +14,7 @@ header img
 {
     width: 20%;
     height: 100px;
-    margin-top: 0.7%;
+    margin-top: 17px;
 }
 header
 {
@@ -30,6 +30,7 @@ header a
 header h4
 {
     color: #e9e3e3;
+    margin-top: -9px;
 }
 body
 {
@@ -132,6 +133,11 @@ input[type="submit"]
     justify-content: space-evenly;
 }
 
+.navegaveis
+{
+    margin-left: 4%;
+}
+
 .navegaveis ul, li a
 {
     text-decoration: none;
@@ -148,9 +154,8 @@ input[type="submit"]
 #logo_rodape
 {
     padding-top: 17px;
-    width: 15%;
-    height: 60%;
-    margin-left: 5%;
+    width: 21%;
+    height: 50%;
 }
 
 .container_inputs h5
