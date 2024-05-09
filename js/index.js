@@ -43,8 +43,9 @@ function formatarTelefone(input)
 
 function exibirModal()
 {
-    var modal = document.querySelector('.container_modal', );
+    var modal = document.querySelector('.container_modal');
     var fundoEscuro = document.getElementById('fundo_escuro');
+    var modal2 = document.getElementById('card2');
     modal.style.display = 'block';
     fundoEscuro.style.display = 'block';
 }

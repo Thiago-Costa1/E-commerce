@@ -278,16 +278,7 @@
         <form>
             <div class="container_modal" id="modal" onclick="impedirPropagacao(event)">
                 <button class="fechar_modal" onclick="fecharModal(event)">X</button>
-                <h1>Escolha um horário e digite o seu número</h1>
-                <h3>Selecione o horário em que você tenha disponibilidade para nós realizarmos o atendimento (por ligação ou mensagem)</h3>
-                <input type="time" id="txtHora">
-                <h2>Agora digite o seu número:</h2>
-                <img src="../img/icone_atendente.png" alt="atendente" id="atendente">
-                <img src="../img/icone_telefone.png" alt="telefone" id="icone_telefone">
-                <input type="tel" name="txtTelefone" id="txtTelefone" oninput="formatarTelefone(this)">
-                <div>
-                    <button id="botao_enviar">Enviar</button>
-                </div>
+                <h1>Escolha um horário e digite o seu número</h1> 
             </div>
         </form>
     </div>
@@ -305,7 +296,7 @@
             <img src="../img/icon_telephone_red.png" alt="telefone" class="api-img-um-red">
             <h3>Atendimento</h3>
         </div>
-        <div class="api-cards">
+        <div class="api-cards" id="card2" onclick="exibirModal()">
             <img src="../img/icon-assistent.png" alt="suporte" class="api-img-um" id="api-img-assistente">
             <img src="../img/icon-atendente-red.png" alt="suporte" class="api-img-um-red" id="api-img-assistente-red">
             <h3 id="api-h3">Suporte</h3>
