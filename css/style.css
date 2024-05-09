@@ -358,30 +358,34 @@ section.slider
     margin-left: 20%;
     position: absolute;
     border-radius: 8px;
-    background: linear-gradient(to bottom, #3498db, #9b59b6);
+    background: linear-gradient(to bottom, #1b8cd8, #9b59b6);
+    margin-top: 8em;
 }
 .fechar_modal
 {
     position: absolute;
     top: 5px;
     right: 5px;
-    background-color: transparent;
-    border: none;
-    font-size: 20px;
-    color: white;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: darkgray; /* Cor de fundo escura */
+    border-radius: 50%;
     cursor: pointer;
 }
 
 .fechar_modal:hover
 {
-    color: black;
+    color: #f3f3f3;
+    border: 2px solid #ff0000;
 }
 
 .container_modal h1
 {
     text-align: center;
     color: #fff;
-    margin-top: 5px;
+    margin-top: 19px;
 }
 
 .container_modal h3
@@ -394,6 +398,7 @@ section.slider
 
 #txtHora, #txtTelefone
 {
+    margin-top: 10px;
     margin-left: 45%;
     border-radius: 5px;
     border: 2px solid  rgb(86, 0, 136);
@@ -404,13 +409,15 @@ section.slider
 .container_modal h2
 {
     color: #fff;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-left: 8%;
 }
 
 #txtTelefone
 {
-    margin-left: 15%;
+    margin-left: 0%;
+    position: absolute;
+    margin-top: 9px;
 }
 
 #botao_enviar
@@ -425,7 +432,7 @@ section.slider
     font-size: 1.2vw;
     margin-left: 18%;
     margin-top: 8%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     cursor: pointer;
 }
 
@@ -444,7 +451,12 @@ section.slider
     margin-right: 12%;
 }
 
-
+#icone_telefone
+{
+    width: 20px;
+    margin-left: 10%;
+    margin-top: 12px;
+}
 
 
 /* Fim da estilização do modal do Contato */
@@ -457,7 +469,7 @@ section.slider
     display: flex;
     margin-left: 10%;
     margin-top: 60px;
-    cursor: pointer;
+    
 }
 
 .container-api iframe

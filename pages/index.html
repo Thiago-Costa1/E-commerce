@@ -66,12 +66,8 @@
         </div>
     </section>
 
-
-
-
-
-
     <!-- Fim do carrossel -->
+
 
     <!-- Início dos cards -->
     <section class="section-card" id="section-gamer">
@@ -261,14 +257,33 @@
     <!--Início do modal do suporte -->
 
     <div id="fundo_escuro" onclick="fecharModal(event)">
-        <form action="">
+        <form>
             <div class="container_modal" id="modal" onclick="impedirPropagacao(event)">
                 <button class="fechar_modal" onclick="fecharModal(event)">X</button>
                 <h1>Escolha um horário e digite o seu número</h1>
-                <h3>Selecione o horário em que você tenha disponibilidade para nós entrarmos em contato (por ligação ou mensagem)</h3>
+                <h3>Selecione o horário em que você tenha disponibilidade para nós realizarmos o atendimento (por ligação ou mensagem)</h3>
                 <input type="time" id="txtHora">
-                <h2>Agora digite o seu número</h2>
+                <h2>Agora digite o seu número:</h2>
                 <img src="../img/icone_atendente.png" alt="atendente" id="atendente">
+                <img src="../img/icone_telefone.png" alt="telefone" id="icone_telefone">
+                <input type="tel" name="txtTelefone" id="txtTelefone" oninput="formatarTelefone(this)">
+                <div>
+                    <button id="botao_enviar">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div id="fundo_escuro" onclick="fecharModal(event)">
+        <form>
+            <div class="container_modal" id="modal" onclick="impedirPropagacao(event)">
+                <button class="fechar_modal" onclick="fecharModal(event)">X</button>
+                <h1>Escolha um horário e digite o seu número</h1>
+                <h3>Selecione o horário em que você tenha disponibilidade para nós realizarmos o atendimento (por ligação ou mensagem)</h3>
+                <input type="time" id="txtHora">
+                <h2>Agora digite o seu número:</h2>
+                <img src="../img/icone_atendente.png" alt="atendente" id="atendente">
+                <img src="../img/icone_telefone.png" alt="telefone" id="icone_telefone">
                 <input type="tel" name="txtTelefone" id="txtTelefone" oninput="formatarTelefone(this)">
                 <div>
                     <button id="botao_enviar">Enviar</button>
@@ -288,7 +303,7 @@
         <div class="api-cards" id="api-card-um" onclick="exibirModal()">
             <img src="../img/icon-telephone.png" alt="telefone" class="api-img-um">
             <img src="../img/icon_telephone_red.png" alt="telefone" class="api-img-um-red">
-            <h3>Contato</h3>
+            <h3>Atendimento</h3>
         </div>
         <div class="api-cards">
             <img src="../img/icon-assistent.png" alt="suporte" class="api-img-um" id="api-img-assistente">
@@ -296,9 +311,9 @@
             <h3 id="api-h3">Suporte</h3>
         </div>
         <div class="localizacao">
-            <h1>Localização e atendimento</h1>
-            <p>Estamos localizados na Rua Guaipá, 678 - Vila Leopoldina em São Paulo </br> CEP: 05089-000</p>
-            <p><span>Atendimento:</span> segunda a sábado das 09:00 até as 17:00 horas</p>
+            <h1>Localização</h1>
+            <p>Estamos localizados na Rua Guaipá, 678 - Vila Leopoldina em São Paulo </br> CEP: 05089-000.</p>
+            <p><span>Estamos aberto:</span> segunda a sábado das 09:00 até as 17:00 horas.</p>
         </div>
     </div>
 
