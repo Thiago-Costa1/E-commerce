@@ -336,6 +336,7 @@ section.slider
 
 
 /* Início da estilização do modal do Contato */
+/* Início do 1º modal */
 
 #fundo_escuro
 {
@@ -351,15 +352,13 @@ section.slider
 
 .container_modal
 {
-    display: none;
-    background-color: #5753d1;
+    background-color: #c9c9c9;
     width: 60%;
     height: auto;
     margin-left: 20%;
     position: absolute;
     border-radius: 8px;
-    background: linear-gradient(to bottom, #1b8cd8, #9b59b6);
-    margin-top: 13em;
+    margin-top: 5.5em;
     
 }
 .fechar_modal
@@ -385,13 +384,13 @@ section.slider
 .container_modal h1
 {
     text-align: center;
-    color: #fff;
+    color: #000000;
     margin-top: 19px;
 }
 
 .container_modal h3
 {
-    color: #FFF;
+    color: #000000;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 10px;
@@ -409,7 +408,7 @@ section.slider
 
 .container_modal h2
 {
-    color: #fff;
+    color: #000000;
     margin-top: 20px;
     margin-left: 8%;
 }
@@ -441,6 +440,7 @@ section.slider
 {
     background-color:transparent;
     border: 2px solid black;
+    color: #000000;
 }
 
 #atendente
@@ -458,10 +458,105 @@ section.slider
     margin-left: 10%;
     margin-top: 12px;
 }
+/* Fim do 1º modal */
+
+
+/* Início do 2º modal */
+
+.container_modal2
+{
+    background-color: #c9c9c9;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    position: absolute;
+    border-radius: 8px;
+    margin-top: 5.5em;
+}
+.container_modal2 h1
+{
+    text-align: center;
+}
+#modal_nome, #modal_email
+{
+    width: 40%;
+    
+}
+#modal_nome, #modal_email, #modal_assunto
+{
+    margin-left: 6%;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+#modal_assunto
+{
+    margin-top: 15px;
+    width: 86.5%;
+}
+#txtArea
+{
+    margin-left: 6%;
+    border: 2px solid rgb(88, 84, 84);
+    border-radius: 10px;
+    height: 18em;
+    width: 86.5%;
+    margin-top: 15px;
+}
+
+.btn
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+#botao_enviar2
+{
+    width: 15%;
+    height: 35px;
+    background-color: #df4141;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2vw;    
+    cursor: pointer;
+}
+
+#botao_enviar2:hover
+{
+    background-color:transparent;
+    border: 2px solid black;
+    color: #000000;
+}
+
+#txtArea
+{
+    resize: none;
+}
+
+#fundo_escuro2
+{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor escura com transparência */
+    z-index: 999; /* Coloque o fundo escuro acima de todos os outros elementos */
+
+}
+
+
+/* Fim do 2º modal */
+
 
 
 /* Fim da estilização do modal do Contato */
-
 
 /* Início da estilização dos cards da api*/
 
@@ -760,6 +855,10 @@ section.slider
     .section-card
     {
         margin-top: 2.6em;
+    }
+    .container_modal
+    {
+        margin-top: 13em;
     }
 
 

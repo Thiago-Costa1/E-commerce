@@ -258,11 +258,13 @@
 
     <div id="fundo_escuro" onclick="fecharModal(event)">
         <form>
-            <div class="container_modal" id="modal" onclick="impedirPropagacao(event)">
+            <div class="container_modal" onclick="impedirPropagacao(event)">
                 <button class="fechar_modal" onclick="fecharModal(event)">X</button>
                 <h1>Escolha um horário e digite o seu número</h1>
+                <hr/>
                 <h3>Selecione o horário em que você tenha disponibilidade para nós realizarmos o atendimento (por ligação ou mensagem)</h3>
                 <input type="time" id="txtHora">
+                <label for="txtHora"></label>
                 <h2>Agora digite o seu número:</h2>
                 <img src="../img/icone_atendente.png" alt="atendente" id="atendente">
                 <img src="../img/icone_telefone.png" alt="telefone" id="icone_telefone">
@@ -274,15 +276,31 @@
         </form>
     </div>
 
-    <div id="fundo_escuro" onclick="fecharModal(event)">
+    <!-- 2º modal -->
+
+    <div id="fundo_escuro2" onclick="fecharModal2(event)">
         <form>
-            <div class="container_modal" id="modal" onclick="impedirPropagacao(event)">
-                <button class="fechar_modal" onclick="fecharModal(event)">X</button>
-                <h1>Escolha um horário e digite o seu número</h1> 
+            <div class="container_modal2" onclick="impedirPropagacao(event)">
+                <button class="fechar_modal" onclick="fecharModal2(event)">X</button>
+                <h1>Descreva o seu problema</h1> 
+                <hr/>
+                <input type="text" placeholder="Seu nome" name="modal_nome" id="modal_nome">
+                <label for="modal_nome"></label>
+                <input type="text" placeholder="Seu e-mail" name="modal_email" id="modal_email">
+                <label for="modal_email"></label>
+                <div>
+                    <input type="text" placeholder="Assunto" name="modal_assunto" id="modal_assunto">
+                    <label for="modal_assunto"></label>
+                </div>
+                <textarea name="txtArea" id="txtArea"></textarea>
+                <div class="btn">
+                    <button id="botao_enviar2">Enviar</button>
+                </div>
             </div>
         </form>
     </div>
-   
+
+   <!-- Fim do 2º modal -->
 
     <!--Fim do modal do suporte -->
 
@@ -296,7 +314,7 @@
             <img src="../img/icon_telephone_red.png" alt="telefone" class="api-img-um-red">
             <h3>Atendimento</h3>
         </div>
-        <div class="api-cards" id="card2" onclick="exibirModal()">
+        <div class="api-cards" id="card2" onclick="exibirModal2()">
             <img src="../img/icon-assistent.png" alt="suporte" class="api-img-um" id="api-img-assistente">
             <img src="../img/icon-atendente-red.png" alt="suporte" class="api-img-um-red" id="api-img-assistente-red">
             <h3 id="api-h3">Suporte</h3>

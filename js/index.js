@@ -45,7 +45,6 @@ function exibirModal()
 {
     var modal = document.querySelector('.container_modal');
     var fundoEscuro = document.getElementById('fundo_escuro');
-    var modal2 = document.getElementById('card2');
     modal.style.display = 'block';
     fundoEscuro.style.display = 'block';
 }
@@ -64,7 +63,27 @@ function fecharModal(event)
     }
 }
 
+function exibirModal2()
+{
+    var modal2 = document.querySelector('.container_modal2');
+    var fundoEscuro2 = document.getElementById('fundo_escuro2');
+    modal2.style.display = 'block';
+    fundoEscuro2.style.display = 'block';
+}
 
+function fecharModal2(event)
+{
+    var modal2 = document.querySelector('.container_modal2');
+    var fundoEscuro2 = document.getElementById('fundo_escuro2');
+    
+    event.preventDefault(); // Evitar o comportamento padrão do botão ir para o início da página
+
+    if (event.target.classList.contains('fechar_modal'))
+    {
+        modal2.style.display = 'none';
+        fundoEscuro2.style.display = 'none';
+    }
+}
 
 
 
