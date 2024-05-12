@@ -39,7 +39,7 @@ function formatarTelefone(input)
 	
 // Fim da formatação do número do usuário no model
 
-// Início da formatação do "X" para abrir e fechar o modal
+// Início da formatação do "X" para abrir e fechar o 1º modal
 
 function exibirModal()
 {
@@ -62,6 +62,10 @@ function fecharModal(event)
         fundoEscuro.style.display = 'none';
     }
 }
+
+// Fim da formatação do "X" para abrir e fechar o 1º modal
+
+// Início da formatação do "X" para abrir e fechar o 2º modal
 
 function exibirModal2()
 {
@@ -86,9 +90,51 @@ function fecharModal2(event)
 }
 
 
+// Fim da formatação do X para fechar o 2º modal
 
-// Fim da formatação do X para fechar o modal
+// Início da formatação do timer de alguns cards
 
+var timers = document.querySelectorAll('.countdown-timer');
+var deadlines =
+[
+    new Date("May 31, 2024 23:59:59").getTime(), 
+    new Date("May 28, 2024 23:59:59").getTime(),
+    new Date("May 29, 2024 23:59:59").getTime(),
+ 
+];
+
+// Altera sobre cada timer
+timers.forEach(function(timer, index)
+{
+    // Obtem a data de expiração correspondente
+    var deadline = deadlines[index];
+    
+    // Inicializa o timer para este elemento apenas se houver uma data de expiração definida
+    if (!isNaN(deadline))
+        {
+        var x = setInterval(function()
+        {
+            var now = new Date().getTime();
+    
+            var distance = deadline - now;
+            
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            timer.innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+            
+            if (distance < 0)
+            {
+                clearInterval(x);
+                timer.innerHTML = "EXPIRADO";
+            }
+        }, 1000);
+    }
+});
+
+// Fim da formatação do timer de alguns cards
 
 // Início da formatação para mostrar e esconder as respostas
 

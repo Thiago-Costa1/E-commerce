@@ -4,64 +4,174 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: "Titillium Web";
-        
+    font-family: "Titillium Web";        
 }
-
 body
 {
     background-color: #e4e0e0;
 }
 
 /* Início da estilização do header (menu) */ 
-#logo_cliente
+
+#logo
 {
-    width: 18%;
-    height: 53%;
-    margin-left: 6%;
+    width: 15%;
+    height: 60px;
+    margin-left: 8%;
+    margin-top: 2%;
 }
-header
-{
-    background: linear-gradient(to right, rgb(255, 255, 255), rgb(54, 115, 228), blue);
-    height: 110px; 
-    
-    
-}
+
 .container
 {
+    height: 100px;
     display: flex;
-    align-items: center;   
-    height: 110px; 
+    font-size: 14px;
+    background: #444444;
 }
-.menu
+
+.navbar
 {
-    justify-content: center;
-    margin-left: 5%;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    padding: 0.5rem 1.5rem;
 }
+
+.navbar ul
+{
+    font-size: 20px;
+}
+
+.nav-links
+{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-link
+{
+    list-style: none;
+    height: 30%;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.drop-down li
+{
+    list-style: none;
+    height: 30%;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap; /* para o texto não ser quebrado em várias linhsa */
+}
+
+a
+{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.drop-down
+{
+    display: none;
+    min-width: 230px;
+    padding: 0.5rem 0;
+    margin: 0.5rem -1rem;
+    background: antiquewhite;
+    color: black;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    font-size: 12px;
+    z-index: 1000;
+}
+
+.nav-link.services
+{
+    max-width: 135px;
+}
+
+
+
+.drop-down-container
+{
+    position: relative;
+    display: flex;
+}
+
+.nav-link:hover
+{
+    background-color: black;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.services:hover .drop-down
+{
+    display: block;
+}
+
+.services a
+{
+    display: flex;
+    align-items: center;
+}
+
+.services .dropdown-icon
+{
+    font-size: 18px;
+    position: relative;
+    right: -5px;
+    transform: rotate(0deg);
+    transition: 0.3s ease-in-out all;
+}
+
+.services:hover .dropdown-icon
+{
+    transform: rotate(180deg);
+}
+
+.drop-down li:hover
+{
+    background: black;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+#inp_pesquisar
+{
+    background-color: #FFF;
+    height: 25px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
 #icone_lupa
 {
-    width: 12%;
+    width: 20px;
     height: 15%;
-    margin-left: 3%;
+    margin-left: 0.5%;
     cursor: pointer;
+    margin-top: 43px;
 }
+
 #icone_login
 {
-    width: 23%;
-    height: 23%;
-    margin-left: 13%;
+    width: 45px;
+    height: 35px;
+    margin-left: 95%;
     cursor: pointer;
-    margin-top: 3px;
+    margin-top: 33px;
 }
-.navegacao-li, .navegacao-li a
+
+.pjunto p
 {
-    display: flex;
-    gap: 7%;
-    text-decoration: none;
-    font-size: 2vw;
+    margin-left: 83%;
     color: #FFF;
-    font-weight: bold;
+    font-weight: 600;
+    margin-top: -5px;
 }
+
 .pesquisar
 {
     display: flex;
@@ -69,10 +179,7 @@ header
     margin-left: 12%;
     height: 110px;
 }
-#inp_pesquisar
-{
-    background-color: #8293CE;
-}
+
 .pesquisar input[type="text"]::placeholder 
 {
     color: #FFF;
@@ -169,31 +276,74 @@ section.slider
 }
 
 
-
-
-
-
-
-
-
-
 /* Fim da estilização do carrossel */ 
 
 /* Início da estilização dos cards */ 
-.card
-{
+.card {
     width: 20%; 
-    border:1px solid #4d4d4d; 
-    margin-top: 50px;
+    border: 1px solid #4d4d4d; 
+    margin-top: 57px;
     padding: 10px;
     margin-left: 25px;
     display: inline-block; /* Exibir como bloco em linha */
     border-radius: 15px; 
     text-align: center;
     box-sizing: border-box;
-    transition: all 0.5s;
-    
+    transition: border-color 0.5s, transform 0.5s; /* Aplicando a transição apenas às propriedades necessárias */
+    position: relative; /* Movido aqui para que não haja transição de position */
 }
+
+.value-timer-group
+{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.card:hover .value-timer-group
+{
+    display: none;
+}
+
+#cronometro
+{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 41px;
+    position: absolute;
+    margin-left: -45%;
+}
+
+.card:hover #cronometro
+{
+    display: none;
+}
+
+.countdown img
+{
+    margin-left: 2%;
+    position: absolute;
+    margin-top: 10px;
+}
+
+#timer
+{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.countdown
+{
+    margin-top: -7px;
+}
+
+#countdown-timer
+{
+    font-size: 16px;
+    color: #333; 
+}
+
 .card:hover 
 {
     background-color: #ffffff;
@@ -255,8 +405,10 @@ section.slider
 {
     margin-top: 20px;
     list-style-type: none;
-    
+    margin-left: 22px;
+    position: relative;
 }
+
 .card-ul li
 {
     text-align: left;
@@ -264,8 +416,9 @@ section.slider
     font-size: 1vw;
     font-weight: bold;
     margin-left: 3%;
+    position: relative; 
+}
     
-}   
 .card img
 {
     margin-top: 5px; 
@@ -281,6 +434,12 @@ section.slider
 .card h4
 {
     margin-top: 35px;
+}
+
+.value-timer-group h4
+{
+    margin: 0;
+
 }
 
 

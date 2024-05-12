@@ -5,35 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/index.js" defer></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>TechFlex Notebook</title>
 </head>
 <body>
     <!-- Início do header (menu) -->
-    <header id="header">
-        <div class="container">
-            <img src="../img/logo.png" alt="logo" id="logo_cliente">
-            <div class="menu">
-                <nav class="navegacao">
-                    <ul>
-                        <li class="navegacao-li">
-                            <a href="#">CATEGORIAS</a>
-                            <a href="#section-gamer">GAMER</a>
-                            <a href="#card-5">ESTUDANTE</a>
-                            <a href="#card-9">TRABALHO</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="pesquisar">
-                <label for="inp_pesquisar"></label>
-                <input type="text" placeholder="Digite o modelo..." id="inp_pesquisar">
-                <img src="../img/icon-lupa.png" alt="lupa" id="icone_lupa">
-                <a href="../pages/cadastro.html"><img src="../img/icon-login.png" alt="login" id="icone_login"></a>
-            </div>
+
+    <header class="container">
+        <img src="../img/logo.png" alt="logo" id="logo">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li class="nav-link services">
+                    <a href="#">Categorias<span class="material-icons dropdown-icon">arrow_drop_down</span></a>
+                    <div class="drop-down-container">
+                        <ul class="drop-down">
+                            <li>Notebook gamer</li>
+                            <li>Notebook estudante</li>
+                            <li>Notebook trabalho</li>
+                        </ul>
+                        <ul class="drop-down">
+                            <li>Faz o L</li>
+                            <li>Cachaceiro</li>
+                            <li>Ladrão</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Sobre</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Redes sociais</a>
+                </li>
+                <li class="nav-link"><a href="#">
+                    <a href="#"> Suporte</a>
+                </li>
+            </ul>
+        </nav>
+        <label for="inp_pesquisar"></label>
+        <input type="text" placeholder="Digite o modelo..." id="inp_pesquisar">
+        <img src="../img/icon-lupa.png" alt="lupa" id="icone_lupa">
+        <div class="pjunto">
+            <a href="../pages/cadastro.html"><img src="../img/icon-login.png" alt="login" id="icone_login"></a>
+            <p>Cadastro</p>
         </div>
     </header>
-    <!-- Fim do header (menu) -->
-
+  
     <!-- Início do carrossel -->
 
     <section class="slider">
@@ -68,7 +84,6 @@
 
     <!-- Fim do carrossel -->
 
-
     <!-- Início dos cards -->
     <section class="section-card" id="section-gamer">
         <div class="card">
@@ -96,7 +111,7 @@
             </ul>
             <h4>APENAS: R$ 6.749,99</h4>
             <div class="fundo">
-                <p>À Vista: R$ 6.075,00 </p>
+                <p>À Vista: R$ 6.075,00</p>
                 <h5>10% DE DESCONTO</h5>
             </div>
             <button id="botao-card">Comprar</button>
@@ -109,7 +124,13 @@
                 <li>Intel Core I7 11ª ger.</li>
                 <li>Memória RAM 16 GB</li>
             </ul>
-            <h4>APENAS: R$ 5.444,43</h4>
+            <img src="../img/icon_cronometro.png" alt="cronometro" id="cronometro">
+            <div class="value-timer-group">
+                <h4>APENAS: R$ 5.444,43</h4>
+                <div class="countdown">
+                    <div class="countdown-timer"></div>
+                </div>
+            </div>
             <div class="fundo">
                 <p>À Vista: R$ 4.899,99 </p>
                 <h5>10% DE DESCONTO</h5>
@@ -154,7 +175,13 @@
                 <li>Core i3-1115G4E </li>
                 <li>Memória RAM 8GB</li>
             </ul>
-            <h4>APENAS: R$ 2.089,05</h4>
+            <img src="../img/icon_cronometro.png" alt="cronometro" id="cronometro">
+            <div class="value-timer-group">
+                <h4>APENAS: R$ 2.089,05</h4>
+                <div class="countdown">
+                    <div class="countdown-timer"></div>
+                </div>
+            </div>
             <div class="fundo">
                 <p>À Vista: R$ 1.880,14 </p>
                 <h5>10% DE DESCONTO</h5>
@@ -229,7 +256,14 @@
                 <li>Ryzen 7 5800H</li>
                 <li>Memória RAM 16 GB</li>
             </ul>
-            <h4>APENAS: R$ 8.941,16</h4>
+            <img src="../img/icon_cronometro.png" alt="cronometro" id="cronometro">
+            <div class="value-timer-group">
+                <h4>APENAS: R$ 8.941,16</h4>
+                <div class="countdown">
+                    <div class="countdown-timer"></div>
+                </div>
+            </div>
+            
             <div class="fundo">
                 <p>À Vista: R$ 8.047,04 </p>
                 <h5>10% DE DESCONTO</h5>
@@ -292,7 +326,7 @@
                     <input type="text" placeholder="Assunto" name="modal_assunto" id="modal_assunto">
                     <label for="modal_assunto"></label>
                 </div>
-                <textarea name="txtArea" id="txtArea"></textarea>
+                <textarea name="txtArea" id="txtArea" placeholder="Mensagem"></textarea>
                 <div class="btn">
                     <button id="botao_enviar2">Enviar</button>
                 </div>
@@ -303,8 +337,6 @@
    <!-- Fim do 2º modal -->
 
     <!--Fim do modal do suporte -->
-
-
 
     <!-- Início da api com 2 cards -->
 
