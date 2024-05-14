@@ -87,6 +87,16 @@ a
 
 }
 
+.drop-down li a 
+{
+    color: #000;
+}
+
+.drop-down li:hover a
+{
+    color: #fff;
+}
+
 .nav-link.services
 {
     max-width: 135px;
@@ -828,7 +838,7 @@ section.slider
 
 /* Início da estilização da seção opiniões dos clientes */
 
-#opiniao-cli
+#opiniao-cli, #duvidas_cliente
 {
     display: flex;
     justify-content: center;

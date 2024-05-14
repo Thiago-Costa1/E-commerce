@@ -1,3 +1,26 @@
+// Início da rolagem suave e centraliza o conteúdo clicado
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor =>
+    {
+    anchor.addEventListener('click', function (e)
+    {
+        e.preventDefault();
+
+        const target = document.querySelector(this.getAttribute('href'));
+
+        // Calcula a posição para centralizar verticalmente na janela do navegador
+        const offset = target.offsetTop - (window.innerHeight - target.offsetHeight) / 2;
+
+        window.scrollTo(
+        {
+            top: offset,
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Fim da rolagem suave e centralização do conteúdo clicado
+
 // Início do javascript do carrossel //
 
 	var radio = document.querySelector('.manual-btn')

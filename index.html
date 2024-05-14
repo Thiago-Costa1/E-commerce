@@ -15,30 +15,23 @@
         <img src="./img/logo.png" alt="logo" id="logo">
         <nav class="navbar">
             <ul class="nav-links">
-                <li class="nav-link services">
-                    <a href="#">Categorias<span class="material-icons dropdown-icon">arrow_drop_down</span></a>
+                <li class="nav-link services"><a href="#">Categorias<span class="material-icons dropdown-icon">arrow_drop_down</span></a>
                     <div class="drop-down-container">
                         <ul class="drop-down">
-                            <li>Notebook: gamer</li>
-                            <li>Notebook: estudante</li>
-                            <li>Notebook: trabalho</li>
+                            <li><a href="#card-1">Notebook: gamer</a></li>
+                            <li><a href="#card-5">Notebook: estudante</a></li>
+                            <li><a href="#card-9">Notebook: trabalho</a></li>
                         </ul>
                         <ul class="drop-down">
-                            <li>Atendimento</li>
-                            <li>Opinião dos clientes</li>
-                            <li>Dúvidas frequentes</li>
+                            <li><a href="#api-card-um">Atendimento</a></li>
+                            <li><a href="#opiniao-cli">Opinião dos clientes</a></li>
+                            <li><a href="#duvidas_cliente">Dúvidas frequentes   </a></li>
                         </ul>
                     </div>
                 </li>
-                <li class="nav-link">
-                    <a href="#">Sobre</a>
-                </li>
-                <li class="nav-link">
-                    <a href="#">Redes sociais</a>
-                </li>
-                <li class="nav-link"><a href="#">
-                    <a href="#"> Suporte</a>
-                </li>
+                <li class="nav-link"><a href="#">Sobre</a></li>
+                <li class="nav-link"><a href="#rodap">Redes sociais</a></li>
+                <li class="nav-link"><a href="#card2">Suporte</a></li>
             </ul>
         </nav>
         <label for="inp_pesquisar"></label>
@@ -86,7 +79,7 @@
 
     <!-- Início dos cards -->
     <section class="section-card" id="section-gamer">
-        <div class="card">
+        <div class="card" id="card-1">
             <img src="./img/rog_asus.png" alt="notebook">
             <h3>ROG Strix G16</h3>
             <div class="icones_card">
@@ -347,7 +340,7 @@
     </section>
     <!-- Fim dos cards -->
 
-    <!--Início do modal do suporte -->
+    <!--Início do modal do atendimento -->
 
     <div id="fundo_escuro" onclick="fecharModal(event)">
         <form>
@@ -369,7 +362,9 @@
         </form>
     </div>
 
-    <!-- 2º modal -->
+    <!--Fim do modal do atendimento -->
+
+    <!-- Início do 2º modal (suporte) -->
 
     <div id="fundo_escuro2" onclick="fecharModal2(event)">
         <form>
@@ -393,11 +388,10 @@
         </form>
     </div>
 
-   <!-- Fim do 2º modal -->
+   <!-- Fim do 2º modal (suporte) -->
 
-    <!--Fim do modal do suporte -->
 
-    <!-- Início da api com 2 cards -->
+    <!-- Início dos modais em 2 cards -->
 
     <div class="container-api">
         <div class="api-cards" id="api-card-um" onclick="exibirModal()">
@@ -417,7 +411,7 @@
         </div>
     </div>
 
-    <!-- Fim da api com 2 cards -->
+    <!-- Fim dos modais em 2 cards -->
 
     <!-- Início da seção opiniões dos clientes -->
 
@@ -484,7 +478,7 @@
 
     <!-- Fim da seção opiniões dos clientes -->
 
-    <h1 id="opiniao-cli">Dúvidas frequentes</h1>
+    <h1 id="duvidas_cliente">Dúvidas frequentes</h1>
     <!-- Início da seção de dúvidas dos clientes -->
     <section class="duvidas-cliente">
         <div class="pergunta" id="pergunta1" onmouseover="mostrarPergunta('resposta1')"
@@ -519,7 +513,7 @@
     <!-- Fim da seção dúvidas dos clientes -->
 
     <!-- Início do rodapé -->
-    <footer class="rodape">
+    <footer class="rodape" id="rodap">
         <nav class="navegaveis">
             <ul>
                 <li><a href="#k">Sobre nós</a></li>
