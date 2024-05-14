@@ -79,7 +79,7 @@ a
     padding: 0.5rem 0;
     margin: 0.5rem -1rem;
     background: antiquewhite;
-    color: black;
+    color: #000;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     font-size: 12px;
@@ -110,7 +110,7 @@ a
 
 .nav-link:hover
 {
-    background-color: black;
+    background-color: #000;
     color: #fff;
     border-radius: 0.5rem;
 }
@@ -142,7 +142,7 @@ a
 
 .drop-down li:hover
 {
-    background: black;
+    background: #000;
     color: #fff;
     border-radius: 0.5rem;
 }
@@ -940,8 +940,8 @@ section.slider
 .rodape
 {
     width: 100%;
-    height: 190px;
-    background: linear-gradient(to right, rgb(0, 4, 255), rgb(54, 115, 228), blue);
+    height: 130px;
+    background: #444444;
     margin-top: 40px;
     display: flex;
     align-items: center;

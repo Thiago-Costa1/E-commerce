@@ -12,15 +12,15 @@
 
 header img
 {
-    width: 20%;
-    height: 100px;
+    width: 18%;
+    height: 70px;
     margin-top: 17px;
 }
 header
 {
-    background: linear-gradient(to right, rgb(0, 4, 255), rgb(54, 115, 228), blue);
+    height: 130px;
+    background: #444444;
     width: 100%;
-    height: 150px;
     text-align: center;
 }
 header a
@@ -125,8 +125,8 @@ input[type="submit"]
 .rodape
 {
     width: 100%;
-    height: 190px;
-    background: linear-gradient(to right, rgb(0, 4, 255), rgb(54, 115, 228), blue);
+    height: 130px;
+    background: #444444;
     margin-top: 40px;
     display: flex;
     align-items: center;
@@ -154,8 +154,8 @@ input[type="submit"]
 #logo_rodape
 {
     padding-top: 17px;
-    width: 21%;
-    height: 50%;
+    width: 18%;
+    height: 70px;
 }
 
 .container_inputs h5
