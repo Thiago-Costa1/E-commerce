@@ -537,7 +537,12 @@ section.slider
     background-image: url(../img/imagem-01.jpg);
     background-size: cover;
     background-position: center;
-    filter: brightness(0.9);
+}
+
+.dentro{
+    backdrop-filter: brightness(80%);
+    width:100%;
+    height:100%;
 }
 
 /*.imagens01 h1
@@ -1053,9 +1058,26 @@ section.slider
 /* Fim da estilização do rodapé */
 
 
-/* Início da responsividade para computadores de grande monitores */
 
-@media only screen and (min-width: 1370px) and (max-width: 4000px)
+
+
+
+@media only screen and (min-width: 1370px) and (max-width: 1600px)
+{
+    .slide-box
+    {
+        height: 39.1em;
+    }
+    .nav-manual, .nav-auto
+    {
+        margin-top: 37.3em;
+    }
+}
+
+
+/* Início da responsividade para computadores de grande monitores */
+@media only screen and (min-width: 1601px) and (max-width: 4000px)
+
 {
     #quarto-card-p
     {
