@@ -456,8 +456,8 @@ section.slider
 .card img
 {
     margin-top: 4.5px; 
-    height: 130px; 
-    width:65%;
+    height: 122px; 
+    width:100%;
 }
 
 .card:hover h4
