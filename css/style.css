@@ -543,7 +543,10 @@ section.slider
     backdrop-filter: brightness(80%);
     width:100%;
     height:100%;
+    text-align: center;
+    
 }
+
 
 /*.imagens01 h1
 {
@@ -1077,8 +1080,7 @@ section.slider
 @media only screen and (min-width: 1601px) and (max-width: 4000px)
 
 {
-
-    
+  
 
     .navbar ul
     {
