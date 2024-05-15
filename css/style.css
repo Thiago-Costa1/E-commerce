@@ -56,6 +56,10 @@ body
     cursor: pointer;
 }
 
+.navbar ul
+{
+    font-size: 1.5vw;
+}
 .drop-down li
 {
     list-style: none;
