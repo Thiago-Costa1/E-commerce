@@ -75,7 +75,7 @@ a
 .drop-down
 {
     display: none;
-    min-width: 240px;
+    min-width: 12em;
     padding: 0.5rem 0;
     margin: 0.5rem -1rem;
     background: antiquewhite;
@@ -539,12 +539,20 @@ section.slider
     background-position: center;
 }
 
-.dentro{
-    backdrop-filter: brightness(80%);
+.dentro
+{
+    backdrop-filter: brightness(75%);
     width:100%;
     height:100%;
     text-align: center;
     
+}
+.conjunto
+{
+    position: absolute;
+    width: 100%;
+    top: 15em;
+    color: #fff;
 }
 
 
