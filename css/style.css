@@ -1057,10 +1057,7 @@ section.slider
 
 /* Fim da estilização do rodapé */
 
-
-
-
-
+/* Início da responsividade para computadores com grande monitor */
 
 @media only screen and (min-width: 1370px) and (max-width: 1600px)
 {
@@ -1074,11 +1071,37 @@ section.slider
     }
 }
 
+/* Fim da responsividade para computadores com grande monitor */
 
-/* Início da responsividade para computadores de grande monitores */
+/* Início da responsividade para computadores com monitor enorme */
 @media only screen and (min-width: 1601px) and (max-width: 4000px)
 
 {
+
+    
+
+    .navbar ul
+    {
+        font-size: 26px;
+    }
+
+    #inp_pesquisar
+    {
+        width: 12%;
+        margin-left: 5%;
+    }
+
+    .navbar
+    {
+        padding: 0;
+        margin-left: 5%;
+    }
+
+    .nav-links
+    {
+        gap: 3rem;
+    }
+
     #quarto-card-p
     {
         font-size: 15px;
@@ -1104,4 +1127,4 @@ section.slider
 
 }
 
-/* Fim da responsividade para computadores de grande monitores */
+/* Fim da responsividade para computadores com monitor enorme */
