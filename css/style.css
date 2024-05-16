@@ -901,6 +901,90 @@ section.slider
 }
 /* Fim da estilização dos cards da api*/
 
+.formas-pagamento
+{
+    margin-top: 4em;
+    width: 100%;
+    height: 8em;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.largura-geral
+{
+    width: 10%;
+    height: 6.5em;
+       
+} 
+
+.imagens-pagamento, .imagens-pagamento2, .imagens-pagamento3, .imagens-pagamento4
+{
+    background-image: url(../img/pix.png);
+    width: 80%;
+    height: 100px;
+    background-size: cover;
+    background-position: center; 
+    margin-left: 8%;
+}
+
+.largura-geral h1
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.imagens-pagamento2
+{
+    background-image: url(../img/boleto.png);
+    height: 110px;
+    margin-top: -13px;
+    text-align: center;
+}
+
+.imagens-pagamento3
+{
+    background-image: url(../img/paypal.png);
+}
+.imagens-pagamento4
+{
+    background-image: url(../img/cartão.png);
+}
+
+
+/* Início da estilização da seção dúvidas */
+.duvidas-cliente
+{
+    margin-top: 30px;
+    color: #FFF;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+.pergunta
+{
+    background-color: #4A6EEF;
+    border-radius: 15px;
+}
+.resposta
+{
+    display: none;
+    background-color: #02004D;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 30px;
+}
+.resposta p
+{
+    margin-left: 1%;
+}
+#pergunta2, #pergunta3, #pergunta4
+{
+    margin-top: 20px;
+}
+
+/* Fim da estilização da seção dúvidas */
+
 
 /* Início da estilização da seção opiniões dos clientes */
 
@@ -968,39 +1052,6 @@ section.slider
 
 /* Fim da estilização da seção opiniões dos clientes */
 
-/* Início da estilização da seção dúvidas */
-.duvidas-cliente
-{
-    margin-top: 30px;
-    color: #FFF;
-    width: 50%;
-    margin-left: 25%;
-    
-}
-.pergunta
-{
-    background-color: #4A6EEF;
-    border-radius: 15px;
-}
-.resposta
-{
-    display: none;
-    background-color: #02004D;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    height: 30px;
-}
-.resposta p
-{
-    margin-left: 1%;
-}
-#pergunta2, #pergunta3, #pergunta4
-{
-    margin-top: 20px;
-}
-
-/* Fim da estilização da seção dúvidas */
-
 /* Ínicio da estilização do rodapé */
 
 .rodape
@@ -1012,6 +1063,11 @@ section.slider
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.navegaveis
+{
+    margin-left: 5%;
 }
 
 .navegaveis ul, li a
@@ -1074,16 +1130,25 @@ section.slider
     align-items: center;
 }
 
-.social img
+.social a img
 {
     
     width: 40px;
     height: 40px;
     cursor: pointer;
-    margin-left: 3%;
+    margin: 0 5px;
     color: #fff;
     
 }
+
+#seta
+{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+
 
 /* Fim da estilização do rodapé */
 
