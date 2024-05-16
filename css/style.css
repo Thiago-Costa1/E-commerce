@@ -452,7 +452,6 @@ section.slider
     
 }
 
-
 .card img
 {
     margin-top: 4.5px; 
@@ -475,7 +474,6 @@ section.slider
     margin: 0;
 
 }
-
 
 .card button
 {    
@@ -530,9 +528,9 @@ section.slider
 {
     width: 100%;
     height: 36em;
-    background-color: #02004D;
     margin-top: 3em;
     position: relative;
+    display: flex;
 }
 .imagens01
 {
@@ -557,6 +555,34 @@ section.slider
     width: 100%;
     top: 15em;
     color: #fff;
+}
+
+.imagens02
+{
+    width: 35%;
+    height: 36em;
+    background-image: url(../img/imagem-site2.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.imagens02 .dentro
+{
+    backdrop-filter: brightness(85%);
+}
+
+.imagens03
+{
+    width: 32%;
+    height: 36em;
+    background-image: url(../img/imagem3.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.imagens03 .dentro
+{
+    backdrop-filter: brightness(85%);
 }
 
 
