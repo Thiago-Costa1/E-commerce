@@ -1179,6 +1179,13 @@ section.slider
     {
         margin-top: 53%;
     }
+
+    .imagens-pagamento, .imagens-pagamento2, .imagens-pagamento3, .imagens-pagamento4
+    {
+        width: 69%;
+        margin-left: 18%;
+    }
+
 }
 
 /* Fim da responsividade para computadores com grande monitor */
