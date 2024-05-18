@@ -1164,6 +1164,21 @@ section.slider
     {
         margin-top: 37.3em;
     }
+
+    .navbar
+    {
+        margin-top: 1%;
+    }
+
+    .card .icones_card
+    {
+        margin-top: 1vw;
+    }
+
+    .card .icones_card img
+    {
+        margin-top: 53%;
+    }
 }
 
 /* Fim da responsividade para computadores com grande monitor */
