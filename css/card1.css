@@ -1,6 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Titillium Web";
 }
+body
+{
+    background-color: #e4e0e0;
+}
+/* Início do header (menu) */
+
+header img
+{
+    width: 18%;
+    height: 70px;
+    margin-top: 17px;
+}
+header
+{
+    height: 130px;
+    background: #444444;
+    width: 100%;
+    text-align: center;
+}
+header a
+{
+    text-decoration: none;
+}
+header h4
+{
+    color: #e9e3e3;
+    margin-top: -9px;
+}
+body
+{
+    background-color: #fff;
+}
+/* Fim do header (menu) */
+
+/* Início main */
+.container-maximo
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+
+.container-global
+{
+    width: 33.4%;
+    background-color: #e4e0e0;
+    display: flex;
+    flex-direction: column; /* Coluna para o flexbox */
+    justify-content: center;
+}
+
+#container-1
+{
+    margin-left: 2vw;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+#hr-1
+{
+    width: 33vw;
+    margin-left: -6vw;
+}
+#hr-2
+{
+    margin-top: 2vh;
+}
+.zoom-container
+{
+    width: 61vw; 
+    height: 70%;
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-left: 0.5vw;
+
+}
+.zoom-container img
+{
+    position: absolute;
+    width: 150%;
+    height: 100%;
+}
+
+.imagem-grande
+{
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+    display: flex;
+    justify-content: center; 
+ 
+}
+
+.imagem-grande img
+{
+    width: 25vw;
+    transform-origin: center center;
+    object-fit: cover;
+    position: relative;
+    left: 3.5vw;
+}
+
+.imagens
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 5vw;
+    top: 38vh;
+    left: 2vw;
+}
+
+.imagens img 
+{
+    height: 10vh;
+    width: 5vw;
+    border: 1px solid #000;
+    border-radius: 7px;
+    margin-top: 3vh;
+    cursor: pointer;
+}
+
+.imagens img:hover
+{
+    border: 1px double rgb(0, 128, 0);
+}
+
+#container-2
+{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#container-2 h1
+{
+    font-size: 1.6vw;
+    margin-top: 5vh;
+
+}
+#container-2 h3
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+.iiimg
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 3vh;
+   
+}
+.continuacao h4
+{
+    font-size: 1vw;
+}
+.seguranca-extra
+{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.seguranca-extra p
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+.seguranca-menor
+{
+    width: 65%;
+
+}
+ .seguranca-minima
+{
+    display: flex;
+
+}
+.seguranca-minima h5
+{
+    margin-left: 1vw;
+}
+#container-3
+{
+    width: 29%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.geral
+{
+    width: 70%;
+    height: 18vh;
+    border-radius: 15px;
+    margin-top: 14vh;
+    text-align: center;
+    border: 1px solid #b8b8b8;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+.geral h4
+{
+    margin-top: 1vh;
+}
+.comprar input, #salvar-carrinho
+{
+    margin-top: 3vh;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 15px;
+    border: 1px solid #b8b8b8;
+    background-color: #e44747;
+    text-align: center;
+    justify-content: center;
+    font-size: 5vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+.comprar input:hover
+{
+    background-color: #42e012;
+}
+#salvar-carrinho
+{
+    font-size: 2vw;
+    
+}
+#salvar-carrinho:hover
+{
+    background-color: #42e012;   
+}
+
+
+
+/* Fim do main */
+
+
+
+
+
