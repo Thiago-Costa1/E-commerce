@@ -220,9 +220,20 @@ body
     height: 18vh;
     border-radius: 15px;
     margin-top: 14vh;
+    display: flex;
+    justify-content: center;
     text-align: center;
     border: 1px solid #b8b8b8;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+.geral-interno
+{
+    width: 70%;
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .geral:hover
 {
@@ -295,3 +306,9 @@ body
 }
 
 /* Fim da div das informações */
+
+/* Início da responsividade para computadores com monitor enorme */
+@media only screen and (min-width: 1601px) and (max-width: 4000px)
+{
+
+}
