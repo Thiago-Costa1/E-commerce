@@ -40,161 +40,155 @@ body
 }
 /* Fim do header (menu) */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web";
+}
+
 /* Início main */
-.container-maximo
-{
+.container-maximo {
     width: 100%;
     height: 100vh;
     display: flex;
-    
+    margin-top: 30px;
 }
 
-.container-global
-{
+.container-global {
     width: 33.4%;
     background-color: #e4e0e0;
     display: flex;
-    flex-direction: column; /* Coluna para o flexbox */
+    flex-direction: column;
     justify-content: center;
 }
 
-#container-1
-{
+#container-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 100%;
     margin-left: 2vw;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-
+    
 }
-#hr-1
-{
+
+#hr-1 {
     width: 33vw;
     margin-left: -6vw;
 }
-#hr-2
-{
+
+#hr-2 {
     margin-top: 2vh;
 }
-.zoom-container
-{
+
+.zoom-container {
     width: 61vw; 
-    height: 70%;
+    height: 65%;
     overflow: hidden;
     display: none;
-    position: absolute;
+    position: fixed;
     border: 1px solid #ccc;
     background-color: #fff;
     margin-left: 0.5vw;
-
 }
-.zoom-container img
-{
+
+.zoom-container img {
     position: absolute;
     width: 150%;
     height: 100%;
 }
 
-.imagem-grande
-{
-    width: 100%;
-    overflow: hidden; 
-    position: relative;
+.imagem-grande {
+    width: 90%;
+    height: 47%;
     display: flex;
     justify-content: center; 
- 
+    align-items: center;
 }
 
-.imagem-grande img
-{
-    width: 25vw;
-    transform-origin: center center;
-    object-fit: cover;
-    position: relative;
-    left: 3.5vw;
+.imagem-grande img {
+    width: 90%;
+    height: 100%;
 }
 
-.imagens
-{
+.imagens {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    align-items: center;
+    justify-content: center;
     width: 5vw;
-    top: 38vh;
-    left: 2vw;
 }
 
-.imagens img 
-{
+.imagens img {
     height: 10vh;
     width: 5vw;
     border: 1px solid #000;
     border-radius: 7px;
     margin-top: 3vh;
     cursor: pointer;
+    transition: transform 0.2s;
 }
 
-.imagens img:hover
-{
+.imagens img:hover {
     border: 1px double rgb(0, 128, 0);
+    transform: scale(1.05);
 }
 
-#container-2
-{
+#container-2 {
     flex-direction: column;
     justify-content: flex-start;
 }
-#container-2 h1
-{
+
+#container-2 h1 {
     font-size: 1.6vw;
     margin-top: 5vh;
-
 }
-#container-2 h3
-{
+
+#container-2 h3 {
     display: flex;
     justify-content: center;
     margin-top: 3vh;
 }
-.iiimg
-{
+
+.iiimg {
     width: 100%;
     text-align: center;
     margin-top: 3vh;
-   
 }
-.continuacao h4
-{
+
+.continuacao h4 {
     font-size: 1vw;
 }
-.seguranca-extra
-{
+
+.seguranca-extra {
     width: 100%;
     height: 20vh;
     display: flex;
     justify-content: center;
     margin-top: 5vh;
 }
-.seguranca-extra p
-{
+
+.seguranca-extra p {
     text-align: center;
     font-weight: bold;
     font-size: 1.3vw;
 }
-.seguranca-menor
-{
+
+.seguranca-menor {
     width: 65%;
-
 }
- .seguranca-minima
-{
+
+.seguranca-minima {
     display: flex;
-
 }
-.seguranca-minima h5
-{
+
+.seguranca-minima h5 {
     margin-left: 1vw;
 }
-#container-3
-{
+
+#container-3 {
     width: 29%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -203,8 +197,8 @@ body
     justify-content: flex-start;
     align-items: center;
 }
-.geral
-{
+
+.geral {
     width: 70%;
     height: 18vh;
     border-radius: 15px;
@@ -213,12 +207,12 @@ body
     border: 1px solid #b8b8b8;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
-.geral h4
-{
+
+.geral h4 {
     margin-top: 1vh;
 }
-.comprar input, #salvar-carrinho
-{
+
+.comprar input, #salvar-carrinho {
     margin-top: 3vh;
     width: 20vw;
     height: 10vh;
@@ -231,25 +225,48 @@ body
     font-weight: bold;
     cursor: pointer;
 }
-.comprar input:hover
-{
+
+.comprar input:hover {
     background-color: #42e012;
 }
-#salvar-carrinho
-{
+
+#salvar-carrinho {
     font-size: 2vw;
-    
 }
-#salvar-carrinho:hover
-{
+
+#salvar-carrinho:hover {
     background-color: #42e012;   
 }
 
-
-
 /* Fim do main */
 
+/* Início da div das informações */
+.container-informacoes {
+    width: 100%;
+    height: 10vh;
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container-inf {
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #12b0e0;  
+}
+
+.informacoes h1 {
+    font-size: 2.2vw;
+    margin-left: 5vw;
+}
+
+/* Fim da div das informações */
 
 
 
-
+/* Fim da div das informações */

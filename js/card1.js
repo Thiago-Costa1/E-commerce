@@ -1,31 +1,24 @@
-// Início da substituição de imagem pelas miniatura 
-document.addEventListener('DOMContentLoaded', function()
-{
+document.addEventListener('DOMContentLoaded', function() {
     const mainImage = document.getElementById('img-grande');
     const zoomImg = document.getElementById('zoom-img');
     const thumbnails = document.querySelectorAll('.imagem-pequena');
 
-    thumbnails.forEach(thumbnail =>
-    {
-        thumbnail.addEventListener('mouseover', function()
-        {
+    thumbnails.forEach(thumbnail => {
+        thumbnail.addEventListener('mouseover', function() {
             const newSrc = this.src;
             mainImage.src = newSrc; // Substitui a imagem principal pela imagem em miniatura
             zoomImg.src = newSrc; // Atualiza a imagem de zoom também
         });
     });
 });
-// Fim da substituição de imagem pelas miniatura
 
-document.addEventListener("DOMContentLoaded", () =>
-    {
+document.addEventListener("DOMContentLoaded", () => {
     const box = document.getElementById("box");
     const img = document.getElementById("img-grande");
     const zoomContainer = document.getElementById("zoom-container");
     const zoomImg = document.getElementById("zoom-img");
 
-    box.addEventListener("mousemove", (e) =>
-        {
+    box.addEventListener("mousemove", (e) => {
         zoomContainer.style.display = "block";
 
         const rect = e.currentTarget.getBoundingClientRect();
@@ -49,8 +42,7 @@ document.addEventListener("DOMContentLoaded", () =>
         zoomImg.style.top = `-${zoomY}px`;
     });
 
-    box.addEventListener("mouseleave", () =>
-    {
+    box.addEventListener("mouseleave", () => {
         zoomContainer.style.display = "none";
     });
 });
