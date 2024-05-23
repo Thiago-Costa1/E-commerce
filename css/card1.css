@@ -81,6 +81,23 @@ body
     margin-top: 2vh;
 }
 
+/* efeito de subir do icone no h4 lista */
+.material-icons.dropdown-icon
+{
+    transition: transform 0.3s ease;
+}
+
+.material-icons.dropdown-icon.rotate
+{
+    transform: rotate(180deg);
+}
+.material-icons.dropdown-icon
+{
+    position: absolute;
+}
+
+/* Fim efeito de subir do icone no h4 lista */
+ 
 .zoom-container
 {
     width: 61vw; 
@@ -91,6 +108,7 @@ body
     border: 1px solid #ccc;
     background-color: #fff;
     margin-left: 0.5vw;
+    z-index: 999;
 }
 
 .zoom-container img 
@@ -228,6 +246,7 @@ body
 }
 .geral-interno
 {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -240,10 +259,58 @@ body
 {
     font-size: 1.5vw;
 }
+
+/* Início da tabela */
+.parcelas
+{
+    display: none;
+    position: absolute;
+    top: 60%;
+    background-color: white; /* Define a cor de fundo branca para a tabela */
+    z-index: 10; /* Garante que a tabela fique acima dos botões */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para destacar a tabela */
+    border-radius: 8px; /* Adiciona cantos arredondados para a tabela */
+    padding: 10px;
+}
+.parcelas-container
+{
+    max-height: 230px;
+    overflow-y: scroll;
+    width: 100%;
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td
+{
+    border: 1px solid black;
+}
+th, td
+{
+    padding: 8px;
+    text-align: center;
+   
+}
+th:nth-child(2), td:nth-child(2)
+{
+    width: 35%; /* Aumenta a largura da coluna Valor da Parcela */
+}
+
+th:nth-child(3), td:nth-child(3)
+{
+    width: 35%;
+}
+
+/* Fim da tabela */
+
+
 .geral-interno h4
 {
     margin-top: 1vh;
     font-size: 1.2vw;
+    cursor: pointer;
 }
 
 .geral:hover
@@ -258,7 +325,7 @@ body
     height: 10vh;
     border-radius: 15px;
     border: 1px solid #b8b8b8;
-    background-color: #e44747;
+    background-color: #e72b2b;
     font-size: 2vw;
     font-weight: bold;
     cursor: pointer;
@@ -295,15 +362,19 @@ body
     justify-content: center;
     border: 1px solid #000;
     border-radius: 10px;
-    background-color: #12b0e0;  
+    background-color: #4A6EEF;
 }
 
-.informacoes h1
+.container-inf h1
 {
     font-size: 2.2vw;
-    margin-left: 5vw;
+    cursor: pointer;
+  
 }
-
+#span1
+{
+    position: unset;
+}
 /* Fim da div das informações */
 
 /* Início da responsividade para computadores com monitor enorme */

@@ -58,3 +58,38 @@ document.addEventListener("DOMContentLoaded", () =>
 });
 
 // Fim da lógica para aplicar o zoom quando o mouse estiver sob a imagem grande
+
+/* Início da tabela */ 
+document.getElementById('parcelas-button').onclick = function() {
+    const parcelasTable = document.getElementById('parcelas-table');
+    const tbody = parcelasTable.querySelector('tbody');
+    const dropdownIcon = this.querySelector('.dropdown-icon');
+
+    // Função auxiliar para formatar o número
+    function formatNumber(num) {
+        return num.toFixed(2).replace('.', ',').replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+    }
+
+    if (parcelasTable.style.display === 'block') {
+        parcelasTable.style.display = 'none';
+        dropdownIcon.classList.remove('rotate');
+    } else {
+        tbody.innerHTML = ''; // Limpar linhas anteriores
+
+        const precoFinal = 10799.10;
+        for (let i = 2; i <= 12; i++) {
+            const valorParcela = precoFinal / i;
+            const tr = document.createElement('tr');
+            tr.innerHTML = `<td>${i}x</td><td>R$ ${formatNumber(valorParcela)}</td><td>R$ ${formatNumber(precoFinal)}</td>`;
+            tbody.appendChild(tr);
+        }
+
+        parcelasTable.style.display = 'block';
+        dropdownIcon.classList.add('rotate');   
+    }
+};
+
+
+
+
+/* Fim da tabela */

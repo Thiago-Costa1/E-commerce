@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechFlex Notebook</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./css/card1.css">
     <script src="./js/card1.js" defer></script>
 </head> 
@@ -58,9 +59,27 @@
                 <div class="geral-interno">
                     <h2>No pix: R$ 9.719,19</h2>
                     <h3>ou até 12x R$ 899,92</h3>
-                    <h4>Confira as parcelas</h4>
+                    <h4 id="parcelas-button">Confira as parcelas<span class="material-icons dropdown-icon">arrow_drop_down</span></h4>
                 </div>
             </div>
+            <!-- Início da tabela -->
+            <div class="parcelas" id="parcelas-table">
+                <div class="parcelas-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Parcelas</th>
+                                <th>Valor</th>
+                                <th>Preço Final</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Linhas das parcelas serão inseridas aqui -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- Fim da tabela -->
             <div class="comprar">
                 <input type="submit" value="Comprar">
             </div>
@@ -69,7 +88,7 @@
     </main>
     <div class="container-informacoes">
         <div class="container-inf">
-            <h1>Todas informações do produto</h1>
+            <h1>Todas informações do produto<span class="material-icons dropdown-icon" id="span1">arrow_drop_down</span></h1>
         </div> 
     </div>
 </body>    
