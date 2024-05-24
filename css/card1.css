@@ -21,7 +21,7 @@ header img
 header
 {
     height: 130px;
-    background: #444444;
+    background: linear-gradient(to right, rgb(0, 4, 255), rgb(65, 123, 231), blue);
     width: 100%;
     text-align: center;
 }
@@ -274,7 +274,7 @@ body
 }
 .parcelas-container
 {
-    max-height: 230px;
+    max-height: 329px;
     overflow-y: scroll;
     width: 100%;
 }
@@ -325,7 +325,7 @@ th:nth-child(3), td:nth-child(3)
     height: 10vh;
     border-radius: 15px;
     border: 1px solid #b8b8b8;
-    background-color: #e72b2b;
+    background-color: #00c3ff;
     font-size: 2vw;
     font-weight: bold;
     cursor: pointer;
@@ -333,12 +333,12 @@ th:nth-child(3), td:nth-child(3)
 
 .comprar input:hover
 {
-    background-color: #42e012;
+    background-color: #e01212;
 }
 
 #salvar-carrinho:hover
 {
-    background-color: #42e012;   
+    background-color: #e01212;   
 }
 
 /* Fim do main */

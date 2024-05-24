@@ -61,6 +61,7 @@ input, label
     border: 1px solid #0c0c0c;
     padding: 25px;
     margin-top: 4%;
+    margin-bottom: 3%;
 }
 #container-maximo h1
 {
@@ -123,101 +124,3 @@ input[type="submit"]
 
 /* Fim do header (menu) */
 
-/* Início da estilização do rodapé */
-
-.rodape
-{
-    width: 100%;
-    height: 130px;
-    background: #444444;
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.navegaveis
-{
-    margin-left: 4%;
-}
-
-.navegaveis ul, li a
-{
-    text-decoration: none;
-    color: #fff;
-}
-
-.rodape p
-{
-    margin-top: 7%;
-    color: #fff;
-    font-size: 0.8vw;
-}
-
-#logo_rodape
-{
-    padding-top: 17px;
-    width: 18%;
-    height: 70px;
-}
-
-.container_inputs h5
-{
-    color: #FFF;
-}
-
-.social
-{
-    display: flex;
-    margin-top: 20px;
-    color: #FFF;
-    align-items: center;
-}
-
-.social h4
-{
-    color: #FFF;
-}
-
-.social img
-{
-    
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    margin-left: 3%;
-    
-}
-
-.inputs {
-    display: flex;
-    align-items: center; /* Alinha verticalmente ao centro */
-    
-}
-
-.inputs input {
-    height: 25px;
-    border: none;
-    font-size: 0.9rem;
-    margin-bottom: 0;
-}
-
-.inputs label
-{
-    width: auto;
-}
-
-
-#input_email {
-    width: 60%;
-}
-
-#input_botao {
-    width: 135px;
-    background-color: #8326EF;
-    color: #FFF;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-/* Fim da estilização do rodapé */

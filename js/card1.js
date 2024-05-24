@@ -77,17 +77,35 @@ document.getElementById('parcelas-button').onclick = function() {
         tbody.innerHTML = ''; // Limpar linhas anteriores
 
         const precoFinal = 10799.10;
-        for (let i = 2; i <= 12; i++) {
-            const valorParcela = precoFinal / i;
+        const parcelas = [
+            { num: 2, valorParcela: 5399.55 },
+            { num: 3, valorParcela: 3599.70 },
+            { num: 4, valorParcela: 2699.775 }, 
+            { num: 5, valorParcela: 2159.82 },
+            { num: 6, valorParcela: 1799.85 },
+            { num: 7, valorParcela: 1542.728571428571 }, // Ajustado
+            { num: 8, valorParcela: 1349.8875 }, // Ajustado
+            { num: 9, valorParcela: 1199.90 },
+            { num: 10, valorParcela: 1079.91 },
+            { num: 11, valorParcela: parseFloat(((precoFinal * 1.05) / 11).toFixed(2)) }, // com juros
+            { num: 12, valorParcela: parseFloat(((precoFinal * 1.09) / 12).toFixed(2)) }  // com juros
+        ];
+
+        parcelas.forEach(parcela => {
+            const valorTotalParcelado = parseFloat((parcela.valorParcela * parcela.num).toFixed(2));
             const tr = document.createElement('tr');
-            tr.innerHTML = `<td>${i}x</td><td>R$ ${formatNumber(valorParcela)}</td><td>R$ ${formatNumber(precoFinal)}</td>`;
+            tr.innerHTML = `<td>${parcela.num}x</td><td>R$ ${formatNumber(parcela.valorParcela)}</td><td>R$ ${formatNumber(valorTotalParcelado)}</td>`;
             tbody.appendChild(tr);
-        }
+        });
 
         parcelasTable.style.display = 'block';
         dropdownIcon.classList.add('rotate');   
     }
 };
+
+
+
+
 
 
 
