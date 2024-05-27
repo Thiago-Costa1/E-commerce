@@ -12,10 +12,13 @@
     <!-- Início do header (menu) -->
 
     <header class="container">
-        <img src="./img/logo.png" alt="logo" id="logo">
+        <div class="logo-site">
+            <img src="./img/logo.png" alt="logo" id="logo">
+        </div>
         <nav class="navbar">
             <ul class="nav-links">
-                <li class="nav-link services"><a href="#">Categorias<span class="material-icons dropdown-icon">arrow_drop_down</span></a>
+                <li class="nav-link services">
+                    <a href="#">Categorias<span class="material-icons dropdown-icon">arrow_drop_down</span></a>
                     <div class="drop-down-container">
                         <ul class="drop-down">
                             <li><a href="#card-1">Notebook: gamer</a></li>
@@ -25,7 +28,7 @@
                         <ul class="drop-down">
                             <li><a href="#api-card-um">Atendimento</a></li>
                             <li><a href="#opiniao-cli">Opinião dos clientes</a></li>
-                            <li><a href="#duvidas_cliente">Dúvidas frequentes   </a></li>
+                            <li><a href="#duvidas_cliente">Dúvidas frequentes</a></li>
                         </ul>
                     </div>
                 </li>
@@ -34,14 +37,23 @@
                 <li class="nav-link"><a href="#card2">Suporte</a></li>
             </ul>
         </nav>
-        <label for="inp_pesquisar"></label>
-        <input type="text" placeholder="Pesquisar." id="inp_pesquisar">
+        <div class="input-pesquisar">
+            <label for="inp_pesquisar"></label>
+            <input type="text" placeholder="Pesquisar." id="inp_pesquisar">
+        </div>
         <img src="./img/icon-lupa.png" alt="lupa" id="icone_lupa">
         <div class="pjunto">
-            <a href="cadastro.html"><img src="./img/icon-login.png" alt="login" id="icone_login"></a>
-            <p>Cadastro</p>
+            <a href="#"><img src="./img/icon-login.png" alt="login" id="icone_login"></a>
+            <p>Cadastro/Login</p>
+            <div id="options-box" class="hidden">
+                <p>Faça o seu cadastro abaixo</p>
+                <a href="cadastro.html" class="grad-link">Cadastro</a>
+                <p>Faça o login abaixo</p>
+                <a href="login.html" class="grad-link">Login</a>
+            </div>
         </div>
     </header>
+    
   
     <!-- Início do carrossel -->
 
@@ -97,7 +109,7 @@
                 <p>À Vista: R$ 9.719,19 </p>
                 <h5>10% DE DESCONTO</h5>
             </div>
-            <a href="card1.html"><button id="botao-card">Comprar</button></a>
+            <a href="./cards/card1.html"><button id="botao-card">Comprar</button></a>
         </div>
         <div class="card" id="card-2">
             <img src="./img/tuf_asus.png" alt="notebook">
@@ -117,7 +129,7 @@
                 <p>À Vista: R$ 6.075,00</p>
                 <h5>10% DE DESCONTO</h5>
             </div>
-            <button id="botao-card">Comprar</button>
+            <a href="./cards/card2.html"><button id="botao-card">Comprar</button></a>
         </div>
         <div class="card" id="card-3">
             <img src="./img/nitro_acer.png" alt="notebook">

@@ -21,6 +21,23 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor =>
 
 // Fim da rolagem suave e centralização do conteúdo clicado
 
+document.addEventListener('DOMContentLoaded', () => {
+    const iconeLogin = document.getElementById('icone_login');
+    const optionsBox = document.getElementById('options-box');
+
+    iconeLogin.addEventListener('click', (event) => {
+        event.preventDefault(); // Prevenir ação padrão do link
+        optionsBox.classList.toggle('hidden');
+    });
+
+    document.addEventListener('click', (event) => {
+        if (!iconeLogin.contains(event.target) && !optionsBox.contains(event.target)) {
+            optionsBox.classList.add('hidden');
+        }
+    });
+});
+
+
 // Início do javascript do carrossel //
 
 	var radio = document.querySelector('.manual-btn')
@@ -175,3 +192,4 @@ function esconderPergunta(id)
 }
 
 // Fim da formatação para mostrar e esconder as respostas
+

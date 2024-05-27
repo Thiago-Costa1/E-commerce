@@ -59,14 +59,16 @@ document.addEventListener("DOMContentLoaded", () =>
 
 // Fim da lógica para aplicar o zoom quando o mouse estiver sob a imagem grande
 
-/* Início da tabela */ 
-document.getElementById('parcelas-button').onclick = function() {
+/* Início da tabela das parcelas*/ 
+document.getElementById('parcelas-button').onclick = function()
+{
     const parcelasTable = document.getElementById('parcelas-table');
     const tbody = parcelasTable.querySelector('tbody');
     const dropdownIcon = this.querySelector('.dropdown-icon');
 
     // Função auxiliar para formatar o número
-    function formatNumber(num) {
+    function formatNumber(num)
+    {
         return num.toFixed(2).replace('.', ',').replace(/\B(?=(\d{3})+(?!\d))/g, '.');
     }
 
@@ -91,7 +93,8 @@ document.getElementById('parcelas-button').onclick = function() {
             { num: 12, valorParcela: parseFloat(((precoFinal * 1.09) / 12).toFixed(2)) }  // com juros
         ];
 
-        parcelas.forEach(parcela => {
+        parcelas.forEach(parcela =>
+        {
             const valorTotalParcelado = parseFloat((parcela.valorParcela * parcela.num).toFixed(2));
             const tr = document.createElement('tr');
             tr.innerHTML = `<td>${parcela.num}x</td><td>R$ ${formatNumber(parcela.valorParcela)}</td><td>R$ ${formatNumber(valorTotalParcelado)}</td>`;
@@ -103,11 +106,30 @@ document.getElementById('parcelas-button').onclick = function() {
     }
 };
 
+/* Fim da tabela das parcelas */
+
+document.addEventListener('DOMContentLoaded', function()
+{
+    const containerInf = document.querySelector('.container-inf');
+    const containerInterno = document.querySelector('.container-interno');
+    const dropdownIcon = document.querySelector('#span1');
+
+    containerInf.addEventListener('click', function() {
+        const isVisible = containerInterno.style.display === 'flex';
+
+        if (isVisible) {
+            containerInterno.style.display = 'none';
+            dropdownIcon.classList.remove('rotacao-cima');
+            dropdownIcon.classList.add('rotate-down');
+        } else {
+            containerInterno.style.display = 'flex';
+            dropdownIcon.classList.remove('rotacao-baixo');
+            dropdownIcon.classList.add('rotacao-cima');
+        }
+    });
+});
 
 
 
 
 
-
-
-/* Fim da tabela */
