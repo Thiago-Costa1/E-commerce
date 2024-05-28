@@ -68,8 +68,8 @@ input, label
     border-radius: 10px;
     border: 1px solid none;
     padding: 25px;
-    margin-top: 4%;
-    margin-bottom: 3%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 #container-maximo h1
 {
