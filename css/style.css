@@ -8,7 +8,8 @@
 }
 body
 {
-    background-color: #e4e0e0;
+    background-color: midnightblue;
+    color: rgb(252, 196, 25);
 }
 
 /* Início da estilização do header (menu) */ 
@@ -32,7 +33,12 @@ body
     height: 100px;
     display: flex;
     font-size: 14px;
-    background: linear-gradient(to right, #3b3c50, rgb(61, 67, 78), #3b3c50);
+    background: rgb(224, 224, 224);
+}
+
+.nav-link a
+{
+    color: rgb(252, 196, 25);
 }
 
 .navbar {
@@ -42,6 +48,7 @@ body
     margin-left: 3vw;
 }
 
+
 .navbar ul {
     font-size: 20px;
 }
@@ -50,6 +57,8 @@ body
     display: flex;
     gap: 2rem;
 }
+
+
 
 .input-pesquisar {
     width: 12%;
@@ -67,7 +76,7 @@ body
 }
 .nav-link:hover
 {
-    background-color: #000;
+    background-color: #000000;
     border-radius: 10px;
 }
 
@@ -133,6 +142,7 @@ a {
 .services a {
     display: flex;
     align-items: center;
+    color: rgb(252, 196, 25);
 }
 
 .services .dropdown-icon {
@@ -191,7 +201,7 @@ a {
 .pjunto p
 {
     margin-top: -5px;
-    color: #FFF;
+    color: rgb(252, 196, 25);
     font-weight: 600;
 }
 .pjunto img
@@ -239,6 +249,7 @@ a {
 .hidden {
     display: none;
 }
+
 
 
 
@@ -429,7 +440,7 @@ section.slider
 }
 #card-6:hover img
 {
-    content: url('../img/positivo2.png');
+    content: url('../img/positivo3.png');
 }
 #card-7:hover img
 {
@@ -475,7 +486,7 @@ section.slider
 .card-ul li
 {
     text-align: left;
-    color: #000;
+    color: rgb(252, 196, 25);
     font-size: 1vw;
     font-weight: bold;
     margin-left: 3%;
@@ -877,7 +888,7 @@ section.slider
 {
     width: 15%;
     height: 155px;
-    background-color: #c0bbbb;
+    background-color: #425fc3;
     margin-left: 5%;
     border-radius: 10px;
     text-align: center;
@@ -1011,6 +1022,11 @@ section.slider
     background-color: #4A6EEF;
     border-radius: 15px;
 }
+
+.pergunta h2
+{
+    color: rgb(252, 196, 25);
+}
 .resposta
 {
     display: none;
@@ -1040,8 +1056,8 @@ section.slider
     height: 60px;
     align-items: center;
     margin-top: 30px;
-    background-color: #4A6EEF;
-    color: #FFF;
+    background-color: #425fc3;
+    color: rgb(252, 196, 25);
     font-weight: bold;
 }
 .section-opiniao
@@ -1102,12 +1118,14 @@ section.slider
 .rodape
 {
     width: 100%;
-    height: 130px;
-    background: linear-gradient(to right, rgb(0, 4, 255), rgb(54, 115, 228), blue);
+    height: 130px;  
+    border-top: 1px solid;
+    border-top: 1px solid;
     margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: rgb(224, 224, 224);;
 }
 
 .navegaveis
@@ -1118,13 +1136,13 @@ section.slider
 .navegaveis ul, li a
 {
     text-decoration: none;
-    color: #fff;
+    color: rgb(252, 196, 25);
 }
 
 .rodape p
 {
     margin-top: 7%;
-    color: #fff;
+    color: rgb(252, 196, 25);
     font-size: 0.8vw;
 }
 
@@ -1150,7 +1168,7 @@ section.slider
 
 .container_inputs h5
 {
-    color: #FFF;
+    color: rgb(252, 196, 25);
 }
 
 #input_email
@@ -1173,6 +1191,11 @@ section.slider
     margin-top: 20px;
     color: #FFF;
     align-items: center;
+}
+
+.social h4
+{
+    color: rgb(252, 196, 25);
 }
 
 .social a img
