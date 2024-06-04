@@ -105,6 +105,10 @@ body
 }
 
 /* Fim efeito de subir do icone no h4 lista */
+
+
+
+
  
 .zoom-container
 {
@@ -117,6 +121,7 @@ body
     background-color: #fff;
     margin-left: 0.5vw;
     z-index: 999;
+    
 }
 
 .zoom-container img 
@@ -138,8 +143,9 @@ body
 .imagem-grande img
 {
     width: 90%;
-    height: 100%;
+    height: 90%;
 }
+
 
 .imagens 
 {
@@ -273,7 +279,7 @@ body
 {
     display: none;
     position: absolute;
-    top: 53.3%;
+    top: 54vh;
     background-color: #fff; 
     z-index: 10; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
@@ -434,9 +440,6 @@ th, td
 {
     position: unset;
 }
-
-
-
 /* Fim da tabela */
 /* Fim da div das informações */
 
