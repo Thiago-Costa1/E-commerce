@@ -317,26 +317,26 @@ section.slider
 
 /* Estilo para os botões de navegação manual e os indicadores automáticos do carrossel */
 .nav-manual .manual-btn, .nav-auto div{
-    border: 1px solid rgb(30, 253, 0); /* Borda dos botões e indicadores */
-    padding: 10px; /* Preenchimento dos botões e indicadores */
-    border-radius: 50%; /* Borda arredondada dos botões e indicadores */
+    border: 1px solid rgb(30, 253, 0); 
+    padding: 10px;
+    border-radius: 50%; 
     cursor: pointer;
     transition: 0.2s;
 }
 
 /* Estilo para os botões de navegação manual e indicadores automáticos, exceto o último */
 .nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){ 
-    margin-right: 10px; /* Margem à direita para espaçamento uniforme (exceto o último) */
+    margin-right: 10px; 
 }                
 
 /* Estilo para o botão manual ao passar o mouse sobre ele */
 .nav-manual .manual-btn:hover{
-    background-color: rgb(30, 253, 0); /* Mudar a cor de fundo ao passar o mouse */
+    background-color: rgb(30, 253, 0); 
 }
 
 /* Estilo para os indicadores automáticos quando um slide específico está marcado */
 #radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3
- {     /* quando estiver marcado */   
+{     
     background-color: rgb(30, 253, 0); 
 }     
     
@@ -421,6 +421,11 @@ section.slider
 {
     font-size: 16px;
     color: #333; 
+}
+
+.placa-video
+{
+    transform: rotate(270deg);
 }
 
 .card:hover 
@@ -765,7 +770,6 @@ section.slider
 #atendente
 {
     width: 20%;
-    height: 7em;
     float: right;
     margin-top: -1%;
     margin-right: 12%;
