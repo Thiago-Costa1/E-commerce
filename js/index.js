@@ -19,6 +19,18 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor =>
     });
 });
 
+function redirecionar()
+{
+        const query = document.getElementById('inp_pesquisar').value.toLowerCase();
+        if (query === "")
+        {
+            alert("Por favor, digite o modelo do notebook que deseja buscar.");
+        } else
+        window.location.href = `pesquisa.html?query=${query}`;
+
+}
+
+
 // Fim da rolagem suave e centralização do conteúdo clicado
 
 document.addEventListener('DOMContentLoaded', () => {

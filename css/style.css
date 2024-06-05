@@ -33,7 +33,7 @@ body
     height: 100px;
     display: flex;
     font-size: 14px;
-    background: rgb(224, 224, 224);
+    background: rgb(95, 88, 88);
 }
 
 .nav-link a
@@ -57,7 +57,6 @@ body
     display: flex;
     gap: 2rem;
 }
-
 
 
 .input-pesquisar {
@@ -180,12 +179,23 @@ a {
     color: #FFF;
 }
 
+.btn-div
+{
+    display: flex;
+    align-items: center;
+}
+
+.btn-div button
+{
+    height: 20px;   
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 #icone_lupa {
     width: 20px;
-    height: 15%;
     margin-left: 0.5%;
-    cursor: pointer;
-    margin-top: 43px;
 }
 
 .pjunto
@@ -663,7 +673,7 @@ section.slider
 
 .container_modal
 {
-    background-color: #c9c9c9;
+    background-color: midnightblue;
     width: 60%;
     height: auto;
     margin-left: 20%;
@@ -695,13 +705,13 @@ section.slider
 .container_modal h1
 {
     text-align: center;
-    color: #000000;
+    background-color: midnightblue;
     margin-top: 19px;
 }
 
 .container_modal h3
 {
-    color: #000000;
+    color: rgb(252, 196, 25);
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 10px;
@@ -717,7 +727,7 @@ section.slider
 
 .container_modal h2
 {
-    color: #000000;
+    color: rgb(252, 196, 25);
     margin-top: 20px;
     margin-left: 8%;
 }
@@ -774,7 +784,7 @@ section.slider
 
 .container_modal2
 {
-    background-color: #c9c9c9;
+    background-color: midnightblue;
     width: 60%;
     height: auto;
     margin-left: 20%;
@@ -1125,7 +1135,7 @@ section.slider
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgb(224, 224, 224);;
+    background-color: rgb(95, 88, 88);
 }
 
 .navegaveis

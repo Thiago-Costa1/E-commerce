@@ -1,0 +1,349 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #e4e4e4;
+}
+
+header
+{
+    height: 100px;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-logo
+{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container-logo img
+{
+    width: 80%;
+    height: 50%;
+}
+.container-logo a h4
+{
+    color: #fff;
+}
+header a
+{
+    text-decoration: none;
+}
+.page
+{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 84.3vh;
+    
+}
+.card
+{
+    width: 30%;
+    max-width: 450px;
+    background: #fff;
+    padding: 34px;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px 0px rgba(0,0,0,0.1);
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.campo
+{
+    padding: 15px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    transition: all linear 190ms;
+    font-size: 0.9em;
+    color: #444;
+    margin-bottom: 5px;
+    outline: none;
+}
+.campo::placeholder
+{
+    color: #666;
+}
+.campo:focus
+{
+    border-color:#090979 ;
+}
+.btn
+{
+    padding: 15px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: #090979;
+    cursor: pointer;
+    transition: all linear 190ms;
+}
+.btn:hover
+{
+    transform: scale(1.04);
+    background-color: #1414db;
+}
+p
+{
+    font-size: 0.9em;
+    color: #666;
+}
+h2
+{
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #444;
+}
+
+
+
+
+
+.card {
+    width: 20%; 
+    border: 1px solid #4d4d4d; 
+    margin-top: 57px;
+    padding: 10px;
+    margin-left: 25px;
+    display: inline-block; /* Exibir como bloco em linha */
+    border-radius: 15px; 
+    text-align: center;
+    box-sizing: border-box;
+    transition: border-color 0.5s, transform 0.5s; /* Aplicando a transição apenas às propriedades necessárias */
+    position: relative; /* Movido aqui para que não haja transição de position */
+}
+
+.value-timer-group
+{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.card:hover .value-timer-group
+{
+    display: none;
+}
+
+#cronometro
+{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 41px;
+    position: absolute;
+    margin-left: -45%;
+}
+
+.card:hover #cronometro
+{
+    display: none;
+}
+
+.countdown img
+{
+    margin-left: 2%;
+    position: absolute;
+    margin-top: 10px;
+}
+
+#timer
+{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.countdown
+{
+    margin-top: -7px;
+}
+
+#countdown-timer
+{
+    font-size: 16px;
+    color: #333; 
+}
+
+.card:hover 
+{
+    background-color: #ffffff;
+    transform: scale(1.1);
+}
+.card:hover img
+{
+    content: url('../img/rog_asus2.png');
+}   
+#card-2:hover img
+{
+    content: url('../img/tuf_asus2.png');
+}
+#card-3:hover img
+{
+    content: url('../img/nitro_acer2.png');
+}
+#card-4:hover img
+{
+    content: url('../img/triton_acer2.png');
+}
+#card-5:hover img
+{
+    content: url('../img/hp2.png');
+}
+#card-6:hover img
+{
+    content: url('../img/positivo3.png');
+}
+#card-7:hover img
+{
+    content: url('../img/lenovo_asus2.png');
+}
+#card-8:hover img
+{
+    content: url('../img/vaio2.png');
+}
+#card-9:hover img
+{
+    content: url('../img/alienware2.png');
+}
+#card-10:hover img 
+{
+    content: url('../img/MacBook_apple2.png');
+}
+#card-11:hover img
+{
+    content: url('../img/legion_lenovo2.png');
+}
+#card-12:hover img
+{
+    content: url('../img/predator_helios2.png');
+}
+
+.card:hover .icones_card img
+{
+    display: none;
+}
+.section-card
+{
+    margin-left: 8%;
+}
+.card-ul
+{
+    margin-top: 20px;
+    list-style-type: none;
+    margin-left: 22px;
+    position: relative;
+}
+
+.card-ul li
+{
+    text-align: left;
+    color: rgb(252, 196, 25);
+    font-size: 1vw;
+    font-weight: bold;
+    margin-left: 3%;
+    position: relative; 
+}
+
+.card .icones_card
+{
+    display: grid;
+    position: absolute;
+    margin-top: 18px;
+}   
+
+.card .icones_card img
+{
+    width: 16px;
+    height: 16px;
+   
+    
+}
+
+.card img
+{
+    margin-top: 4.5px; 
+    height: 122px; 
+    width:100%;
+}
+
+.card:hover h4
+{
+    display: none;
+}
+
+.card h4
+{
+    margin-top: 35px;
+}
+
+.value-timer-group h4
+{
+    margin: 0;
+
+}
+
+.card button
+{    
+    display: none;
+    width: 70%;
+    height: 35px;
+    background-color: #df4141;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2vw;
+}
+
+.card:hover button
+{
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+#botao-card:hover
+{
+    background-color: #11b811;
+}
+
+.card:hover .fundo p, .card:hover .fundo h5 
+{
+    display: block;
+}
+
+.fundo p
+{
+    font-size: 1.2vw;
+    font-weight: bold;
+    display: none;
+    margin-top: 25px;
+    color: #ff0000;
+}
+
+.card .fundo h5 
+{
+    font-size: 0.7vw;
+    display: none;
+    color: #ff0000;
+    
+}
+
+/* Fim da estilização dos cards */ 

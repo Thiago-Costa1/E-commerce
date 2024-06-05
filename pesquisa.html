@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa</title>
+    <link rel="stylesheet" href="./css/pesquisa.css">
+    <script src="./js/pesquisa.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container-logo">
+            <img src="./img/logo.png" alt="logo">
+            <a href="index.html"><h4>Voltar a página inicial</h4></a> 
+        </div>  
+    </header>
+
+        <h1>Resultados da Busca</h1>
+        <p id="search-query"></p>
+
+        <div id="filter-container">
+            <label for="filter-select">Filtrar por:</label>
+            <select id="filter-select" onchange="filterResults(this.value)">
+                <option value="">Selecione um filtro</option>
+                <option value="cheapest">Mais Baratos</option>
+                <option value="gaming">Para Jogar</option>
+                <option value="working">Para Trabalhar</option>
+            </select>
+        </div>
+
+    <div id="results-container">
+        <!-- Resultados da busca serão exibidos aqui -->
+    </div>
+
+
+
+</body>
+</html>
