@@ -1259,7 +1259,7 @@ section.slider
 /* Fim da responsividade para computadores com grande monitor */
 
 /* Início da responsividade para computadores com monitor enorme */
-@media only screen and (min-width: 1601px) and (max-width: 4000px)
+@media only screen and (min-width: 1501px) and (max-width: 4000px)
 
 {
   
@@ -1306,6 +1306,11 @@ section.slider
     .container_modal
     {
         margin-top: 13em;
+    }
+
+    .container_modal2
+    {
+        margin-top: 7.5em;
     }
 
 

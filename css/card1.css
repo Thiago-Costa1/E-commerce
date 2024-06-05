@@ -441,7 +441,11 @@ th, td
 /* Fim da div das informações */
 
 /* Início da responsividade para computadores com monitor enorme */
-@media only screen and (min-width: 1601px) and (max-width: 4000px)
+@media only screen and (min-width: 1600px) and (max-width: 4000px)
 {
+.parcelas
+{
+    top: 49.3%;
+}
 
 }
