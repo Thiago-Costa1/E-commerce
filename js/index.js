@@ -205,3 +205,9 @@ function esconderPergunta(id)
 
 // Fim da formatação para mostrar e esconder as respostas
 
+
+function toggleMenu() {
+    var navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('show');
+}
+

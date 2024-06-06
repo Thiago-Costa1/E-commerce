@@ -10,7 +10,6 @@
 </head>
 <body>
     <!-- Início do header (menu) -->
-
     <header class="container">
         <div class="logo-site">
             <img src="./img/logo.png" alt="logo" id="logo">
@@ -37,6 +36,7 @@
                 <li class="nav-link"><a href="#card2">Suporte</a></li>
             </ul>
         </nav>
+        
         <div class="input-pesquisar">
             <label for="inp_pesquisar"></label>
             <input type="text" placeholder="Pesquisar." id="inp_pesquisar">
@@ -45,6 +45,13 @@
             <button>
                 <img src="./img/icon-lupa.png" alt="lupa" id="icone_lupa" onclick="redirecionar()">
             </button>
+        </div>
+        <div class="container-menu">
+            <div class="menu-hamburguer" onclick="toggleMenu()">
+                <div class="linha"></div>
+                <div class="linha"></div>
+                <div class="linha"></div>
+            </div>
         </div>
         
         
@@ -59,8 +66,7 @@
             </div>
         </div>
     </header>
-    
-  
+
     <!-- Início do carrossel -->
 
     <section class="slider">
