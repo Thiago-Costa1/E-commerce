@@ -278,6 +278,7 @@ a {
     {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .logo-site {
@@ -299,15 +300,19 @@ a {
         display: none;
         flex-direction: column;
         width: 100%;
-        background-color: #fff;
+        background-color: midnightblue;
         position: absolute;
         top: 60px;
         left: 0;
         z-index: 1000;
+        margin-left: 0px;
     }
 
     .navbar.show {
         display: flex;
+        margin-top: 40px;
+        border-bottom-left-radius: 28px;
+        border-top-left-radius: 28px;
     }
 
     .input-pesquisar {
@@ -317,6 +322,17 @@ a {
 
     #inp_pesquisar {
         width: 100%;
+    }
+
+    .nav-link:hover
+    {
+        background-color: transparent;
+    }
+
+    .drop-down-container
+    {
+        background-color: transparent;
+        box-shadow: none;
     }
 
     .container-menu
@@ -331,26 +347,52 @@ a {
     .navbar ul {
         flex-direction: column;
         width: 100%;
+        background-color: transparent;
     }
 
     .nav-links {
         flex-direction: column;
+
         gap: 0;
     }
 
     .nav-link {
         width: 100%;
         text-align: center;
+        font-size: 6vw;
+        
     }
 
     .drop-down-container {
         position: static;
+        flex-direction: column;
     }
 
     .drop-down {
         flex-direction: column;
+        
+    }
+
+    .drop-down-container .drop-down 
+    {
+        font-size: 5vw;
+    }
+
+    .drop-down li a 
+    {
+        color: rgb(252, 196, 25);
+    }
+
+    .drop-down-container ul
+    {
+        padding: 0;
     }
     
+
+    .nav-link.services
+    {
+        flex-direction: column;
+    }
 
     .largura-geral h1
     {
