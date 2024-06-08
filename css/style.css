@@ -56,6 +56,12 @@ body
     gap: 2rem;
 }
 
+.hambs-global
+{
+    display: none;
+}
+
+
 .input-pesquisar {
     width: 12%;
     display: flex;
@@ -131,6 +137,11 @@ a {
 
 .nav-link.services {
     position: relative;
+}
+
+#cadA, #logB
+{
+    display: none;
 }
 
 
@@ -388,10 +399,6 @@ a {
         transform: rotate(180deg);
     }
     
-
-
-
-
     .drop-down-container .drop-down 
     {
         font-size: 5vw;
@@ -431,19 +438,35 @@ a {
         flex-direction: column-reverse;
     }
 
+    #cadA, #logB
+    {
+    display: block;
+    font-size: 5vw;
+    font-weight: bold;
+    }
+
+    .hambs-global
+    {
+        width: 100%;
+        height: 40px;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hambs-interno
+    {
+        width: 80%;
+        background-color: #007BFF;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+
 
 } 
 
-
-
-/* Início da responsividade para celular */
-
-
-
-
-
-
-/* Fim da responsividade para celular */
 
 
 
