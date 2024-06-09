@@ -509,11 +509,63 @@ a {
     {
         font-size: 5vw !important;
     }
+
+    .container-pag
+    {
+        display: flex !important;
+        width: 100% !important;
+        justify-content: space-evenly !important;
+        height: 50% !important;
+        background-color: blueviolet;
+    }
+
+    .formas-pagamento
+    {
+        display: block !important;
+        height: 290px !important;
+        background-color: red;
+    }
+
+    .segundo
+    {
+        flex-flow: row-reverse !important;
+    }
+
+    .imagens-site
+    {
+        margin-top: 70px !important;
+    }
+
+    .imagens-pagamento2
+    {
+        margin-top: 0px !important;
+    }
+
+    .largura-geral
+    {
+        width: 50% !important; 
+        height: 100% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+    }
+
+
+
+    .imagens-pagamento, .imagens-pagamento4, .imagens-pagamento3, .imagens-pagamento2
+    {
+        width: 50% !important;
+        height: 61% !important;
+        margin-left: 0px !important;
+        object-fit: contain !important;
+    }
+
+    .largura-geral h1
+    {
+        font-size: 5vw !important;
+    }
 } 
-
-
-
-
 
 
 
@@ -1258,40 +1310,57 @@ section.slider
 {
     margin-top: 4em;
     width: 100%;
-    height: 8em;
+    height: 180px;
     display: flex;
     justify-content: space-evenly;
     
 }
-
-.largura-geral
+.segundo
 {
-    width: 10%;
-    height: 6.5em;
-       
-} 
+    display: flex;
+}
+
 
 .imagens-pagamento, .imagens-pagamento2, .imagens-pagamento3, .imagens-pagamento4
 {
     background-image: url(../img/pix.png);
-    width: 80%;
-    height: 100px;
+    width: 49%;
+    height: 7vw;
     background-size: cover;
     background-position: center; 
-    margin-left: 8%;
+    object-fit: contain;
 }
 
 .largura-geral h1
 {
     text-align: center;
     font-weight: bold;
+    font-size: 2vw;
+}
+
+.largura-geral
+{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.container-pag
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .imagens-pagamento2
 {
     background-image: url(../img/boleto.png);
-    height: 110px;
-    margin-top: -13px;
+    
     text-align: center;
 }
 
