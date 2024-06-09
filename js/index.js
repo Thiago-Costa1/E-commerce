@@ -105,9 +105,9 @@ function fecharModal2(event) {
 // Countdown timers
 var timers = document.querySelectorAll('.countdown-timer');
 var deadlines = [
-    new Date("May 31, 2024 23:59:59").getTime(),
-    new Date("May 28, 2024 23:59:59").getTime(),
-    new Date("May 29, 2024 23:59:59").getTime(),
+    new Date("June 31, 2024 23:59:59").getTime(),
+    new Date("June 23, 2024 23:59:59").getTime(),
+    new Date("June 20, 2024 23:59:59").getTime(),
 ];
 
 timers.forEach(function (timer, index) {
