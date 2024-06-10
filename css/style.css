@@ -598,6 +598,106 @@ a {
         position: relative !important;
     }
 
+
+    
+
+    .container-api
+    {
+        display: flex;
+        flex-wrap: wrap !important;
+    }
+
+    .api-cards
+    {
+        flex: 1 1 25% !important;
+    }
+
+    .localizacao
+    {
+        flex: 1 1 100% !important;
+    }
+
+    #api-card-um
+    {
+        margin-left: 0px !important;
+    }
+
+    .container-api
+    {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+
+    .localizacao h1
+    {
+        margin-top: 15px !important;
+    }
+
+    .localizacao p
+    {
+        margin-left: 0px !important;
+        margin-top: 10px !important;
+    }
+
+    .localizacao p br
+    {
+        display: none !important;
+    }
+
+    .container_modal
+    {
+        width: 96% !important;
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+        height: auto !important;
+    }
+
+    .container_modal h2
+    {
+       margin-top: 57px !important; 
+    }
+
+    #txtHora
+    {
+        margin-left: 40% !important;
+        margin-top: 33px !important;
+    }
+
+    #atendente
+    {
+        margin-top: 25px !important;
+
+    }
+
+    #botao_enviar
+    {
+        font-size: 6vw !important;
+        width: 29% !important;
+    }
+
+    .container_modal2
+    {
+        width: 96% !important;
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+    }
+
+    .fechar_modal
+    {
+        position: relative !important;
+        float: right;
+    }
+
+    #botao_enviar2
+    {
+        width: 29% !important;
+        font-size: 5vw !important;
+    }
+
+
+
+
+
 } 
 
 
