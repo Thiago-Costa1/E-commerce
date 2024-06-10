@@ -516,14 +516,13 @@ a {
         width: 100% !important;
         justify-content: space-evenly !important;
         height: 50% !important;
-        background-color: blueviolet;
+        
     }
 
     .formas-pagamento
     {
         display: block !important;
         height: 290px !important;
-        background-color: red;
     }
 
     .segundo
@@ -531,10 +530,6 @@ a {
         flex-flow: row-reverse !important;
     }
 
-    .imagens-site
-    {
-        margin-top: 70px !important;
-    }
 
     .imagens-pagamento2
     {
@@ -565,6 +560,44 @@ a {
     {
         font-size: 5vw !important;
     }
+
+    .dentro
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .imagens-site
+    {
+        margin-top: 70px !important;
+        flex-direction: column !important;
+        height: 1125px !important;  
+        width: 100% !important;
+        display: flex !important;
+    }
+
+    .imagens01
+    {
+        width: 100% !important;
+        height: 33.4% !important;
+    }
+    
+    .imagens02, .imagens03
+    {
+        width: 100% !important;
+        height: 33.3% !important;
+    }
+
+    .conjunto
+    {
+        top: 0px !important;
+        position: relative !important;
+    }
+
 } 
 
 
