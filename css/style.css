@@ -426,12 +426,6 @@ a {
     }
 
 
-    .rodape
-    {
-        flex-direction: column;
-        height: auto !important;
-    }
-
     .container_inputs
     {
         display: flex;
@@ -718,7 +712,62 @@ a {
 
 
 
+    
+
+    .rodape
+    {
+        flex-direction: column-reverse;
+        height: auto !important;
+        flex-wrap: wrap !important;
+        
+    }
+
+    .container_inputs
+    {
+        order: 3 !important;
+    }
+
+    .navegaveis
+    {
+        order: 2 !important;
+        flex: 1 1 50% !important;
+        margin-left: 0px !important;
+        width: auto !important;
+        margin-top: 31px !important;
+    }
+
+    #logo_rodape
+    {
+        order: 1 !important;
+        flex: 1 1 50% !important;
+        width: 49% !important;
+        object-fit: contain !important;
+        margin-left: 0px !important;
+    }
+
+    #seta
+    {
+        order: 4 !important;
+    }
+
+    .rodape p
+    {
+        order: 5 !important;
+        font-size: 3vw !important;
+    }
+
+
+
+
+
+
+
+
+
 } 
+
+
+
 
 
 
