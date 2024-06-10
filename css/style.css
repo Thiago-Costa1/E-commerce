@@ -694,9 +694,16 @@ a {
         font-size: 5vw !important;
     }
 
+    .duvidas-cliente
+    {
+        margin-left: 2% !important;
+        width: 96% !important;
+    }
 
-
-
+    .resposta
+    {
+        height: auto !important;
+    }
 
 } 
 
@@ -1518,7 +1525,7 @@ section.slider
 }
 .pergunta
 {
-    background-color: #4A6EEF;
+    background-color: #425fc3;
     border-radius: 15px;
 }
 
@@ -1532,7 +1539,7 @@ section.slider
     background-color: #02004D;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    height: 30px;
+    height: auto;
 }
 .resposta p
 {
@@ -1555,7 +1562,7 @@ section.slider
     height: 60px;
     align-items: center;
     margin-top: 30px;
-    background-color: #425fc3;
+    background-color: #4A6EEF;
     color: rgb(252, 196, 25);
     font-weight: bold;
 }

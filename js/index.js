@@ -132,16 +132,46 @@ timers.forEach(function (timer, index) {
 });
 
 // FAQ toggle
+function isMobile() {
+    return window.innerWidth <= 768; // ou qualquer largura que você considere como mobile
+}
+
 function mostrarPergunta(id) {
-    var resposta = document.getElementById(id);
-    resposta.style.display = "block";
+    if (!isMobile()) {
+        var resposta = document.getElementById(id);
+        resposta.style.display = "block";
+    }
 }
 
 function esconderPergunta(id) {
-    var resposta = document.getElementById(id);
-    resposta.style.display = "none";
+    if (!isMobile()) {
+        var resposta = document.getElementById(id);
+        resposta.style.display = "none";
+    }
 }
 
+function togglePergunta(id) {
+    if (isMobile()) {
+        var resposta = document.getElementById(id);
+        if (resposta.style.display === "block" || resposta.style.display === "") {
+            resposta.style.display = "none";
+        } else {
+            resposta.style.display = "block";
+        }
+    }
+}
+
+// Adiciona um listener para ajustar quando a tela for redimensionada
+window.addEventListener('resize', function() {
+    var respostas = document.querySelectorAll('.resposta');
+    respostas.forEach(function(resposta) {
+        if (isMobile()) {
+            resposta.style.display = "none"; // Oculta todas as respostas no mobile por padrão
+        } else {
+            resposta.style.display = ""; // Reseta o estilo no desktop para depender do mouseover/mouseout
+        }
+    });
+});
 // Navbar toggle for mobile
 function toggleMenu() {
     var navbar = document.querySelector('.navbar');
