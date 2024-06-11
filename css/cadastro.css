@@ -7,6 +7,10 @@
     font-family: "Titillium Web";
     border: none;
 }
+body
+{
+    background: linear-gradient(153deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 11%, rgba(0,212,255,1) 94%);
+}
 
 /* Início do header (menu) */
 header
@@ -38,11 +42,6 @@ header
 header a
 {
     text-decoration: none;
-}
-
-body
-{
-    background: linear-gradient(153deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 11%, rgba(0,212,255,1) 94%);
 }
 
 /* Fim do header (menu) */
@@ -140,11 +139,11 @@ input[type="submit"]
 @media only screen and (max-width: 650px) {
     .container-logo
     {
-        width: 53%;
-        object-fit: contain;
-    }
+        width: 53% !important;
+        object-fit: contain !important;
+    } 
     #container-maximo
     {
-        width: 99%;
+        width: 99% !important;
     }
 }
