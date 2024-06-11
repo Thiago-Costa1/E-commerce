@@ -126,4 +126,8 @@ h2
     {
         width: 97% !important;
     }
+    .page
+    {
+        height: 65vh !important;
+    }
 }
