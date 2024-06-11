@@ -746,10 +746,9 @@ a {
         order: 1 !important;
         width: 57% !important;
         object-fit: contain !important;
-        margin-left: 6% !important;
         left: auto !important;
-        margin-top: 22px !important;
-        right: 14% !important;
+        margin-top: 13px !important;
+        right: 16% !important;
         position: absolute !important;
         height: auto !important;
         bottom: auto !important;
