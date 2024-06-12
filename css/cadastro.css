@@ -9,7 +9,9 @@
 }
 body
 {
-    background: linear-gradient(153deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 11%, rgba(0,212,255,1) 94%);
+    background: rgb(79,89,217);
+    background: linear-gradient(330deg, rgba(79,89,217,1) 16%, rgba(50,226,199,1) 56%, rgba(236,255,0,1) 97%);
+
 }
 
 /* Início do header (menu) */
@@ -144,6 +146,13 @@ input[type="submit"]
     } 
     #container-maximo
     {
-        width: 99% !important;
+        width: 85% !important;
+        padding: 12px !important;
+        margin-bottom: 0px !important;
+        margin-top: 63px !important;
+    }
+    body 
+    {
+        height: 724px !important;
     }
 }

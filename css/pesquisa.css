@@ -6,7 +6,7 @@
 }
 body
 {
-    background-color: #e4e4e4;
+    background: linear-gradient(153deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 11%, rgba(0,212,255,1) 94%);
 }
 
 header
@@ -347,3 +347,25 @@ h2
 }
 
 /* Fim da estilização dos cards */ 
+
+
+@media only screen and (max-width: 650px) {
+    .container-logo
+    {
+        width: 53% !important;
+        object-fit: contain !important;
+
+    } 
+    .card
+    {
+        width: 73% !important;
+        margin-left: 13%;
+    }
+
+    .card ul li 
+    {
+        font-size: 4vw;
+    }
+   
+
+}
