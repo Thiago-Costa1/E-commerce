@@ -9,9 +9,8 @@
 }
 body
 {
-    background: rgb(79,89,217);
-    background: linear-gradient(330deg, rgba(79,89,217,1) 16%, rgba(50,226,199,1) 56%, rgba(236,255,0,1) 97%);
-
+    background-color: midnightblue;
+    
 }
 
 /* Início do header (menu) */
@@ -34,8 +33,9 @@ header
 }
 .container-logo img
 {
-    width: 80%;
-    height: 50%;
+    width: 70%;
+    height: auto;
+    object-fit: contain;
 }
 .container-logo a h4
 {

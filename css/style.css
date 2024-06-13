@@ -27,13 +27,13 @@ body
 {
     width: 100%;
     height: auto;
+    object-fit: contain;
 }
 
 .container {
     height: 100px;
     display: flex;
     font-size: 14px;
-    background: rgb(95, 88, 88);
 }
 
 .nav-link a {
@@ -1706,6 +1706,16 @@ section.slider
     display: block;
 }
 
+#quarto-card-p
+{
+    font-size: 1.4vw;
+}
+
+.card p
+{
+    font-size: 1.4vw;
+}
+
 /* Fim da estilização da seção opiniões dos clientes */
 
 /* Ínicio da estilização do rodapé */
@@ -1720,7 +1730,7 @@ section.slider
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgb(95, 88, 88);
+    
 }
 
 .container-omega
@@ -1877,7 +1887,7 @@ section.slider
 /* Fim da responsividade para computadores com grande monitor */
 
 /* Início da responsividade para computadores com monitor enorme */
-@media only screen and (min-width: 1501px) and (max-width: 4000px)
+@media only screen and (min-width: 1601px) and (max-width: 4000px)
 
 {
   
@@ -1915,9 +1925,6 @@ section.slider
     {
         margin-top: 44.5em;
     }
-
-
-    
 
 
 

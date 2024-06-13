@@ -8,7 +8,7 @@
 }
 body
 {
-    background: linear-gradient(153deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 11%, rgba(0,212,255,1) 94%);
+    background: midnightblue
 }
 
 header
@@ -30,8 +30,9 @@ header
 }
 .container-logo img
 {
-    width: 80%;
-    height: 50%;
+    width: 70%;
+    height: auto;
+    object-fit: contain;
 }
 .container-logo a h4
 {
