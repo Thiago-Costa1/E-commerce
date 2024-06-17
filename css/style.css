@@ -34,7 +34,7 @@ body
     height: 100px;
     display: flex;
     font-size: 14px;
-    background-color: #777991c2;
+    background-color: #6d75d9c2;
 }
 
 .nav-link a {
@@ -81,6 +81,7 @@ body
 .nav-link:hover {
     background-color: #000000;
     border-radius: 10px;
+
 }
 
 .navbar ul {
@@ -133,7 +134,7 @@ a {
 }
 
 .drop-down li:hover a {
-    color: #fff;
+    color: rgb(252, 196, 25);
 }
 
 .nav-link.services {
@@ -969,7 +970,7 @@ section.slider
 
 .value-timer-group
 {
-    border: 1px solid #ccc;
+    border: 1px solid #ccc; 
     border-radius: 5px;
     margin-top: 20px;
 }
@@ -1759,7 +1760,8 @@ section.slider
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #777991c2;
+    background-color: #6d75d9c2;
+    font-weight: bold;
     
 }
 
@@ -1792,7 +1794,7 @@ section.slider
 {
     margin-top: 7%;
     color: rgb(252, 196, 25);
-    font-size: 0.8vw;
+    font-size: 0.7vw;
 }
 
 #logo_rodape
@@ -1887,6 +1889,42 @@ section.slider
     }
 
 }
+
+@media only screen and (min-width: 651px) and (max-width: 1115px)
+{
+
+    .card-ul li 
+    {
+        font-size: 1.5vw;
+    }
+
+    .card
+    {
+        width: 25%;
+    }
+
+
+}
+
+@media only screen and (min-width: 651px) and (max-width: 1115px)
+{
+    .card-ul li 
+    {
+        font-size: 1.9vw;
+    }
+
+    .card h3
+    {
+        font-size: 1.9vw;
+    }
+
+    .card 
+    {
+        width: 28%;
+    }
+
+}
+
 
 
 
