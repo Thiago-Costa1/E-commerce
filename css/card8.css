@@ -6,10 +6,7 @@
     box-sizing: border-box;
     font-family: "Titillium Web";
 }
-body
-{
-    background-color: #e4e0e0;
-}
+
 /* Início do header (menu) */
 
 header
@@ -44,7 +41,7 @@ header a
 }
 body
 {
-    background-color: #fff;
+    background-color: midnightblue;
 }
 /* Fim do header (menu) */
 
@@ -154,6 +151,7 @@ body
     align-items: center;
     justify-content: center;
     width: 5vw;
+    margin-left: 2%;
 }
 
 .imagens img 
@@ -165,6 +163,7 @@ body
     margin-top: 3vh;
     cursor: pointer;
     transition: transform 0.2s;
+    object-fit: contain;
 }
 
 .imagens img:hover

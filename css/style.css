@@ -34,6 +34,7 @@ body
     height: 100px;
     display: flex;
     font-size: 14px;
+    background-color: #777991c2;
 }
 
 .nav-link a {
@@ -782,7 +783,10 @@ a {
         width: 100% !important;
     }
 
-
+    .card p
+    {
+        font-size: 4.7vw !important;
+    }
 
 
 
@@ -1730,6 +1734,7 @@ section.slider
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: #777991c2;
     
 }
 

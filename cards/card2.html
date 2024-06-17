@@ -29,8 +29,8 @@
                 <img src="../img/tuf_asus.png" alt="notebook" class="imagem-pequena">
                 <img src="../img/tuf_asus2.png" alt="notebook" class="imagem-pequena">
                 <img src="../img/tuf_asus3.png" alt="notebook" class="imagem-pequena">
-                <img src="../img/tuf_asus4.png" alt="notebook" class="imagem-pequena">
-                <img src="../img/tuf_asus5.png" alt="notebook" class="imagem-pequena">
+                <img src="../img/tuf_asus4.png" alt="notebook" class="imagem-pequena escolhida">
+                <img src="../img/tuf_asus5.png" alt="notebook" class="imagem-pequena escolhida">
             </div>
         </div>
         <div class="container-global" id="container-2">
@@ -61,7 +61,7 @@
                 <div class="geral-interno">
                     <h2>No pix: R$ 6.075,00</h2>
                     <h3>ou até 12x R$ 506,25</h3>
-                    <h4 id="parcelas-button">Confira as parcelas<span class="material-icons dropdown-icon">arrow_drop_down</span></h4>
+                    <h4 id="parcelas-button" onclick="toggleParcelas()">Confira as parcelas<span class="material-icons dropdown-icon">arrow_drop_down</span></h4>
                 </div>
             </div>
             <!-- Início da tabela -->
@@ -82,10 +82,14 @@
                 </div>
             </div>
             <!-- Fim da tabela -->
-            <div class="comprar">
-                <input type="submit" value="Comprar">
+            <div class="container-compras">
+                <div class="comprar">
+                    <input type="submit" value="Comprar">
+                </div>
+                <div class="carrinhoo">
+                    <input type="submit" value="Colocar no carrinho" id="salvar-carrinho">
+                </div>
             </div>
-            <input type="submit" value="Adicionar ao carrinho" id="salvar-carrinho">
         </div>
     </main>
     <div class="container-informacoes">

@@ -8,7 +8,7 @@
 }
 body
 {
-    background-color: #e4e0e0;
+    background-color: midnightblue;
 }
 /* Início do header (menu) */
 
@@ -42,10 +42,7 @@ header a
 {
     text-decoration: none;
 }
-body
-{
-    background-color: #fff;
-}
+
 /* Fim do header (menu) */
 
 /* Início main */
@@ -154,6 +151,7 @@ body
     align-items: center;
     justify-content: center;
     width: 5vw;
+    margin-left: 2%;
 }
 
 .imagens img 
@@ -165,6 +163,7 @@ body
     margin-top: 3vh;
     cursor: pointer;
     transition: transform 0.2s;
+    object-fit: contain;
 }
 
 .imagens img:hover
