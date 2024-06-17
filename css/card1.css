@@ -9,6 +9,7 @@
 body
 {
     background-color: midnightblue;
+    color: rgb(252, 196, 25);
 }
 /* Início do header (menu) */
 
@@ -35,7 +36,7 @@ header
 }
 .container-logo a h4
 {
-    color: #fff;
+    color: rgb(252, 196, 25);
 }
 header a
 {
@@ -56,10 +57,10 @@ header a
 .container-global
 {
     width: 33.4%;
-    background-color: #e4e0e0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #6d75d9c2;
 }
 
 #container-1
@@ -152,7 +153,7 @@ header a
 {
     height: 10vh;
     width: 5vw;
-    border: 1px solid #000;
+    border: 1px solid rgb(252, 196, 25);
     border-radius: 7px;
     margin-top: 3vh;
     cursor: pointer;
@@ -247,7 +248,7 @@ header a
     display: flex;
     justify-content: center;
     text-align: center;
-    border: 1px solid #b8b8b8;
+    border: 1px solid rgb(252, 196, 25);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
 .geral-interno
@@ -272,7 +273,7 @@ header a
     display: none;
     position: absolute;
     top: 53.3%;
-    background-color: #fff; 
+    background-color: #3b31c9;
     z-index: 10; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     border-radius: 8px; 
@@ -330,21 +331,22 @@ th, td
     width: 20vw;
     height: 10vh;
     border-radius: 15px;
-    border: 1px solid #b8b8b8;
-    background-color: #00c3ff;
+    border: 1px solid rgb(252, 196, 25);
+    background-color: #3b31c9;
     font-size: 2vw;
     font-weight: bold;
     cursor: pointer;
+    color: rgb(252, 196, 25);
 }
 
 .comprar input:hover
 {
-    background-color: #e01212;
+    background-color: rgb(4, 0, 255);
 }
 
 #salvar-carrinho:hover
 {
-    background-color: #e01212;   
+    background-color: rgb(4, 0, 255);   
 }
 
 /* Fim do main */
@@ -368,7 +370,7 @@ th, td
     justify-content: center;
     border: 1px solid #000;
     border-radius: 10px;
-    background-color: #00c3ff;
+    background-color: #3b31c9;
     cursor: pointer;
 }
 
@@ -396,7 +398,7 @@ th, td
     width: 90%;
     height: 90%;
     margin-top: 30px;
-    background-color: #e4e0e0;
+    background-color: #6d75d9c2;
 }
 .container-tabela
 {

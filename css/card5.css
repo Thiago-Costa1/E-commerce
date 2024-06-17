@@ -443,3 +443,282 @@ th, td
 {
 
 }
+
+@media only screen and (max-width: 650px)
+{
+
+    .container-maximo
+    {
+        width: 100%;
+        display: inline-block;
+        height: auto;
+        
+    }
+    .container-global
+    {
+        width: 96%;
+        margin-left: 2%;
+        
+    }
+
+    #container-1
+    {       
+        height: 77%;
+        display: inline-block;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: initial;
+
+    }
+
+    .imagens
+    {
+        flex-direction: row;
+        margin-left: 0px;
+        width: auto;
+        justify-content: space-evenly;
+        display: ruby;
+    }
+
+
+    .imagens img
+    {
+        width: 29%;
+    }
+
+    .imagem-grande
+    {
+        width: 100%;
+        height: 60%;
+        margin-top: 33px;
+    }
+
+
+    .zoom-container
+    {
+        display: none !important;
+    }
+
+    #container-2 h1 
+    {
+        font-size: 1.6vw;
+        margin-top: 3vh;
+        margin-left: 3%;
+    }
+
+
+    .prim
+    {
+        margin-top: 43px !important;
+    }
+
+    #container-2 h1
+    {
+        font-size: 5vw;
+        margin-top: 3vh;
+        
+    }
+
+    #container-2 h3
+    {
+        margin-top: 13px;
+        
+    }
+
+    .c4
+    {
+        margin-top: 18px;
+    }
+    .continuacao h4 
+    {
+        font-size: 4vw;
+        margin-left: 3%;
+        
+    }
+
+    .seguranca-menor
+    {
+        width: 100%;
+    }
+
+    #hr-1, #hr-2
+    {
+        margin-left: 1%;
+        width: 98%;
+    }
+
+   .seguranca-extra p 
+    {
+        font-size: 1.17em;
+        margin-top: 13px;
+    }
+
+    .seguranca-minima
+    {
+        margin-top: 18px;
+    }
+
+    .seguranca-minima input
+    {
+        margin-left: 2%;
+    }
+
+    #container-3
+    {
+        width: 96%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+
+    .geral
+    {
+        margin-top: 34px;
+    }
+
+    .geral-interno h2 
+    {
+        font-size: 1.5em;
+    }
+
+    .geral-interno h3 
+    {
+        font-size: 1.17em;
+    }
+
+    .geral-interno h4 
+    {
+        font-size: 1em;
+    }
+
+    .container-compras
+    {
+        display: flex;
+        width: 100%;
+        margin-bottom: 23px;
+        margin-top: 30px;
+    }
+
+    .comprar
+    {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .comprar input
+    {
+        font-size: 5vw;
+        width: 70%;
+        height: 50px;
+        margin-top: 0px;
+
+    }
+
+    .carrinhoo
+    {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+      
+        
+    }
+
+    #salvar-carrinho
+    {
+    
+        font-size: 5vw;
+        width: 89%;
+        height: 50px;
+        margin-top: 0px;
+    
+    }
+
+    .container-informacoes
+    {
+        margin-top: 0px;
+        width: 96%;
+        margin-left: 2%;
+        background-color: #e4e0e0;
+        height: 140px;
+    }
+
+    .container-inf
+    {
+        margin-top: 35px;
+        height: 50%;
+    }
+    
+    .container-inf h1
+    {
+        font-size: 5.4vw;
+    }
+
+    #span1
+    {
+        position: relative;
+    }
+
+    .escolhida
+    {
+        margin-bottom: 23px;
+    }
+
+    .container-medio
+    {
+        margin-top: 0px;
+        width: 96%;
+    }
+
+    .largura-fixada:nth-child(1)
+    {
+        width: 37%;
+        text-align: center;
+    }
+
+
+    .parcelas {
+        display: none; 
+        position: relative; 
+        margin-top: 10px; 
+        width: 100%; 
+        max-width: 90%; 
+        margin-left: auto; 
+        margin-right: auto;
+        top: 0px;
+    }
+
+    .parcelas-container {
+        max-height: 300px;
+        overflow-y: auto; 
+    }
+
+    .tabela-parcelas {
+        width: 100%; 
+        table-layout: auto; 
+    }
+
+    .tabela-parcelas th, .tabela-parcelas td {
+        padding: 6px;
+        font-size: 12px; 
+    }
+
+    .tabela-parcelas th {
+        text-align: center; 
+    }
+
+    .tabela-parcelas, .tabela-parcelas th, .tabela-parcelas td {
+        border: 1px solid #000; 
+    }
+
+    .largura:nth-child(2), .tabela-parcelas td:nth-child(2) {
+        width: 33%; 
+    }
+
+    .largura:nth-child(3), .tabela-parcelas td:nth-child(3) {
+        width: 33%; 
+    }
+
+
+}
+

@@ -295,6 +295,7 @@ a {
     .logo-site {
         margin-left: 0px;
         width: 38%;
+        margin-left: 2%;
     }
 
     .logo-site img {
@@ -302,6 +303,28 @@ a {
         height: auto;
         object-fit: contain;
     }
+    
+    .slide-box img 
+    {
+        height: 69% !important;
+    }
+
+    section.slider
+    {
+        height: 310px !important;
+    }
+
+    .nav-manual, .nav-auto
+    {
+        margin-top: 18.4em !important;
+    }
+
+    .nav-manual .manual-btn, .nav-auto div
+    {
+        padding: 7px !important;
+    }
+
+   
 
     .pjunto {
         display: none;
@@ -328,7 +351,7 @@ a {
 
     .input-pesquisar {
         width: 25%;
-        margin-left: 5%;
+        margin-left: 3%;
     }
 
     #inp_pesquisar {
@@ -458,6 +481,7 @@ a {
         display: grid;
         margin-right: 8%;
     }
+
 
     .card
     {
@@ -749,7 +773,7 @@ a {
         object-fit: contain !important;
         left: auto !important;
         margin-top: 13px !important;
-        right: 16% !important;
+        right: 14% !important;
         position: absolute !important;
         height: auto !important;
         bottom: auto !important;
@@ -1633,6 +1657,7 @@ section.slider
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     height: auto;
+    color: rgb(252, 196, 25);
 }
 .resposta p
 {
@@ -1863,7 +1888,7 @@ section.slider
     }
     .nav-manual, .nav-auto
     {
-        margin-top: 37.3em;
+        margin-top: 20.6em;
     }
 
     .navbar
@@ -1926,12 +1951,6 @@ section.slider
     {
         height: 47em;
     }
-    .nav-manual, .nav-auto
-    {
-        margin-top: 44.5em;
-    }
-
-
 
     .section-card
     {
