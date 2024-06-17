@@ -959,12 +959,12 @@ section.slider
     margin-top: 57px;
     padding: 10px;
     margin-left: 25px;
-    display: inline-block; /* Exibir como bloco em linha */
+    display: inline-table; 
     border-radius: 15px; 
     text-align: center;
     box-sizing: border-box;
-    transition: border-color 0.5s, transform 0.5s; /* Aplicando a transição apenas às propriedades necessárias */
-    position: relative; /* Movido aqui para que não haja transição de position */
+    transition: border-color 0.5s, transform 0.5s; 
+    position: relative; 
 }
 
 .value-timer-group
@@ -1874,7 +1874,19 @@ section.slider
 
 /* Fim da estilização do rodapé */
 
+@media only screen and (min-width: 651px) and (max-width: 833px)
+{
+    .master .card
+    {
+        width: 79%;
+    }
 
+    .div-estrela 
+    {
+        margin-left: 28%;
+    }
+
+}
 
 
 
