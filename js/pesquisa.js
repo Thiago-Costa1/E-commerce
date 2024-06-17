@@ -184,11 +184,6 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="card" id="card-8">
             <img src="./img/vaio.png" alt="notebook">
             <h3>VAIO FE15</h3>
-            <div class="icones_card">
-                <img src="./img/placa-de-video.png" alt="placa de vídeo" class="placa-video">
-                <img src="./img/processador.png" alt="processador" class="processador">
-                <img src="./img/memoria-ram.png" alt="memoria-ram" class="memoria-ram">
-            </div>
             <ul class="card-ul">
                 <li>Placa Integrada</li>
                 <li>Core I3 1115G4 </li>

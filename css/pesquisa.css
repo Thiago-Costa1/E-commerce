@@ -8,7 +8,8 @@
 }
 body
 {
-    background: midnightblue
+    background: midnightblue;
+    color: rgb(252, 196, 25);
 }
 
 header
@@ -36,7 +37,7 @@ header
 }
 .container-logo a h4
 {
-    color: #fff;
+    color: rgb(252, 196, 25);
 }
 header a
 {
@@ -98,7 +99,7 @@ form
 p
 {
     font-size: 0.9em;
-    color: #666;
+
 }
 h2
 {
@@ -109,13 +110,10 @@ h2
 }
 
 
-
-
-
 .card {
     width: 20%; 
-    border: 1px solid #4d4d4d; 
-    margin-top: 17vh;
+    border: 1px solid #fff; 
+    margin-top: 56px;
     padding: 10px;
     margin-left: 25px;
     display: inline-block; 
@@ -124,7 +122,7 @@ h2
     transition: border-color 0.5s, transform 0.5s; 
     position: relative;
     box-shadow: 0 20px 20px 0px rgba(0,0,0,0.1);
-    background-color: #fff;
+    background-color: transparent;
 }
 
 .value-timer-group
@@ -180,7 +178,7 @@ h2
 
 .card:hover 
 {
-    background-color: #ffffff;
+    background-color: #2c4795;
     transform: scale(1.1);
 }
 .card:hover img
@@ -331,14 +329,14 @@ h2
     font-weight: bold;
     display: none;
     margin-top: 25px;
-    color: #ff0000;
+    
 }
 
 .card .fundo h5 
 {
     font-size: 0.7vw;
     display: none;
-    color: #ff0000;
+    
     
 }
 
@@ -349,14 +347,15 @@ h2
    
 }
 
-
-
 #filter-container
 {
     margin-top: 10px;
 }
 
-
+#results-container
+{
+    margin-bottom: 70px;
+}
 
 
 /* Fim da estilização dos cards */ 
@@ -381,7 +380,35 @@ h2
         font-size: 4vw;
     }
 
+    .card button 
+    {
+        font-size: 5vw;
+    }
 
-   
+    .fundo p 
+    {
+        font-size: 4.5vw;
+    }
 
+    .card .fundo h5 
+    {
+        font-size: 3.5vw;
+    }
+
+    #search-query
+    {
+        margin-left: 3%;
+        font-size: 1em;
+    }
+    
+    #filter-container
+    {
+        margin-left: 4%;
+        font-size: 1em;
+    }
+    
+    .container-omega h1 
+    {
+        margin-top: 10px;
+    }
 }
