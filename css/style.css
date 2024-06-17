@@ -8,8 +8,9 @@
 }
 body
 {
-    background-color: midnightblue;
-    color: rgb(252, 196, 25);
+    background-color: rgb(221, 221, 221);
+    color: midnightblue;
+    font-weight: bold;
 }
 
 /* Início da estilização do header (menu) */ 
@@ -34,11 +35,11 @@ body
     height: 100px;
     display: flex;
     font-size: 14px;
-    background-color: #6d75d9c2;
+    background-color: rgb(221, 221, 221);
 }
 
 .nav-link a {
-    color: rgb(252, 196, 25);
+    color: midnightblue;
 }
 
 .navbar {
@@ -134,7 +135,7 @@ a {
 }
 
 .drop-down li:hover a {
-    color: rgb(252, 196, 25);
+    color: midnightblue;
 }
 
 .nav-link.services {
@@ -150,7 +151,7 @@ a {
 .services a {
     display: flex;
     align-items: center;
-    color: rgb(252, 196, 25);
+    color: midnightblue;
 }
 
 .services .dropdown-icon {
@@ -219,8 +220,6 @@ a {
 
 .pjunto p {
     margin-top: -5px;
-    color: rgb(252, 196, 25);
-    font-weight: 600;
 }
 
 .pjunto img {
@@ -431,7 +430,7 @@ a {
 
     .drop-down li a 
     {
-        color: rgb(252, 196, 25);
+        color: midnightblue;
     }
 
     .drop-down-container ul
@@ -956,7 +955,7 @@ section.slider
 /* Início da estilização dos cards */ 
 .card {
     width: 20%; 
-    border: 1px solid #fff; 
+    border: 1px solid black; 
     margin-top: 57px;
     padding: 10px;
     margin-left: 25px;
@@ -1097,7 +1096,6 @@ section.slider
 .card-ul li
 {
     text-align: left;
-    color: rgb(252, 196, 25);
     font-size: 1vw;
     font-weight: bold;
     margin-left: 3%;
@@ -1271,7 +1269,7 @@ section.slider
 
 .container_modal
 {
-    background-color: midnightblue;
+    background-color: rgb(221,221,221);
     width: 60%;
     height: auto;
     margin-left: 20%;
@@ -1303,13 +1301,13 @@ section.slider
 .container_modal h1
 {
     text-align: center;
-    background-color: midnightblue;
+   
     margin-top: 19px;
 }
 
 .container_modal h3
 {
-    color: rgb(252, 196, 25);
+    
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 10px;
@@ -1325,7 +1323,7 @@ section.slider
 
 .container_modal h2
 {
-    color: rgb(252, 196, 25);
+
     margin-top: 20px;
     margin-left: 8%;
 }
@@ -1381,7 +1379,7 @@ section.slider
 
 .container_modal2
 {
-    background-color: midnightblue;
+    background-color: rgb(221,221,221);
     width: 60%;
     height: auto;
     margin-left: 20%;
@@ -1760,7 +1758,6 @@ section.slider
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #6d75d9c2;
     font-weight: bold;
     
 }
@@ -1787,13 +1784,11 @@ section.slider
 .navegaveis ul, li a
 {
     text-decoration: none;
-    color: rgb(252, 196, 25);
 }
 
 .rodape p
 {
     margin-top: 7%;
-    color: rgb(252, 196, 25);
     font-size: 0.7vw;
 }
 
@@ -1820,10 +1815,6 @@ section.slider
     border: none;
 }
 
-.container_inputs h5
-{
-    color: rgb(252, 196, 25);
-}
 
 #input_email
 {
@@ -1849,7 +1840,7 @@ section.slider
 
 .social h4
 {
-    color: rgb(252, 196, 25);
+    color: midnightblue;
 }
 
 .social a img
