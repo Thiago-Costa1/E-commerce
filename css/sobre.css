@@ -201,9 +201,27 @@ nav a
         
     }
 
+
+    .global
+    {
+        height: 35%;
+       
+    }
+
+    .prime
+    {
+        height: 38% !important;
+    }
+
     .visaoaltura
     {
-        height: 144px !important;
+        height: 25%;
+    }
+
+
+    .container-missao
+    {
+        height: 400px;
     }
 
     .missao-texto h1, .visao-texto h1
@@ -227,15 +245,34 @@ nav a
     {
         margin-bottom: 5px;
     }
+   
+}
 
-    .global
+@media only screen and (min-width: 421px) and (max-width: 731px)
+{
+
+    .missao-texto h1
     {
-        height: 129px;
-       
+        font-size: 5.5vw;
     }
 
-    
+    .missao-texto h2 
+    {
+        font-size: 3.5vw;
+    }
+
+    .visao-texto h1
+    {
+        font-size: 5.5vw;
+    }
+
+    .visao-texto h2
+    {
+        font-size: 3.2vw;
+    }
+
 }
+
 
 
 
