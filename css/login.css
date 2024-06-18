@@ -132,3 +132,28 @@ h2
         height: 85vh !important;
     }
 }
+
+@media only screen and (min-width: 1601px) and (max-width: 4000px)
+{
+    #container-maximo
+    {
+        margin-top: 16vh;
+    }
+
+    .container-logo img
+    {
+        width: 77%;
+       
+    }
+
+    header
+    {
+        height: 155px;
+    }
+
+    .page
+    {
+        height: 82.3vh;
+    }
+
+}

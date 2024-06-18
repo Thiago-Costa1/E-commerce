@@ -272,7 +272,7 @@ header a
 {
     display: none;
     position: absolute;
-    top: 53.3%;
+    margin-top: 16vw;
     background-color: #3b31c9;
     z-index: 10; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
@@ -439,16 +439,6 @@ th, td
 
 /* Fim da tabela */
 /* Fim da div das informações */
-
-/* Início da responsividade para computadores com monitor enorme */
-@media only screen and (min-width: 1600px) and (max-width: 4000px)
-{
-    .parcelas
-    {
-        top: 49.3%;
-    }
-
-}
 
 @media only screen and (max-width: 650px)
 {
@@ -720,4 +710,15 @@ th, td
         width: 33%; 
     }
 
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 4000px)
+{
+    .parcelas
+    {
+        margin-top: 16.5vw;
+    }
+
+    /* corri */
+    
 }
