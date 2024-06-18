@@ -9,7 +9,7 @@
 body
 {
     background-color: rgb(221, 221, 221);
-    color: midnightblue;
+    color: #000;
     font-weight: bold;
 }
 
@@ -38,9 +38,7 @@ body
     background-color: rgb(221, 221, 221);
 }
 
-.nav-link a {
-    color: midnightblue;
-}
+
 
 .navbar {
     display: flex;
@@ -82,6 +80,7 @@ body
 .nav-link:hover {
     background-color: #000000;
     border-radius: 10px;
+    color: #fff;
 
 }
 
@@ -135,7 +134,7 @@ a {
 }
 
 .drop-down li:hover a {
-    color: midnightblue;
+    color: rgb(255, 255, 255);
 }
 
 .nav-link.services {
@@ -151,7 +150,7 @@ a {
 .services a {
     display: flex;
     align-items: center;
-    color: midnightblue;
+
 }
 
 .services .dropdown-icon {
@@ -1929,7 +1928,7 @@ section.slider
     }
     .nav-manual, .nav-auto
     {
-        margin-top: 20.6em;
+        margin-top: 37rem;
     }
 
     .navbar
@@ -1984,10 +1983,23 @@ section.slider
         gap: 3rem;
     }
 
-    #quarto-card-p
+    .nav-manual, .nav-auto
     {
-        font-size: 15px;
+        margin-top: 45rem;
     }
+
+    .aux
+    {
+        font-size: 1.25vw !important;
+    }
+
+    #aux1
+    {
+        font-size: 1.2vw !important;
+    }
+
+
+   
     .slide-box
     {
         height: 47em;
