@@ -8,14 +8,14 @@
 }
 body
 {
-    background: midnightblue;
-    color: rgb(252, 196, 25);
+    background-color: rgb(221, 221, 221);
+    
 }
 
 header
 {
     height: 100px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #000;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -37,7 +37,7 @@ header
 }
 .container-logo a h4
 {
-    color: rgb(252, 196, 25);
+    color: #000;
 }
 header a
 {
@@ -98,7 +98,8 @@ form
 }
 p
 {
-    font-size: 0.9em;
+    font-size: 1em;
+    margin-left: 5%;
 
 }
 h2
@@ -112,7 +113,7 @@ h2
 
 .card {
     width: 20%; 
-    border: 1px solid #fff; 
+    border: 1px solid #000; 
     margin-top: 56px;
     padding: 10px;
     margin-left: 25px;
@@ -178,7 +179,7 @@ h2
 
 .card:hover 
 {
-    background-color: #2c4795;
+    background-color: #fff;
     transform: scale(1.1);
 }
 .card:hover img
@@ -249,7 +250,6 @@ h2
 .card-ul li
 {
     text-align: left;
-    color: rgb(252, 196, 25);
     font-size: 1vw;
     font-weight: bold;
     margin-left: 3%;
@@ -350,6 +350,7 @@ h2
 #filter-container
 {
     margin-top: 10px;
+    margin-left: 5%;
 }
 
 #results-container

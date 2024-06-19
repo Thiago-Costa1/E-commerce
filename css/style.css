@@ -1024,7 +1024,7 @@ section.slider
 
 .card:hover 
 {
-    background-color: #2c4795;
+    background-color: #fff;
     transform: scale(1.1);
 }
 .card:hover img
@@ -1492,7 +1492,7 @@ section.slider
 {
     width: 15%;
     height: 155px;
-    background-color: #425fc3;
+    background-color: #798edb;
     margin-left: 5%;
     border-radius: 10px;
     text-align: center;
@@ -1633,21 +1633,16 @@ section.slider
 .duvidas-cliente
 {
     margin-top: 30px;
-    color: #FFF;
     width: 50%;
     margin-left: 25%;
     
 }
 .pergunta
 {
-    background-color: #425fc3;
+    background-color: #798edb;
     border-radius: 15px;
 }
 
-.pergunta h2
-{
-    color: rgb(252, 196, 25);
-}
 .resposta
 {
     display: none;
@@ -1655,7 +1650,7 @@ section.slider
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     height: auto;
-    color: rgb(252, 196, 25);
+    color: #fff;
 }
 .resposta p
 {
@@ -1678,8 +1673,8 @@ section.slider
     height: 60px;
     align-items: center;
     margin-top: 30px;
-    background-color: #4A6EEF;
-    color: rgb(252, 196, 25);
+    background-color: #798edb;
+ 
     font-weight: bold;
 }
 .section-opiniao
@@ -1716,7 +1711,7 @@ section.slider
 }
 .master
 {
-    display: inline-block;
+    display: inline-table;
     margin-top: 25px;
     width: 20%;
 
@@ -1833,14 +1828,9 @@ section.slider
 {
     display: flex;
     margin-top: 20px;
-    color: #FFF;
     align-items: center;
 }
 
-.social h4
-{
-    color: midnightblue;
-}
 
 .social a img
 {
