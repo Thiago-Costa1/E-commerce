@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 resultsContainer.innerHTML += product.html;
             });
         } else {
-            resultsContainer.innerHTML = '<p>Modelo não encontrado</p>';
+            resultsContainer.innerHTML = '<p id="mdlo">Modelo não encontrado</p>';
         }
     }
 
