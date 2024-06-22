@@ -4,6 +4,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Titillium Web";
+    border: none;
 }
 body
 {
@@ -58,7 +60,7 @@ header a
 }
 .card
 {
-    width: 30%;
+    width: 86%;
     max-width: 450px;
     background: #fff;
     padding: 34px;
@@ -121,6 +123,8 @@ h2
 
 
 
+/* Início do rodape */
+
 .rodape
 {
     width: 100%;
@@ -150,14 +154,16 @@ h2
 .imgg
 {
     width: 20%;
-    height: 65px;
+    height: 100%;
+    display: flex;
+    align-items: center;
 
 }
 
 #logo_rodape
 {
     width: 100%;
-    height: 100%;
+    height: 75px;
     object-fit: contain !important;
 }
 
@@ -215,20 +221,11 @@ h2
 }
 
 
+/* Fim do rodape */
 
+/* Fim do header (menu) */
 
 @media only screen and (max-width: 650px) {
-
-    .card
-    {
-        width: 85% !important;
-    }
-    .page
-    {
-        height: 85vh !important;
-    }
-
-
     .container-logo
     {
         width: 67% !important;
@@ -236,6 +233,11 @@ h2
         margin-top: 14px;
         object-fit: contain !important;
     } 
+
+    .inputs input 
+    {
+        font-size: .9rem;
+    }
 
     .rodape
     {
@@ -258,6 +260,7 @@ h2
     #logo_rodape
     {
         margin-top: 10px;
+        height: 100%;
     }
 
     .container-omega
@@ -284,11 +287,6 @@ h2
         margin-bottom: 0px !important;
         margin-top: 63px !important;
     }
-    body 
-    {
-        height: 724px !important;
-    }
-
 }
 
 @media only screen and (min-width: 651px) and (max-width: 905px)
