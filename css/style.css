@@ -1492,7 +1492,7 @@ section.slider
 {
     width: 15%;
     height: 155px;
-    background-color: #798edb;
+    background-color: #4A6EEF;
     margin-left: 5%;
     border-radius: 10px;
     text-align: center;
@@ -1639,7 +1639,7 @@ section.slider
 }
 .pergunta
 {
-    background-color: #798edb;
+    background-color: #4A6EEF;
     border-radius: 15px;
 }
 
@@ -1673,7 +1673,7 @@ section.slider
     height: 60px;
     align-items: center;
     margin-top: 30px;
-    background-color: #798edb;
+    background-color: #4A6EEF;
  
     font-weight: bold;
 }

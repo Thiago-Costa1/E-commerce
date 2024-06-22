@@ -8,15 +8,14 @@
 }
 body
 {
-    background-color: midnightblue;
-    color: rgb(252, 196, 25);
+    background-color: rgb(221,221,221);
+    
 }
 /* Início do header (menu) */
 
 header
 {
     height: 100px;
-    background: linear-gradient(to right, rgb(0, 4, 255), rgb(54, 115, 228), #0000ff);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -37,7 +36,7 @@ header
 }
 .container-logo a h4
 {
-    color: #fff;
+    color: #000;
 }
 header a
 {
@@ -58,10 +57,10 @@ header a
 .container-global
 {
     width: 33.4%;
-    background-color: #e4e0e0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #fff;
 }
 
 #container-1
@@ -136,8 +135,8 @@ header a
 .imagem-grande img
 {
     width: 90%;
-    height: 100%;
-    
+    height: auto;
+    object-fit: contain;
 }
 
 .imagens 
@@ -147,14 +146,14 @@ header a
     align-items: center;
     justify-content: center;
     width: 5vw;
-    margin-left: 2%;
+    margin-left:2%;
 }
 
 .imagens img 
 {
     height: 10vh;
     width: 5vw;
-    border: 1px solid #000;
+    border: 1px solid #0008ff;
     border-radius: 7px;
     margin-top: 3vh;
     cursor: pointer;
@@ -250,7 +249,7 @@ header a
     display: flex;
     justify-content: center;
     text-align: center;
-    border: 1px solid #b8b8b8;
+    border: 1px solid #0300cd;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
 .geral-interno
@@ -274,8 +273,8 @@ header a
 {
     display: none;
     position: absolute;
-    top: 53.3%;
-    background-color: #fff; 
+    margin-top: 211px;
+    background-color: #fff;
     z-index: 10; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     border-radius: 8px; 
@@ -333,21 +332,22 @@ th, td
     width: 20vw;
     height: 10vh;
     border-radius: 15px;
-    border: 1px solid #b8b8b8;
-    background-color: #00c3ff;
+    background-color: #3b31c9;
     font-size: 2vw;
     font-weight: bold;
     cursor: pointer;
+    border: 1px solid black;
+    color: #fff;
 }
 
 .comprar input:hover
 {
-    background-color: #e01212;
+    background-color: rgb(4, 0, 255);
 }
 
 #salvar-carrinho:hover
 {
-    background-color: #e01212;   
+    background-color: rgb(4, 0, 255);   
 }
 
 /* Fim do main */
@@ -371,14 +371,14 @@ th, td
     justify-content: center;
     border: 1px solid #000;
     border-radius: 10px;
-    background-color: #00c3ff;
+    background-color: #3b31c9;
     cursor: pointer;
 }
 
 .container-inf h1
 {
     font-size: 2.2vw;
-
+    color: #fff;
   
 }
 
@@ -399,7 +399,7 @@ th, td
     width: 90%;
     height: 90%;
     margin-top: 30px;
-    background-color: #e4e0e0;
+    background-color: #fff;
 }
 .container-tabela
 {
@@ -435,14 +435,11 @@ th, td
 {
     position: unset;
 }
+
+
+
 /* Fim da tabela */
 /* Fim da div das informações */
-
-/* Início da responsividade para computadores com monitor enorme */
-@media only screen and (min-width: 1601px) and (max-width: 4000px)
-{
-
-}
 
 @media only screen and (max-width: 650px)
 {
@@ -596,7 +593,6 @@ th, td
         display: flex;
         width: 100%;
         margin-bottom: 23px;
-        margin-top: 30px;
     }
 
     .comprar
@@ -610,17 +606,15 @@ th, td
     {
         font-size: 5vw;
         width: 70%;
-        height: 50px;
-        margin-top: 0px;
-
+        height: 50px
     }
+
 
     .carrinhoo
     {
         width: 50%;
         display: flex;
         justify-content: center;
-      
         
     }
 
@@ -630,7 +624,6 @@ th, td
         font-size: 5vw;
         width: 89%;
         height: 50px;
-        margin-top: 0px;
     
     }
 
@@ -718,9 +711,15 @@ th, td
         width: 33%; 
     }
 
+}
 
+@media only screen and (min-width: 1601px) and (max-width: 4000px)
+{
+    .parcelas
+    {
+        margin-top: 16.5vw;
+    }
 
-
-
-
+    /* corri */
+    
 }

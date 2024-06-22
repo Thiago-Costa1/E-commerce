@@ -9,14 +9,14 @@
 
 body
 {
-    background-color: midnightblue;
-    color: rgb(252, 196, 25);
+    background-color: rgb(221,221,221);
+    
 }
 
 nav
 {
     height: 100px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #000;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@ nav
 }
 .container-logo a h4
 {
-    color: rgb(252, 196, 25);
+    color: #000;
 }
 nav a
 {

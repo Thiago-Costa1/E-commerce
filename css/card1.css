@@ -8,8 +8,8 @@
 }
 body
 {
-    background-color: midnightblue;
-    color: rgb(252, 196, 25);
+    background-color: rgb(221,221,221);
+    
 }
 /* Início do header (menu) */
 
@@ -36,7 +36,7 @@ header
 }
 .container-logo a h4
 {
-    color: rgb(252, 196, 25);
+    color: #000;
 }
 header a
 {
@@ -60,7 +60,7 @@ header a
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #6d75d9c2;
+    background-color: #6d57cf;
 }
 
 #container-1
@@ -153,11 +153,12 @@ header a
 {
     height: 10vh;
     width: 5vw;
-    border: 1px solid rgb(252, 196, 25);
+    border: 1px solid #0008ff;
     border-radius: 7px;
     margin-top: 3vh;
     cursor: pointer;
     transition: transform 0.2s;
+    object-fit: contain;
 }
 
 .imagens img:hover
@@ -248,7 +249,7 @@ header a
     display: flex;
     justify-content: center;
     text-align: center;
-    border: 1px solid rgb(252, 196, 25);
+    border: 1px solid #0300cd;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
 .geral-interno
@@ -272,8 +273,8 @@ header a
 {
     display: none;
     position: absolute;
-    margin-top: 16vw;
-    background-color: #3b31c9;
+    margin-top: 211px;
+    background-color: #fff;
     z-index: 10; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     border-radius: 8px; 
@@ -331,12 +332,12 @@ th, td
     width: 20vw;
     height: 10vh;
     border-radius: 15px;
-    border: 1px solid rgb(252, 196, 25);
     background-color: #3b31c9;
     font-size: 2vw;
     font-weight: bold;
     cursor: pointer;
-    color: rgb(252, 196, 25);
+    border: 1px solid black;
+    color: #fff;
 }
 
 .comprar input:hover
@@ -377,7 +378,7 @@ th, td
 .container-inf h1
 {
     font-size: 2.2vw;
-
+    color: #fff;
   
 }
 
@@ -398,7 +399,7 @@ th, td
     width: 90%;
     height: 90%;
     margin-top: 30px;
-    background-color: #6d75d9c2;
+    background-color: #fff;
 }
 .container-tabela
 {
@@ -709,6 +710,28 @@ th, td
     .largura:nth-child(3), .tabela-parcelas td:nth-child(3) {
         width: 33%; 
     }
+
+}
+
+@media only screen and (min-width: 651px) and (max-width: 1140px)
+{
+    .iiimg img 
+    {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    #container-2 h1
+    {
+        font-size: 2.1vw;
+    }
+
+    #container-2 h3
+    {
+        font-size: 2.5vw;
+    }
+
+
 
 }
 
