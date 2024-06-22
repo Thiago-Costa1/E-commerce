@@ -15,16 +15,17 @@ body
 
 nav
 {
-    height: 100px;
+    height: 103px;
     border-bottom: 1px solid #000;
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: #FFF;
    
 }
 .container-logo
 {
-    width: 20%;
+    width: 40%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -33,8 +34,8 @@ nav
 }
 .container-logo img
 {
-    width: 70%;
-    height: auto;
+    width: 84%;
+    height: 75px;
     object-fit: contain;
 }
 .container-logo a h4
@@ -160,7 +161,100 @@ nav a
     margin-top: 5px;
 }
 
-@media only screen and (max-width: 650px) {
+
+.rodape
+{
+    width: 100%;
+    height: 130px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+
+
+.container-omega
+{
+    width: 20%;
+}
+
+.rodape p
+{
+    font-size: 0.9vw;
+}
+
+.imgg
+{
+    width: 20%;
+    height: 65px;
+
+}
+
+#logo_rodape
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain !important;
+}
+
+.inputs
+{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.inputs input
+{
+    height: 25px;
+    border: 1px solid black
+}
+
+.inputs label
+{
+    display: none;
+}
+
+#input_email
+{
+    width: 50%;
+    margin-bottom: 0px !important;
+}
+
+#input_botao
+{
+    width: 153px;
+    background-color: #8326EF;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 0px;
+    border-left: none;
+}
+
+.social
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.social a img
+{
+    
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    color: #fff;
+    
+}
+
+@media only screen and (max-width: 650px)
+{
     
     .container-global
     {
@@ -245,14 +339,98 @@ nav a
         margin-bottom: 5px;
     }
    
+    .card
+    {
+        width: 85% !important;
+    }
+    .page
+    {
+        height: 85vh !important;
+    }
+
+
+    .container-logo
+    {
+        width: 67% !important;
+        height: 75px;
+        margin-top: 14px;
+        object-fit: contain !important;
+    } 
+
+    .rodape
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container_inputs 
+    {
+        order: 1;
+    }
+
+    .imgg 
+    {
+        order: 2;
+        width: 84%;
+        height: 75px;
+    }
+
+    #logo_rodape
+    {
+        margin-top: 10px;
+    }
+
+    .container-omega
+    {
+        order: 3;
+        width: 62%;
+    }
+
+    .rodape p 
+    {
+        font-size: 2.4vw;
+        margin-top: 10px;
+    }
+
+    .container_inputs h5
+    {
+        margin-top: 10px;
+    }
+
+    #container-maximo
+    {
+        width: 85% !important;
+        padding: 12px !important;
+        margin-bottom: 0px !important;
+        margin-top: 63px !important;
+    }
+    body 
+    {
+        height: 724px !important;
+    }
+
 }
+
+@media only screen and (min-width: 651px) and (max-width: 905px)
+{
+    .rodape p 
+    {
+        font-size: 1.4vw;
+    }
+
+    .container_inputs
+    {
+        width: 40%;
+    }
+}
+
 
 @media only screen and (min-width: 421px) and (max-width: 731px)
 {
 
     .missao-texto h1
     {
-        font-size: 5.5vw;
+        font-size: 3.5vw;
     }
 
     .missao-texto h2 
@@ -262,7 +440,7 @@ nav a
 
     .visao-texto h1
     {
-        font-size: 5.5vw;
+        font-size: 3.5vw;
     }
 
     .visao-texto h2
