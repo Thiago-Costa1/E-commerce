@@ -117,7 +117,7 @@ h2
     border: 1px solid #000; 
     margin-top: 56px;
     padding: 10px;
-    margin-left: 25px;
+    margin-left: 5%;
     display: inline-block; 
     border-radius: 15px; 
     text-align: center;
@@ -277,6 +277,7 @@ h2
     margin-top: 4.5px; 
     height: 122px; 
     width:100%;
+    object-fit: contain;
 }
 
 .card:hover h4
@@ -363,6 +364,12 @@ h2
 {
     margin-bottom: 33vh;
 }
+
+#search-query
+{
+    margin-top: 40px;
+}
+
 
 
 
