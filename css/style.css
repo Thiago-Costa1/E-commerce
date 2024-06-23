@@ -1164,7 +1164,7 @@ section.slider
     display: none;
     width: 70%;
     height: 35px;
-    background-color: #df4141;
+    background-color: #3b31c9;
     color: #fff;
     font-weight: bold;
     border: none;
@@ -1180,7 +1180,8 @@ section.slider
 }
 #botao-card:hover
 {
-    background-color: #11b811;
+    background-color: rgb(252,196,25);
+    color: #000;
 }
 
 .card:hover .fundo p, .card:hover .fundo h5 

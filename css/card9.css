@@ -345,12 +345,14 @@ th, td
 
 .comprar input:hover
 {
-    background-color: rgb(4, 0, 255);
+    background-color: rgb(252,196,25);
+    color: #000;
 }
 
 #salvar-carrinho:hover
 {
-    background-color: rgb(4, 0, 255);   
+    background-color: rgb(252,196,25);
+    color: #000;
 }
 
 /* Fim do main */
