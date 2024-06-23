@@ -274,7 +274,7 @@ a {
 
 .linha {
     height: 3px;
-    background-color: #fff;
+    background-color: #000;
     border-radius: 2px;
 }
 
@@ -333,7 +333,7 @@ a {
         display: none;
         flex-direction: column;
         width: 100%;
-        background-color: midnightblue;
+        background-color: rgb(221,221,221);
         position: absolute;
         top: 60px;
         left: 0;
@@ -443,6 +443,11 @@ a {
         flex-direction: column;
     }
 
+    .nav-link.services a
+    {
+        color: #000;
+    }
+
     .largura-geral h1
     {
         font-size: 3px;
@@ -455,6 +460,7 @@ a {
     display: block;
     font-size: 5vw;
     font-weight: bold;
+    color: #fff;
     }
 
     .hambs-global
@@ -981,7 +987,7 @@ section.slider
 
 .value-timer-group
 {
-    border: 1px solid #ccc; 
+    border: 1px solid #000; 
     border-radius: 5px;
     margin-top: 20px;
 }
