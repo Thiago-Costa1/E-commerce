@@ -268,3 +268,32 @@ function enviarFormulario2(event) {
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("botao_enviar2").onclick = enviarFormulario2;
 });
+
+
+
+
+document.getElementById("input_botao").onclick = function() {
+    var email = document.getElementById("input_email").value;
+    
+    if (email.trim() === "") {
+        alert("Por favor, digite um e-mail válido.");
+        return;
+    }
+
+    var formData = new FormData();
+    formData.append('email', email);
+
+    fetch('send_email.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.text())
+    .then(data => {
+        alert(data);
+        document.getElementById("input_email").value = ""; // Limpa o campo de e-mail
+    })
+    .catch((error) => {
+        console.error('Erro:', error);
+        alert("Houve um erro ao enviar o e-mail. Tente novamente mais tarde.");
+    });
+};
