@@ -217,3 +217,54 @@ function toggleDropdown(event) {
 }
 
 document.querySelector('.nav-link.services a').addEventListener('click', toggleDropdown);
+
+// lógica para obrigar o usuário a digitar o número e digitar um horário
+function enviarFormulario(event) {
+    event.preventDefault(); // Impede o envio do formulário
+    
+    var telefone = document.getElementById("txtTelefone").value;
+    var hora = document.getElementById("txtHora").value;
+    
+    if (telefone.trim() === "" && hora.trim() === "") {
+        alert("Por favor, digite o seu número de telefone e escolha um horário.");
+    } else if (telefone.trim() === "") {
+        alert("Por favor, digite o seu número de telefone.");
+    } else if (hora.trim() === "") {
+        alert("Por favor, escolha um horário.");
+    } else {
+        alert("Enviado com sucesso, logo entraremos em contato com você, aguarde!");
+    }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("botao_enviar").onclick = enviarFormulario;
+});
+
+// fim lógica para obrigar o usuário a digitar o número e digitar um horário
+
+// lógica do modal 'suporte' //
+
+function enviarFormulario2(event) {
+    event.preventDefault(); // Impede o envio do formulário
+    
+    var nome = document.getElementById("modal_nome").value;
+    var email = document.getElementById("modal_email").value;
+    var assunto = document.getElementById("modal_assunto").value;
+    var mensagem = document.getElementById("txtArea").value;
+    
+    if (nome.trim() === "" || email.trim() === "" || assunto.trim() === "" || mensagem.trim() === "") {
+        alert("Por favor, preencha todos os campos.");
+    } else {
+        alert("Enviado com sucesso, logo entraremos em contato com você, aguarde!");
+        
+        // Limpar os campos do formulário
+        document.getElementById("modal_nome").value = "";
+        document.getElementById("modal_email").value = "";
+        document.getElementById("modal_assunto").value = "";
+        document.getElementById("txtArea").value = "";
+    }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("botao_enviar2").onclick = enviarFormulario2;
+});
