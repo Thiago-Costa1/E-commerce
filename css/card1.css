@@ -566,7 +566,7 @@ th, td
     #container-1
     {       
         height: 77%;
-        display: inline-block;
+        flex-wrap: wrap;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
         border-bottom-left-radius: initial;
