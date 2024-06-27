@@ -566,7 +566,7 @@ th, td
     #container-1
     {       
         height: 77%;
-        display: inline-block;
+        flex-wrap: wrap;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
         border-bottom-left-radius: initial;
@@ -579,7 +579,7 @@ th, td
         margin-left: 0px;
         width: auto;
         justify-content: space-evenly;
-        display: ruby;
+        flex-wrap: wrap;
     }
 
 
