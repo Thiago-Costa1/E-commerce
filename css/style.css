@@ -277,594 +277,7 @@ a {
     background-color: #000;
     border-radius: 2px;
 }
-
-@media only screen and (max-width: 650px) {
-
-    .menu-hamburguer {
-        display: flex; 
-    }
-
-    .nav-link.services
-    {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .logo-site {
-        margin-left: 0px;
-        width: 38%;
-        margin-left: 2%;
-    }
-
-    .logo-site img {
-        width: 100%;
-        height: auto;
-        object-fit: contain;
-    }
-    
-    .slide-box img 
-    {
-        height: 69% !important;
-    }
-
-    section.slider
-    {
-        height: 310px !important;
-    }
-
-    .nav-manual, .nav-auto
-    {
-        margin-top: 18.4em !important;
-    }
-
-    .nav-manual .manual-btn, .nav-auto div
-    {
-        padding: 7px !important;
-    }
-
-   
-
-    .pjunto {
-        display: none;
-    }
-
-    .navbar {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background-color: rgb(221,221,221);
-        position: absolute;
-        top: 60px;
-        left: 0;
-        z-index: 1000;
-        margin-left: 0px;
-    }
-
-    .navbar.show {
-        display: flex;
-        margin-top: 40px;
-        border-bottom-left-radius: 28px;
-        border-top-left-radius: 28px;
-    }
-
-    .input-pesquisar {
-        width: 25%;
-        margin-left: 3%;
-    }
-
-    #inp_pesquisar {
-        width: 100%;
-    }
-
-    .nav-link:hover
-    {
-        background-color: transparent;
-    }
-
-    .drop-down-container
-    {
-        background-color: transparent;
-        box-shadow: none;
-    }
-
-    .container-menu
-    {
-        width: 26%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .navbar ul {
-        flex-direction: column;
-        width: 100%;
-        background-color: transparent;
-    }
-
-    .nav-links {
-        flex-direction: column;
-
-        gap: 0;
-    }
-
-    .nav-link {
-        width: 100%;
-        text-align: center;
-        font-size: 6vw;
-        
-    }
-
-    .drop-down-container {
-        display: none;
-    }
-
-    .drop-down-container {
-        position: static;
-        flex-direction: column;
-    }
-
-    .drop-down {
-        flex-direction: column;
-        
-    }
-
-    .services .dropdown-icon {
-        font-size: 18px;
-        position: relative;
-        right: -5px;
-        transform: rotate(0deg);
-        transition: 0.3s ease-in-out all;
-    }
-    
-    .services.rotated .dropdown-icon {
-        transform: rotate(180deg);
-    }
-    
-    .drop-down-container .drop-down 
-    {
-        font-size: 5vw;
-    }
-
-    .drop-down li a 
-    {
-        color: midnightblue;
-    }
-
-    .drop-down-container ul
-    {
-        padding: 0;
-    }
-    
-
-    .nav-link.services
-    {
-        flex-direction: column;
-    }
-
-    .nav-link.services a
-    {
-        color: #000;
-    }
-
-    .largura-geral h1
-    {
-        font-size: 3px;
-    }
-
-
-
-    #cadA, #logB
-    {
-    display: block;
-    font-size: 5vw;
-    font-weight: bold;
-    color: #fff;
-    }
-
-    .hambs-global
-    {
-        width: 100%;
-        height: 40px;
-      
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .hambs-interno
-    {
-        width: 80%;
-        background-color: #007BFF;
-        text-align: center;
-        border-radius: 10px;
-    }
-
-    .section-card
-    {
-        display: grid;
-        margin-right: 8%;
-    }
-
-
-    .card
-    {
-        margin-left: 0px !important;
-        width: 100% !important;
-    }
-
-    .card-ul li 
-    {
-        font-size: 4.5vw !important;
-    }    
-
-    .card h4, h3
-    {
-        font-size: 5vw;
-    }
-
-    .card img
-    {
-        height: auto !important;
-    }
-
-    .icones_card
-    {
-        display: none !important;
-    }
-
-    .fundo p
-    {
-        font-size: 5vw !important;
-    }
-
-    .card .fundo h5
-    {
-        font-size: 3.3vw !important;
-    }
-
-    .card button 
-    {
-        font-size: 5vw !important;
-    }
-
-    .container-pag
-    {
-        display: flex !important;
-        width: 100% !important;
-        justify-content: space-evenly !important;
-        height: 50% !important;
-        
-    }
-
-    .formas-pagamento
-    {
-        display: block !important;
-        height: 290px !important;
-    }
-
-    .segundo
-    {
-        flex-flow: row-reverse !important;
-    }
-
-
-    .imagens-pagamento2
-    {
-        margin-top: 0px !important;
-    }
-
-    .largura-geral
-    {
-        width: 50% !important; 
-        height: 100% !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        flex-direction: column !important;
-    }
-
-
-
-    .imagens-pagamento, .imagens-pagamento4, .imagens-pagamento3, .imagens-pagamento2
-    {
-        width: 50% !important;
-        height: 61% !important;
-        margin-left: 0px !important;
-        object-fit: contain !important;
-    }
-
-    .largura-geral h1
-    {
-        font-size: 5vw !important;
-    }
-
-    .dentro
-    {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .imagens-site
-    {
-        margin-top: 70px !important;
-        flex-direction: column !important;
-        height: 1125px !important;  
-        width: 100% !important;
-        display: flex !important;
-    }
-
-    .imagens01
-    {
-        width: 100% !important;
-        height: 33.4% !important;
-    }
-    
-    .imagens02, .imagens03
-    {
-        width: 100% !important;
-        height: 33.3% !important;
-    }
-
-    .conjunto
-    {
-        top: 0px !important;
-        position: relative !important;
-    }
-
-
-    
-
-    .container-api
-    {
-        display: flex;
-        flex-wrap: wrap !important;
-    }
-
-    .api-cards
-    {
-        flex: 1 1 25% !important;
-    }
-
-    .localizacao
-    {
-        flex: 1 1 100% !important;
-    }
-
-    #api-card-um
-    {
-        margin-left: 0px !important;
-    }
-
-    .container-api
-    {
-        margin-left: 5% !important;
-        margin-right: 5% !important;
-    }
-
-    .localizacao h1
-    {
-        margin-top: 15px !important;
-    }
-
-    .localizacao p
-    {
-        margin-left: 0px !important;
-        margin-top: 10px !important;
-    }
-
-    .localizacao p br
-    {
-        display: none !important;
-    }
-
-    .container_modal
-    {
-        width: 96% !important;
-        margin-left: 2% !important;
-        margin-right: 2% !important;
-        height: auto !important;
-    }
-
-    .container_modal h2
-    {
-       margin-top: 57px !important; 
-    }
-
-    #txtHora
-    {
-        margin-left: 40% !important;
-        margin-top: 33px !important;
-    }
-
-    #atendente
-    {
-        margin-top: 25px !important;
-
-    }
-
-    #botao_enviar
-    {
-        font-size: 6vw !important;
-        width: 29% !important;
-    }
-
-    .container_modal2
-    {
-        width: 96% !important;
-        margin-left: 2% !important;
-        margin-right: 2% !important;
-    }
-
-    .fechar_modal
-    {
-        position: relative !important;
-        float: right;
-    }
-
-    #botao_enviar2
-    {
-        width: 29% !important;
-        font-size: 5vw !important;
-    }
-
-    .duvidas-cliente
-    {
-        margin-left: 2% !important;
-        width: 96% !important;
-    }
-
-    .resposta
-    {
-        height: auto !important;
-    }
-
-    .master
-    {
-        width: 67% !important;
-    }
-
-    .section-opiniao
-    {
-        margin-left: 24% !important;
-    }
-
-
-
-
-    
-
-    .rodape
-    {
-        flex-direction: column-reverse;
-        height: auto !important;
-        align-items: normal !important;
-        
-    }
-
-    .container_inputs
-    {
-        order: 3 !important;
-        align-items: center;
-        display: flex;
-        flex-direction: column-reverse;
-        position: static;
-        left: 0 !important;
-
-    }
-
-    .navegaveis
-    {
-        order: 2 !important;
-        margin-left: 0px !important;
-        width: 96% !important;
-       
-    }
-
-    .navegaveis ul 
-    {
-        list-style: none;
-    }
-
-    #logo_rodape
-    {
-        order: 1 !important;
-        width: 57% !important;
-        object-fit: contain !important;
-        left: auto !important;
-        margin-top: 13px !important;
-        right: 14% !important;
-        position: absolute !important;
-        height: auto !important;
-        bottom: auto !important;
-    }
-
-    .navegaveis p br 
-    {
-        display: none;
-    }
-
-    #seta
-    {
-        order: 4 !important;
-        position: relative !important;
-        float: right !important;
-        right: 17px !important;
-        top: 56px !important;
-        left: -4% !important;
-    }
-
-    .rodape p
-    {
-        order: 5 !important;
-        font-size: 3vw !important;
-    }
-
-    .container-omega
-    {
-        display: flex !important;
-        flex-direction: row-reverse !important;
-        width: 100% !important;
-    }
-
-    .card p
-    {
-        font-size: 4.7vw !important;
-    }
-
-
-
-
-
-
-
-
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Fim da estilização do header (menu) */ 
+ 
 
 /* Início da estilização do carrossel */ 
 
@@ -1882,6 +1295,550 @@ section.slider
 
 /* Fim da estilização do rodapé */
 
+
+@media only screen and (max-width: 650px) {
+
+    .menu-hamburguer {
+        display: flex; 
+    }
+
+    .nav-link.services
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-site {
+        margin-left: 0px;
+        width: 38%;
+        margin-left: 2%;
+    }
+
+    .logo-site img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    
+    .slide-box img 
+    {
+        height: 69% !important;
+    }
+
+    section.slider
+    {
+        height: 310px !important;
+    }
+
+    .nav-manual, .nav-auto
+    {
+        margin-top: 18.4em !important;
+    }
+
+    .nav-manual .manual-btn, .nav-auto div
+    {
+        padding: 7px !important;
+    }
+
+   
+
+    .pjunto {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(221,221,221);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 1000;
+        margin-left: 0px;
+    }
+
+    .navbar.show {
+        display: flex;
+        margin-top: 40px;
+        border-bottom-left-radius: 28px;
+        border-top-left-radius: 28px;
+    }
+
+    .input-pesquisar {
+        width: 25%;
+        margin-left: 3%;
+    }
+
+    #inp_pesquisar {
+        width: 100%;
+    }
+
+    .nav-link:hover
+    {
+        background-color: transparent;
+    }
+
+    .drop-down-container
+    {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .container-menu
+    {
+        width: 26%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .nav-links {
+        flex-direction: column;
+
+        gap: 0;
+    }
+
+    .nav-link {
+        width: 100%;
+        text-align: center;
+        font-size: 6vw;
+        
+    }
+
+    .drop-down-container {
+        display: none;
+    }
+
+    .drop-down-container {
+        position: static;
+        flex-direction: column;
+    }
+
+    .drop-down {
+        flex-direction: column;
+        
+    }
+
+    .services .dropdown-icon {
+        font-size: 18px;
+        position: relative;
+        right: -5px;
+        transform: rotate(0deg);
+        transition: 0.3s ease-in-out all;
+    }
+    
+    .services.rotated .dropdown-icon {
+        transform: rotate(180deg);
+    }
+    
+    .drop-down-container .drop-down 
+    {
+        font-size: 5vw;
+    }
+
+    .drop-down li a 
+    {
+        color: midnightblue;
+    }
+
+    .drop-down-container ul
+    {
+        padding: 0;
+    }
+    
+
+    .nav-link.services
+    {
+        flex-direction: column;
+    }
+
+    .nav-link.services a
+    {
+        color: #000;
+    }
+
+    .largura-geral h1
+    {
+        font-size: 3px;
+    }
+
+
+
+    #cadA, #logB
+    {
+    display: block;
+    font-size: 5vw;
+    font-weight: bold;
+    color: #fff;
+    }
+
+    .hambs-global
+    {
+        width: 100%;
+        height: 40px;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hambs-interno
+    {
+        width: 80%;
+        background-color: #007BFF;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .section-card
+    {
+        display: grid;
+        margin-right: 8%;
+    }
+
+
+    .card
+    {
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+
+    .card-ul li 
+    {
+        font-size: 4.5vw !important;
+    }    
+
+    .card h4, h3
+    {
+        font-size: 5vw;
+    }
+
+    .card img
+    {
+        height: auto !important;
+    }
+
+    .icones_card
+    {
+        display: none !important;
+    }
+
+    .fundo p
+    {
+        font-size: 5vw !important;
+    }
+
+    .card .fundo h5
+    {
+        font-size: 3.3vw !important;
+    }
+
+    .card button 
+    {
+        font-size: 5vw !important;
+    }
+
+    .container-pag
+    {
+        display: flex !important;
+        width: 100% !important;
+        justify-content: space-evenly !important;
+        height: 50% !important;
+        
+    }
+
+    .formas-pagamento
+    {
+        display: block !important;
+        height: 290px !important;
+    }
+
+    .segundo
+    {
+        flex-flow: row-reverse !important;
+    }
+
+
+    .imagens-pagamento2
+    {
+        margin-top: 0px !important;
+    }
+
+    .largura-geral
+    {
+        width: 50% !important; 
+        height: 100% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+    }
+
+
+
+    .imagens-pagamento, .imagens-pagamento4, .imagens-pagamento3, .imagens-pagamento2
+    {
+        width: 50% !important;
+        height: 61% !important;
+        margin-left: 0px !important;
+        object-fit: contain !important;
+    }
+
+    .largura-geral h1
+    {
+        font-size: 5vw !important;
+    }
+
+    .dentro
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .imagens-site
+    {
+        margin-top: 70px !important;
+        flex-direction: column !important;
+        height: 1125px !important;  
+        width: 100% !important;
+        display: flex !important;
+    }
+
+    .imagens01
+    {
+        width: 100% !important;
+        height: 33.4% !important;
+    }
+    
+    .imagens02, .imagens03
+    {
+        width: 100% !important;
+        height: 33.3% !important;
+    }
+
+    .conjunto
+    {
+        top: 0px !important;
+        position: relative !important;
+    }
+
+
+    
+
+    .container-api
+    {
+        display: flex;
+        flex-wrap: wrap !important;
+    }
+
+    .api-cards
+    {
+        flex: 1 1 25% !important;
+    }
+
+    .localizacao
+    {
+        flex: 1 1 100% !important;
+    }
+
+    #api-card-um
+    {
+        margin-left: 0px !important;
+    }
+
+    .container-api
+    {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+
+    .localizacao h1
+    {
+        margin-top: 15px !important;
+    }
+
+    .localizacao p
+    {
+        margin-left: 0px !important;
+        margin-top: 10px !important;
+    }
+
+    .localizacao p br
+    {
+        display: none !important;
+    }
+
+    .container_modal
+    {
+        width: 96% !important;
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+        height: auto !important;
+    }
+
+    .container_modal h2
+    {
+       margin-top: 57px !important; 
+    }
+
+    #txtHora
+    {
+        margin-left: 40% !important;
+        margin-top: 33px !important;
+    }
+
+    #atendente
+    {
+        margin-top: 25px !important;
+
+    }
+
+    #botao_enviar
+    {
+        font-size: 6vw !important;
+        width: 29% !important;
+    }
+
+    .container_modal2
+    {
+        width: 96% !important;
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+    }
+
+    .fechar_modal
+    {
+        position: relative !important;
+        float: right;
+    }
+
+    #botao_enviar2
+    {
+        width: 29% !important;
+        font-size: 5vw !important;
+    }
+
+    .duvidas-cliente
+    {
+        margin-left: 2% !important;
+        width: 96% !important;
+    }
+
+    .resposta
+    {
+        height: auto !important;
+    }
+
+    .master
+    {
+        width: 67% !important;
+    }
+
+    .section-opiniao
+    {
+        margin-left: 24% !important;
+    }
+
+
+
+
+    
+
+    .rodape
+    {
+        flex-direction: column-reverse;
+        height: auto !important;
+        align-items: normal !important;
+        
+    }
+
+    .container_inputs
+    {
+        order: 3 !important;
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+        position: static;
+        left: 0 !important;
+
+    }
+
+    .navegaveis
+    {
+        order: 2 !important;
+        margin-left: 0px !important;
+        width: 96% !important;
+       
+    }
+
+    .navegaveis ul 
+    {
+        list-style: none;
+    }
+
+    #logo_rodape
+    {
+        order: 1 !important;
+        width: 57% !important;
+        object-fit: contain !important;
+        left: auto !important;
+        margin-top: 13px !important;
+        right: 14% !important;
+        position: absolute !important;
+        height: auto !important;
+        bottom: auto !important;
+    }
+
+    .navegaveis p br 
+    {
+        display: none;
+    }
+
+    #seta
+    {
+        order: 4 !important;
+        position: relative !important;
+        float: right !important;
+        right: 17px !important;
+        top: 56px !important;
+        left: -4% !important;
+    }
+
+    .rodape p
+    {
+        order: 5 !important;
+        font-size: 3vw !important;
+    }
+
+    .container-omega
+    {
+        display: flex !important;
+        flex-direction: row-reverse !important;
+        width: 100% !important;
+    }
+
+    .card p
+    {
+        font-size: 4.7vw !important;
+    }
+
+} 
+
+
+
 @media only screen and (min-width: 651px) and (max-width: 833px)
 {
     .master .card
@@ -1896,20 +1853,56 @@ section.slider
 
 }
 
-@media only screen and (min-width: 651px) and (max-width: 1115px)
+@media only screen and (min-width: 651px) and (max-width: 990px)
 {
-
-    .card-ul li 
+    .nav-link
     {
-        font-size: 1.5vw;
+        padding: 10px 10px;
+    }
+    .navbar
+    {
+        padding: 10px;
+        margin-left: 1vw !important;
+    }
+    .nav-links
+    {
+        gap: 0.1rem;
+    }
+    .navbar ul
+    {
+        font-size: 1.9vw;
+    }
+    .pjunto img 
+    {
+        width: 26px;
+        height: 26px;
+        
+    }
+    .input-pesquisar
+    {
+        width: 8%;
     }
 
-    .card
+    #inp_pesquisar
     {
-        width: 25%;
+
+        height: 21px;
+        border-radius: 7px;
     }
 
+    .logo-site
+    {
+        margin-left: 2%;
+    }
 
+}
+
+@media only screen and (min-width: 651px) and (max-width: 774px)
+{
+    .navbar ul 
+    {
+        font-size: 2.1vw;
+    }
 }
 
 @media only screen and (min-width: 651px) and (max-width: 1115px)
@@ -1928,6 +1921,8 @@ section.slider
     {
         width: 28%;
     }
+
+
 
 }
 
