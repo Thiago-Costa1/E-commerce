@@ -107,7 +107,8 @@ nav a
     width: 12%;
     height: 100%;
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -116,6 +117,7 @@ nav a
     object-fit: contain;
     width: 50%;
     margin-right: 8%;
+    height: 40px;
 }
 
 .missao-texto, .visao-texto
@@ -138,7 +140,8 @@ nav a
 
 .img-visao
 {
-    justify-content: left;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-visao img
