@@ -1926,6 +1926,26 @@ section.slider
 
 }
 
+@media only screen and (min-width: 870px) and (max-width: 1115px)
+{
+
+    #logo_rodape
+    {
+        left: 31vw;
+    }
+
+}
+
+@media only screen and (min-width: 651px) and (max-width: 869px)
+{
+
+    #logo_rodape
+    {
+        left: 26vw;
+    }
+
+}
+
 
 
 
