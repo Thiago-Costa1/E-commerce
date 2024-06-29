@@ -685,19 +685,39 @@ h2
     
     }
     
-    @media only screen and (min-width: 651px) and (max-width: 905px)
+@media only screen and (min-width: 651px) and (max-width: 905px)
+{
+    .rodape p 
     {
-        .rodape p 
-        {
-            font-size: 1.4vw;
-        }
-    
-        .container_inputs
-        {
-            width: 40%;
-        }
+        font-size: 1.4vw;
     }
 
+    .container_inputs
+    {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 651px) and (max-width: 1115px)
+{
+    .card-ul li 
+    {
+        font-size: 1.9vw;
+    }
+
+    .card h3
+    {
+        font-size: 1.9vw;
+    }
+
+    .card 
+    {
+        width: 28%;
+    }
+
+
+
+}
 
 
 

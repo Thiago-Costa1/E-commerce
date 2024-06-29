@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <p>À Vista: R$ 9.719,19</p>
                             <h5>10% DE DESCONTO</h5>
                         </div>
-                        <a href="./cards/card1.html"><button id="botao-card">Comprar</button></a>
+                        <a href="./cards/card1.html"><button id="botao-card">Mais informações</button></a>
                     </div>
             `
         },
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>À Vista: R$ 6.075,00</p>
                         <h5>10% DE DESCONTO</h5>
                     </div>
-                    <a href="./cards/card2.html"><button id="botao-card">Comprar</button></a>
+                    <a href="./cards/card2.html"><button id="botao-card">Mais informações</button></a>
                 </div>
             `
         },
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>À Vista: R$ 4.900,28</p>
                         <h5>10% DE DESCONTO</h5>
                     </div>
-                    <a href="./cards/card3.html"><button id="botao-card">Comprar</button></a>
+                    <a href="./cards/card3.html"><button id="botao-card">Mais informações</button></a>
                 </div>
             `
         },
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <p>À Vista: R$ 6.569,10 </p>
                             <h5>10% DE DESCONTO</h5>
                         </div>
-                        <a href="./cards/card4.html"><button id="botao-card">Comprar</button></a>
+                        <a href="./cards/card4.html"><button id="botao-card">Mais informações</button></a>
                 </div>
             `
         },
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>À Vista: R$ 2.573,10 </p>
                         <h5>10% DE DESCONTO</h5>
                     </div>
-                    <a href="./cards/card5.html"><button id="botao-card">Comprar</button></a>
+                    <a href="./cards/card5.html"><button id="botao-card">Mais informações</button></a>
                 </div>
             `
         },
@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>À Vista: R$ 1.880,14 </p>
                 <h5>10% DE DESCONTO</h5>
             </div>
-            <a href="./cards/card6.html"><button id="botao-card">Comprar</button></a>
+            <a href="./cards/card6.html"><button id="botao-card">Mais informações</button></a>
         </div>
             `
         },
@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>À Vista: R$ 2.294,91 </p>
                 <h5>10% DE DESCONTO</h5>
             </div>
-            <a href="./cards/card7.html"><button id="botao-card">Comprar</button></a>
+            <a href="./cards/card7.html"><button id="botao-card">Mais informações</button></a>
         </div>
             `
         }, 
@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p>À Vista: R$ 2.103,24 </p>
                     <h5>10% DE DESCONTO</h5>
                 </div>
-                <a href="./cards/card8.html"><button id="botao-card">Comprar</button></a>
+                <a href="./cards/card8.html"><button id="botao-card">Mais informações</button></a>
         </div>
             `
         },
@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>À Vista: R$ 15.254,10 </p>
                 <h5>10% DE DESCONTO</h5>
             </div>
-            <a href="./cards/card9.html"><button id="botao-card">Comprar</button></a>
+            <a href="./cards/card9.html"><button id="botao-card">Mais informações</button></a>
         </div>
             `
         },
@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>À Vista: R$ 13.769,10 </p>
                 <h5>10% DE DESCONTO</h5>
             </div>
-            <a href="./cards/card10.html"><button id="botao-card">Comprar</button></a>
+            <a href="./cards/card10.html"><button id="botao-card">Mais informações</button></a>
         </div>
             `
         },
@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>À Vista: R$ 8.047,04 </p>
                 <h5>10% DE DESCONTO</h5>
             </div>
-            <a href="./cards/card11.html"><button id="botao-card">Comprar</button></a>
+            <a href="./cards/card11.html"><button id="botao-card">Mais informações</button></a>
         </div>
             `
         },
@@ -285,7 +285,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p>À Vista: R$ 6.569,10 </p>
                     <h5>10% DE DESCONTO</h5>
                 </div>
-                <a href="./cards/card12.html"><button id="botao-card">Comprar</button></a>
+                <a href="./cards/card12.html"><button id="botao-card">Mais informações</button></a>
         </div>
             `
         },
