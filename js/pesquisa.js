@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "cheapest",
             html: `
             <div class="card" id="card-6">
-            <img src="./img/positivo2.png" alt="notebook">
+            <img src="./img/positivo2.png" alt="notebook" id="img-positivo">
             <h3>Positivo Vision i15</h3>
             <ul class="card-ul">
                 <li>Placa Integrada</li>
@@ -159,8 +159,8 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "cheapest",
             html: `
             <div class="card" id="card-7">
-            <img src="./img/lenovo_asus.png" alt="notebook">
-            <h3>Lenovo Ideapad i5</h3>
+            <img src="./img/lenovo_asus.png" alt="notebook" id="img-lenovo">
+            <h3 id="lenovo-h3">Lenovo Ideapad i5</h3>
             <ul class="card-ul">
                 <li>Placa Integrada</li>
                 <li>Core i5-1235U</li>
@@ -251,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "working",
             html: `
             <div class="card" id="card-11">
-            <img src="./img/legion_lenovo.png" alt="notebook">
+            <img src="./img/legion_lenovo.png" alt="notebook" id="img-legion">
             <h3>Legion 5</h3>
             <ul class="card-ul">
                 <li>RTX 3050 4GB</li>

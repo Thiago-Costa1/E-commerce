@@ -523,7 +523,7 @@ h2
     .rodape
     {
         width: 100%;
-        height: 130px;  
+        height: auto;  
         border-top: 1px solid;
         border-top: 1px solid;
         margin-top: 40px;
@@ -532,8 +532,13 @@ h2
         justify-content: space-evenly;
         font-weight: bold;
         background-color: #fff;
+        flex-direction: column;
     }
-    
+
+    #results-container
+    {
+        margin-bottom: 0px;
+    }
     
     
     .container-omega
@@ -613,14 +618,30 @@ h2
         
     }
     
-        .card
-        {
-            width: 85% !important;
-        }
-        .page
-        {
-            height: 85vh !important;
-        }
+    #img-lenovo
+    {
+        height: auto;
+        margin-top: -13%;
+    }
+
+    #lenovo-h3
+    {
+        margin-top: -15%;
+    }
+
+    #img-positivo
+    {
+        height: auto;
+    }
+
+    #img-legion
+    {
+        height: 175px;
+    }
+    .container_inputs h5
+    {
+        margin-top: 10px;
+    }
     
     
         .container-logo
@@ -630,12 +651,6 @@ h2
             margin-top: 14px;
             object-fit: contain !important;
         } 
-    
-        .rodape
-        {
-            flex-direction: column;
-            height: auto;
-        }
     
         .container_inputs 
         {
@@ -657,7 +672,7 @@ h2
         .container-omega
         {
             order: 3;
-            width: 62%;
+            width: 100%;
         }
     
         .rodape p 
@@ -666,22 +681,7 @@ h2
             margin-top: 10px;
         }
     
-        .container_inputs h5
-        {
-            margin-top: 10px;
-        }
-    
-        #container-maximo
-        {
-            width: 85% !important;
-            padding: 12px !important;
-            margin-bottom: 0px !important;
-            margin-top: 63px !important;
-        }
-        body 
-        {
-            height: 724px !important;
-        }
+        
     
     }
     
