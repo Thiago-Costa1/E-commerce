@@ -1,4 +1,4 @@
-// Smooth scroll
+// controlara rolagem da página
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -17,7 +17,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Redirection for search
+// redirecionar a barra de pesquisa
 function redirecionar() {
     const query = document.getElementById('inp_pesquisar').value.toLowerCase();
     if (query === "") {
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// Carousel
+// Carrossel
 var cont = 1;
 document.getElementById('radio1').checked = true;
 
@@ -59,15 +59,20 @@ function proximaImg() {
     document.getElementById('radio' + cont).checked = true;
 }
 
-// Phone number formatting
-function formatarTelefone(input) {
-    var numero = input.value.replace(/\D/g, '');
-    if (numero.length >= 2) numero = '(' + numero.substring(0, 2) + ')' + numero.substring(2);
-    if (numero.length >= 8) numero = numero.substring(0, 8) + '-' + numero.substring(8);
-    input.value = numero;
-}
+document.getElementById('txtTelefone').addEventListener('input', function (e) {
+    let x = e.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0,5})(\d{0,4})/);
+    e.target.value = !x[2] ? x[1] : '(' + x[1] + ') ' + x[2] + (x[3] ? '-' + x[3] : '');
+});
 
-// Modal functions
+document.getElementById('txtHora').addEventListener('input', function (e) {
+    let value = e.target.value.replace(/\D/g, '');
+    if (value.length >= 3) {
+        value = value.substring(0, 2) + ':' + value.substring(2, 4);
+    }
+    e.target.value = value;
+});
+
+// função do exibir e esconder os modais
 function exibirModal() {
     var modal = document.querySelector('.container_modal');
     var fundoEscuro = document.getElementById('fundo_escuro');

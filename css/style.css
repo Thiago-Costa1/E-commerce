@@ -754,6 +754,12 @@ section.slider
     
 }
 
+#txtHora
+{
+    width: 50px;
+    text-align: center;
+}
+
 .container_modal h2
 {
 

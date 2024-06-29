@@ -387,18 +387,18 @@
     <!--Início do modal do atendimento -->
 
     <div id="fundo_escuro" onclick="fecharModal(event)">
-        <form>
+        <form action="" method="get" >
             <div class="container_modal" onclick="impedirPropagacao(event)">
                 <button class="fechar_modal" onclick="fecharModal(event)">X</button>
                 <h1>Escolha um horário e digite o seu número</h1>
                 <hr/>
-                <h3>Selecione o horário em que você tenha disponibilidade para nós realizarmos o atendimento (por ligação ou mensagem)</h3>
-                <input type="time" id="txtHora">
+                <h3>Digite o horário em que você tenha disponibilidade para nós realizarmos o atendimento (por ligação ou mensagem)</h3>
+                <input type="text" id="txtHora" placeholder="00:00" pattern="([01][0-9]|2[0-3]):[0-5][0-9]">
                 <label for="txtHora"></label>
                 <h2>Agora digite o seu número:</h2>
                 <img src="./img/icone_atendente.png" alt="atendente" id="atendente">
                 <img src="./img/icone_telefone.png" alt="telefone" id="icone_telefone">
-                <input type="tel" name="txtTelefone" id="txtTelefone" oninput="formatarTelefone(this)">
+                <input type="tel" name="tel" id="txtTelefone" placeholder="(XX) XXXX-XXXX" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
                 <div>
                     <button id="botao_enviar">Enviar</button>
                 </div>
