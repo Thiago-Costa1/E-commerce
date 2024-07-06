@@ -342,10 +342,6 @@ section.slider
     margin-right: 10px; 
 }                
 
-/* Estilo para o botão manual ao passar o mouse sobre ele */
-.nav-manual .manual-btn:hover{
-    background-color: rgb(30, 253, 0); 
-}
 
 /* Estilo para os indicadores automáticos quando um slide específico está marcado */
 #radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3
