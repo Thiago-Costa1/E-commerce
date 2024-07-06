@@ -59,6 +59,11 @@ function proximaImg() {
 
     document.getElementById('radio' + cont).checked = true;
 }
+// Fim do carrossel
+
+
+
+// função de formatadar a máscara do número de telefone  e do horário, além de exibir e esconder os modais
 
 document.getElementById('txtTelefone').addEventListener('input', function (e) {
     let x = e.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0,5})(\d{0,4})/);
@@ -73,7 +78,6 @@ document.getElementById('txtHora').addEventListener('input', function (e) {
     e.target.value = value;
 });
 
-// função do exibir e esconder os modais
 function exibirModal() {
     var modal = document.querySelector('.container_modal');
     var fundoEscuro = document.getElementById('fundo_escuro');
@@ -108,12 +112,12 @@ function fecharModal2(event) {
     }
 }
 
-// Countdown timers
+// Contador dos cards
 var timers = document.querySelectorAll('.countdown-timer');
 var deadlines = [
-    new Date("June 31, 2024 23:59:59").getTime(),
-    new Date("June 23, 2024 23:59:59").getTime(),
-    new Date("June 20, 2024 23:59:59").getTime(),
+    new Date("July 31, 2024 23:59:59").getTime(),
+    new Date("July 23, 2024 23:59:59").getTime(),
+    new Date("July 20, 2024 23:59:59").getTime(),
 ];
 
 timers.forEach(function (timer, index) {
@@ -139,7 +143,7 @@ timers.forEach(function (timer, index) {
 
 // FAQ toggle
 function isMobile() {
-    return window.innerWidth <= 768; // ou qualquer largura que você considere como mobile
+    return window.innerWidth <= 768; // largura que considero como mobile
 }
 
 function mostrarPergunta(id) {
