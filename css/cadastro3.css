@@ -49,7 +49,7 @@ header a
 
 /* Fim do header (menu) */
 
-form
+.cadastro
 {
     display: flex;
     flex-wrap: wrap;
@@ -200,11 +200,13 @@ input[type="submit"]
     display: none;
 }
 
-#input_email
+#email
 {
     width: 50%;
     margin-bottom: 0px !important;
 }
+
+
 
 #input_botao
 {
@@ -215,6 +217,7 @@ input[type="submit"]
     cursor: pointer;
     margin-bottom: 0px;
     border-left: none;
+    border-radius: 0px;
 }
 
 .social
@@ -235,6 +238,10 @@ input[type="submit"]
     
 }
 
+#form-lbl
+{
+    font-size: 0.8rem;
+}
 
 /* Fim do rodape */
 

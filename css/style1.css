@@ -8,7 +8,7 @@
 }
 body
 {
-    background-color: rgb(221,221,221);
+    background-color: rgb(221, 221, 221);;
     color: #000;
     font-weight: bold;
 }
@@ -1208,6 +1208,11 @@ section.slider
     margin-left: 5%;
 }
 
+#form-lbl
+{
+    font-size: 0.8rem;
+}
+
 .container_inputs
 {
     position: relative;
@@ -1251,7 +1256,7 @@ section.slider
 }
 
 
-#input_email
+#email
 {
     width: 60%;
 }

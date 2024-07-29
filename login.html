@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/login11.css">
 </head>
 <body>
     <header>
@@ -15,7 +15,7 @@
     </header>
         <div class="page">
             <div class="card">
-                <form method="post">
+                <form method="post" class="login">
                     <h2>Login</h2>
                     <p>Digite os seus dados.</p>
                     <input class="campo" type="email" placeholder="Digite seu e-mail">
@@ -34,20 +34,20 @@
             <img src="./img/com-fundo.jpeg" alt="logo" id="logo_rodape">
         </div>
         <div class="container_inputs">
-            <h5>Digite o seu e-mail para receber promoções!</h5>
-            <div class="inputs">
-                <input type="text" id="input_email" placeholder="E-mail">
-                <label for="input_email"></label>
-                <input type="button" id="input_botao" value="Cadastrar">
-                <label for="input_botao"></label>
-            </div>
+            <form action="send_email.php" method="post">
+                <label for="email" id="form-lbl">Digite o seu e-mail para receber promoções!</label>
+                <div class="inputs">
+                    <input type="email" id="email" name="email" placeholder="E-mail" required autocomplete="off">
+                    <input type="submit" id="input_botao" value="Cadastrar">    
+                </div>
+            </form>
             <div class="social">
                 <h4>Siga-nos em:</h4>
                 <a href="https://www.instagram.com/techflex024?igsh=MWJvNGd1Zjg2YTc1Yg=="><img src="./img/instagram.png" alt="instagram"></a>
                 <a href="https://wa.me/qr/PXOS347KIXH3A1"><img src="./img/whatsapp.png" alt="whatsapp"></a>
                 <a href="https://www.facebook.com/profile.php?id=61561168657526"><img src="./img/facebook.png" alt="facebook"></a>
                 <a href="https://www.linkedin.com/in/tech-flex-424a96314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="./img/linkedin.png" alt="linkedin"></a>
-            </div>  
+            </div>    
         </div>
     </footer>
 

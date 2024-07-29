@@ -1,4 +1,4 @@
-// controlara rolagem da página
+// controla rolagem da página
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -17,7 +17,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// redirecionar a barra de pesquisa
+// redireciona a barra de pesquisa
 function redirecionar() {
     const query = document.getElementById('inp_pesquisar').value.toLowerCase();
     if (query === "") {
@@ -27,7 +27,7 @@ function redirecionar() {
     }
 }
 
-// Toggle login options
+// alternar para as opcoes de login
 document.addEventListener('DOMContentLoaded', () => {
     const iconeLogin = document.getElementById('icone_login');
     const optionsBox = document.getElementById('options-box');
@@ -115,9 +115,9 @@ function fecharModal2(event) {
 // Contador dos cards
 var timers = document.querySelectorAll('.countdown-timer');
 var deadlines = [
-    new Date("July 31, 2024 23:59:59").getTime(),
-    new Date("July 23, 2024 23:59:59").getTime(),
-    new Date("July 20, 2024 23:59:59").getTime(),
+    new Date("August 31, 2024 23:59:59").getTime(),
+    new Date("August 23, 2024 23:59:59").getTime(),
+    new Date("August 20, 2024 23:59:59").getTime(),
 ];
 
 timers.forEach(function (timer, index) {
@@ -141,7 +141,7 @@ timers.forEach(function (timer, index) {
     }
 });
 
-// FAQ toggle
+// FAQ alternador
 function isMobile() {
     return window.innerWidth <= 768; // largura que considero como mobile
 }
@@ -182,7 +182,7 @@ window.addEventListener('resize', function() {
         }
     });
 });
-// Navbar toggle for mobile
+// Navbar para o mobile
 function toggleMenu() {
     var navbar = document.querySelector('.navbar');
     navbar.classList.toggle('show');
@@ -282,28 +282,3 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-document.getElementById("input_botao").onclick = function() {
-    var email = document.getElementById("input_email").value;
-    
-    if (email.trim() === "") {
-        alert("Por favor, digite um e-mail válido.");
-        return;
-    }
-
-    var formData = new FormData();
-    formData.append('email', email);
-
-    fetch('send_email.php', {
-        method: 'POST',
-        body: formData
-    })
-    .then(response => response.text())
-    .then(data => {
-        alert(data);
-        document.getElementById("input_email").value = ""; // Limpa o campo de e-mail
-    })
-    .catch((error) => {
-        console.error('Erro:', error);
-        alert("Houve um erro ao enviar o e-mail. Tente novamente mais tarde.");
-    });
-};

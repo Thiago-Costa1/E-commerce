@@ -67,7 +67,7 @@ header a
     border-radius: 10px;
     box-shadow: 0 20px 20px 0px rgba(0,0,0,0.1);
 }
-form
+.login
 {
     display: flex;
     flex-direction: column;
@@ -119,6 +119,11 @@ h2
     font-size: 1.8em;
     font-weight: bold;
     
+}
+
+#form-lbl
+{
+    font-size: 0.8rem;
 }
 
 
@@ -193,7 +198,7 @@ h2
 
 #input_botao
 {
-    width: 153px;
+    width: 47%;
     background-color: #8326EF;
     color: #FFF;
     font-weight: bold;
@@ -220,6 +225,15 @@ h2
     
 }
 
+#email
+{
+    width: 53%;
+}
+
+.container_inputs
+{
+    width: 295px;
+}
 
 /* Fim do rodape */
 
