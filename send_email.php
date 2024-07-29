@@ -28,9 +28,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->isHTML(true);
         $mail->Subject = 'Promoção Especial para Você!';
         $mail->Body    = '<h1 style="text-align: center;">Promoção Especial</h1>
-                         <h2>Confira nossa promoção imperdível!</h2>
-                         <img src="cid:promo_image" style="width:800px; height:auto;">
-                         <p style="font-size: 20px; font-weight: bold;">Não perca essa oportunidade!</p>';
+                        <h2>Confira nossa promoção imperdível!</h2>
+                        <a href="https://thiago-costa1.github.io/E-commerce/">
+                        <img src="cid:promo_image" style="width:800px; height:auto;">
+                        </a>
+                        <p style="font-size: 20px; font-weight: bold;">Não perca essa oportunidade!</p>';
 
         $mail->AltBody = 'Confira nossa promoção exclusiva!';
 

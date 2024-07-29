@@ -538,6 +538,21 @@ th, td
     
 }
 
+#email
+{
+    width: 53%;
+}
+
+.container_inputs
+{
+    width: 295px;
+}
+
+#form-lbl
+{
+    font-size: 0.8rem;
+}
+
 
 /* Fim do rodape */
 

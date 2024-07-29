@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechFlex Notebook</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="../css/card2.css">
+    <link rel="stylesheet" href="../css/cardl2.css">
     <script src="../js/card2.js" defer></script>
 </head> 
 <body>
@@ -171,13 +171,13 @@
             <img src="../img/com-fundo.jpeg" alt="logo" id="logo_rodape">
         </div>
         <div class="container_inputs">
-            <h5>Digite o seu e-mail para receber promoções!</h5>
-            <div class="inputs">
-                <input type="text" id="input_email" placeholder="E-mail">
-                <label for="input_email"></label>
-                <input type="button" id="input_botao" value="Cadastrar">
-                <label for="input_botao"></label>
-            </div>
+            <form action="../send_email.php" method="post">
+                <label for="email" id="form-lbl">Digite o seu e-mail para receber promoções!</label>
+                <div class="inputs">
+                    <input type="email" id="email" name="email" placeholder="E-mail" required autocomplete="off">
+                    <input type="submit" id="input_botao" value="Cadastrar">    
+                </div>
+            </form>
             <div class="social">
                 <h4>Siga-nos em:</h4>
                 <a href="https://www.instagram.com/techflex024?igsh=MWJvNGd1Zjg2YTc1Yg=="><img src="../img/instagram.png" alt="instagram"></a>
