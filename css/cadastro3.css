@@ -327,7 +327,7 @@ input[type="submit"]
 
 
 
-@media only screen and (min-width: 1601px) and (max-width: 4000px)
+@media only screen and (min-width: 1601px)
 {
     #container-maximo
     {
@@ -347,3 +347,21 @@ input[type="submit"]
     
 }
 
+@media only screen and (min-width: 1601px)
+{
+    #container-maximo
+
+    {
+        margin-bottom: 16.6vw;
+        margin-top: 16vh;
+    }
+
+    .container-omega
+    {
+        margin-left: -8%;
+    }
+
+
+
+    
+}
