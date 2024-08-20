@@ -1200,7 +1200,7 @@ section.slider
 {
     width: 13%;
     height: 100%;
-
+    margin-left: 6%;
 }
 
 .navegaveis
@@ -1856,6 +1856,8 @@ section.slider
         margin-left: 28%;
     }
 
+
+
 }
 
 @media only screen and (min-width: 651px) and (max-width: 990px)
@@ -1927,30 +1929,96 @@ section.slider
         width: 28%;
     }
 
-
-
-}
-
-@media only screen and (min-width: 870px) and (max-width: 1115px)
-{
-
-    #logo_rodape
+    .container-omega
     {
-        left: 31vw;
+        width: 16%;
+        height: 100%;
+        margin-left: 6%;
     }
 
-}
-
-@media only screen and (min-width: 651px) and (max-width: 869px)
-{
-
-    #logo_rodape
+    .navegaveis 
     {
-        left: 26vw;
+        margin-left: 9%;
     }
 
-}
+    .footer-logo
+    {
+        margin-left: 5%;
+        width: 17%;
+    }
 
+    .footer-logo img 
+    {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .container_inputs
+    {
+        margin-left: 5%;
+        width: 25%;
+    }
+
+    #form-lbl 
+    {
+        font-size: 0.6rem;
+    }
+
+    .inputs 
+    {
+        display: flex;
+        border: 1px solid #000;
+        height: 21px;
+    }
+    
+    .inputs input 
+    {
+        height: auto;
+    }
+
+    #email
+    {
+        width: 60%;
+    }
+
+    #input_botao 
+    {
+        width: 40%;
+        background-color: #8326EF;
+        color: #FFF;
+        font-weight: 540;
+        cursor: pointer;
+        height: 100%;
+        text-align: center;
+    }
+
+    .social 
+    {
+        display: flex;
+        margin-top: 12px;
+        width: 100%;
+        justify-content: space-around;
+     
+    }
+
+    .social a img 
+    {
+        width: 27px;
+        object-fit: contain;
+        margin: 2px;
+        height: unset;
+    }
+
+    .social h4
+    {
+        font-size: 1.4vw;
+        
+    }
+
+
+
+
+}
 
 /* Início da responsividade para computadores com grande monitor */
 
