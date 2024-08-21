@@ -1778,6 +1778,7 @@ section.slider
         flex-direction: column-reverse;
         position: static;
         left: 0 !important;
+        margin-left: 0px;
 
     }
 
@@ -1797,14 +1798,11 @@ section.slider
     #logo_rodape
     {
         order: 1 !important;
-        width: 57% !important;
+        width: 50% !important;
         object-fit: contain !important;
-        left: auto !important;
         margin-top: 13px !important;
-        right: 14% !important;
+        right: 19% !important;
         position: absolute !important;
-        height: auto !important;
-        bottom: auto !important;
     }
 
     .navegaveis p br 
@@ -1833,12 +1831,15 @@ section.slider
         display: flex !important;
         flex-direction: row-reverse !important;
         width: 100% !important;
+        margin-left: 0px;
     }
 
     .card p
     {
         font-size: 4.7vw !important;
     }
+
+
 
 } 
 
